@@ -1,0 +1,72 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+!include class_diagram_config.puml
+
+class actor.intermediate.Backend{
+ - Config config
+ - SynchronousQueue<Packet> packets
+ - Logger logger
+ - boolean run
+ + Backend(Config config)
+ + void handle(Packet packet)
+ + void shutdown()
+ + void run()
+}
+class actor.intermediate.LoadBalancer{
+ - LinkedBlockingQueue<Packet> packets
+ - Queue<Backend> backends
+ - boolean run
+ + LoadBalancer(Set<Backend> backends)
+ + void add(Packet packet)
+ + void shutdown()
+ + void run()
+}
+class actor.intermediate.Frontend{
+ - Config config
+ - Logger logger
+ - LoadBalancer loadBalancer
+ - int port
+ - boolean run
+ + Frontend(Config config, LoadBalancer loadBalancer)
+ + void shutdown()
+ + int getPort()
+ + void run()
+}
+class actor.intermediate.Main{
+ {static} + Frontend run(Config config)
+ {static} + void main(String[] args)
+}
+
+class model.Packet{
+ - byte[] data
+ - InetAddress address
+ - int port
+ + Packet(byte[] data, InetAddress address, int port)
+ + Packet(DatagramPacket datagramPacket)
+ + int getPort()
+ + InetAddress getAddress()
+ + byte[] getData()
+ + String toString()
+ + boolean equals(Object o)
+ + int hashCode()
+}
+
+actor.intermediate.Main ..> actor.intermediate.Backend: "<<create>>"
+actor.intermediate.Main ..> actor.intermediate.LoadBalancer: "<<create>>"
+actor.intermediate.Main ..> actor.intermediate.Frontend: "<<create>>"
+
+
+actor.intermediate.Main ..> util.Config: "<<create>> (optional)"
+actor.intermediate.Frontend ..> model.Packet: "<<create>>"
+
+actor.intermediate.Backend "1" *-- "1" util.Config
+actor.intermediate.Frontend "1" *-- "1" util.Config
+
+actor.intermediate.Frontend "1" *-- "1" actor.intermediate.LoadBalancer
+actor.intermediate.LoadBalancer "1" *-- "*" actor.intermediate.Backend
+
+actor.intermediate.LoadBalancer "1" *-- "*" model.Packet
+actor.intermediate.Backend "1" *-- "*" model.Packet
+
+@enduml

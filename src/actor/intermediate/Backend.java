@@ -62,6 +62,10 @@ public class Backend implements Runnable {
         run = false;
     }
 
+
+    /**
+     * Start assigning packet to sever.
+     */
     @Override
     public void run() {
         Packet packet;

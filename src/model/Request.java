@@ -247,7 +247,7 @@ abstract class StringState extends State {
      *
      * @param output The string parsed by the StringState
      */
-    abstract void nextState(String output);
+    abstract protected void nextState(String output);
 
     @Override
     public void handle(byte b) {
@@ -270,7 +270,7 @@ class FilenameState extends StringState {
     }
 
     @Override
-    void nextState(String output) {
+    protected void nextState(String output) {
         //set the filename parameter in the builder
         builder.setFilename(output);
         //set the next state to decode mode
@@ -287,7 +287,7 @@ class ModeState extends StringState {
     }
 
     @Override
-    void nextState(String output) {
+    protected void nextState(String output) {
         //set the mode parameter in the builder
         builder.setMode(output);
         //set the next state to end

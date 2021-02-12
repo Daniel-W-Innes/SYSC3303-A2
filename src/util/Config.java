@@ -4,17 +4,17 @@ import java.io.IOException;
 import java.util.Properties;
 
 /**
- * Configuration file loader. Loads the configFile from given configFileName.
+ * Configuration file loader. Loads the properties from given CONFIG_FILE_NAME.
  */
 public class Config {
     /**
      * The file name of the configuration file.
      */
-    private static final String configFileName = "config.cfg";
+    private static final String CONFIG_FILE_NAME = "config.cfg";
     /**
-     * The Configuration file.
+     * The Configuration properties.
      */
-    private final Properties configFile;
+    private final Properties properties;
 
     /**
      * Load configuration file.
@@ -22,9 +22,9 @@ public class Config {
      * @throws IOException If there is a problem loading the file.
      */
     public Config() throws IOException {
-        configFile = new java.util.Properties();
-        configFile.load(this.getClass().getClassLoader().
-                getResourceAsStream(configFileName));
+        properties = new java.util.Properties();
+        properties.load(this.getClass().getClassLoader().
+                getResourceAsStream(CONFIG_FILE_NAME));
 
     }
 
@@ -35,7 +35,7 @@ public class Config {
      * @return The property as a string
      */
     public String getProperty(String key) {
-        return this.configFile.getProperty(key);
+        return this.properties.getProperty(key);
     }
 
     /**

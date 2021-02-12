@@ -1,0 +1,80 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+abstract class model.State{
+ # Request.Builder builder
+ # State(Request.Builder builder)
+ {abstract} + void handle(byte b)
+}
+abstract class model.StringState extends model.State{
+ # ByteArrayOutputStream output
+ # StringState(Request.Builder builder)
+ {abstract} # void nextState(String output)
+ + void handle(byte b)
+}
+class model.InitialState extends model.State{
+ + InitialState(Request.Builder builder)
+ + void handle(byte b)
+}
+class model.TypeState extends model.State{
+ + TypeState(Request.Builder builder)
+ + void handle(byte b)
+}
+class model.FilenameState extends model.StringState{
+ + FilenameState(Request.Builder builder)
+ # void nextState(String output)
+ + void handle(byte b)
+}
+class model.ModeState extends model.StringState{
+ + ModeState(Request.Builder builder)
+ # void nextState(String output)
+ + void handle(byte b)
+}
+class model.EndState extends model.State{
+ + EndState(Request.Builder builder)
+ + void handle(byte b)
+}
+
+
+class model.Request{
+ - boolean read
+ - String filename
+ - String mode
+ + Request(boolean read, String filename, String mode)
+ {static} + Request fromEncoded(byte[] bytes)
+ + byte[] getEncoded(int maxMessageSize)
+ + boolean isRead()
+ + String toString()
+ + boolean equals(Object o)
+ + int hashCode()
+}
+class model.Request.Builder{
+ - boolean read
+ - String filename
+ - String mode
+ - State stat
+ + Builder()
+ + void setRead(boolean read)
+ + void setFilename(String filename)
+ + void setMode(String mode)
+ + Request build()
+ + State getState()
+ + void setState(State state)
+}
+
+model.Request +-- model.Request.Builder
+
+
+model.Request.Builder "1" *-- "1" model.State
+model.State "1" *-- "1" model.Request.Builder
+
+model.Request.Builder ..> model.Request: "<<create>>"
+model.Request ..> model.Request.Builder: "<<create>>"
+
+model.Request.Builder ..> model.InitialState: "<<create>>"
+model.InitialState ..> model.TypeState: "<<create>>"
+model.TypeState ..> model.FilenameState: "<<create>>"
+model.FilenameState ..> model.ModeState: "<<create>>"
+model.ModeState ..> model.EndState: "<<create>>"
+
+@enduml

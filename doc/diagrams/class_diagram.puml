@@ -1,0 +1,66 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+!include class_diagram_parser.puml
+!include class_diagram_proxy.puml
+
+class model.Response{
+ - boolean read
+ + Response(boolean read)
+ + Response(byte[] bytes)
+ + byte[] getEncoded()
+ + String toString()
+ + boolean equals(Object o)
+ + int hashCode()
+}
+class model.BadRequest extends model.Request{
+ + BadRequest(boolean read, String filename, String mode)
+ - byte[] getEncoded(int maxMessageSize)
+}
+
+class actor.Client{
+ - Config config
+ - Logger logger
+ - Queue<Request> requests
+ + Client(Config config, Queue<Request> requests)
+ + Client(Config config)
+ {static} + Queue<Request> getDefaultRequests()
+ {static} + void main(String[] args)
+ + void run()
+}
+class actor.Server{
+ - Config config
+ - Logger logger
+ + Server(Config config)
+ {static} + void main(String[] args)
+ + void run()
+}
+
+class Main{
+ {static} + void main(String[] args)
+}
+
+actor +--  actor.intermediate
+actor.Client "1" *-- "*" model.Request
+
+actor.Client "1" *-- "1" util.Config
+actor.Server "1" *-- "1" util.Config
+
+Main ..> actor.Client: "<<create>>"
+Main ..> actor.Server: "<<create>>"
+Main ..> actor.intermediate.Main
+
+Main ..> util.Config: "<<create>>"
+
+actor.Client ..> util.Config: "<<create>> (optional)"
+actor.Server ..> util.Config: "<<create>> (optional)"
+
+
+actor.Client ..> model.Response: "<<create>>"
+actor.Server ..> model.Response: "<<create>>"
+
+actor.Client ..> model.Request: "<<create>>"
+actor.Client ..> model.BadRequest: "<<create>>"
+
+
+@enduml
