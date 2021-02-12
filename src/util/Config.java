@@ -7,13 +7,19 @@ import java.util.Properties;
  * Configuration file loader. Loads the configFile from given configFileName.
  */
 public class Config {
+    /**
+     * The file name of the configuration file.
+     */
     private static final String configFileName = "config.cfg";
+    /**
+     * The Configuration file.
+     */
     private final Properties configFile;
 
     /**
      * Load configuration file.
      *
-     * @throws IOException if there is a problem loading the file
+     * @throws IOException If there is a problem loading the file.
      */
     public Config() throws IOException {
         configFile = new java.util.Properties();
@@ -35,9 +41,9 @@ public class Config {
     /**
      * Get a property as a int from the configuration file.
      *
-     * @param key The key of the property in the file
-     * @return The property as a int
-     * @throws NumberFormatException if the property does not contain a parsable integer.
+     * @param key The key of the property in the file.
+     * @return The property as a int.
+     * @throws NumberFormatException If the property does not contain a parsable integer.
      */
     public int getIntProperty(String key) {
         return Integer.parseInt(getProperty(key));

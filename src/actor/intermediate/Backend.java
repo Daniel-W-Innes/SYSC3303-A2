@@ -34,6 +34,11 @@ public class Backend implements Runnable {
      */
     private boolean run;
 
+    /**
+     * Default constructor for the Backend.
+     *
+     * @param config The application configuration file loader.
+     */
     public Backend(Config config) {
         this.config = config;
         logger = Logger.getLogger(this.getClass().getName());

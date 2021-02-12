@@ -8,12 +8,15 @@ import java.util.Objects;
  * Response object sent by server.
  */
 public class Response {
+    /**
+     * If the request was a read request.
+     */
     private final boolean read;
 
     /**
      * Default response constructor.
      *
-     * @param read if the request was a read request
+     * @param read If the request was a read request.
      */
     public Response(boolean read) {
         this.read = read;

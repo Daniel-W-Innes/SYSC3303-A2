@@ -29,7 +29,8 @@ public class Request {
      * Construct a request object from request bytes.
      * see getEncoded for the encoding schema.
      *
-     * @param bytes The byte encoded request object
+     * @param bytes The byte encoded request object.
+     * @return The request object constructed.
      * @throws Exception throws Exception if bytes are not from a request object
      */
     public static Request fromEncoded(byte[] bytes) throws Exception {
@@ -56,7 +57,9 @@ public class Request {
      * x is the separator between the filename and the mode and is not at a fixed position within the encoding
      * y is the termination byte and can be at any point before the maxMessageSize.
      *
-     * @return The byte encoded request object
+     * @param maxMessageSize The max message size of the encoded request object.
+     * @return The byte encoded request object.
+     * @throws Exception If the size of the output is bigger then the maxMessageSize.
      */
     public byte[] getEncoded(int maxMessageSize) throws Exception {
         //The byteArray stream for concatenating the output.
@@ -161,8 +164,16 @@ public class Request {
  * Abstract state class for parser
  */
 abstract class State {
+    /**
+     * The request builder.
+     */
     protected final Request.Builder builder;
 
+    /**
+     * Default state constructor. This needs the builder so that it can store parameters across multiple states.
+     *
+     * @param builder The request builder.
+     */
     protected State(Request.Builder builder) {
         this.builder = builder;
     }
@@ -221,6 +232,9 @@ class TypeState extends State {
  * Abstract class for parsing a string ending a 0 byte.
  */
 abstract class StringState extends State {
+    /**
+     * The temporary storage for the string while waiting for a 0 byte.
+     */
     private final ByteArrayOutputStream output;
 
     protected StringState(Request.Builder builder) {
