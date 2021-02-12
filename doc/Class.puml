@@ -1,0 +1,80 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+!include Parser.puml
+
+abstract class model.State
+abstract class model.StringState extends model.State
+class model.InitialState extends model.State
+class model.TypeState extends model.State
+class model.FilenameState extends model.StringState
+class model.ModeState extends model.StringState
+class model.EndState extends model.State
+
+class model.Response
+class model.Request
+class model.BadRequest extends model.Request
+class model.Request.Builder
+
+class util.Config
+
+class model.Packet
+
+class actor.intermediate.Backend
+class actor.intermediate.LoadBalancer
+class actor.intermediate.Frontend
+class actor.intermediate.Main
+
+class actor.Client
+class actor.Server
+
+class Main
+
+
+actor.Client "1" *-- "*" model.Request
+
+actor.Client "1" *-- "1" util.Config
+actor.Server "1" *-- "1" util.Config
+actor.intermediate.Backend "1" *-- "1" util.Config
+actor.intermediate.Frontend "1" *-- "1" util.Config
+
+actor.intermediate.Frontend "1" *-- "1" actor.intermediate.LoadBalancer
+actor.intermediate.LoadBalancer "1" *-- "*" actor.intermediate.Backend
+
+actor.intermediate.LoadBalancer "1" *-- "*" model.Packet
+actor.intermediate.Backend "1" *-- "*" model.Packet
+
+Main ..> actor.Client: "<<create>>"
+Main ..> actor.Server: "<<create>>"
+Main ..> actor.intermediate.Main
+
+
+actor.intermediate.Main ..> actor.intermediate.Backend: "<<create>>"
+actor.intermediate.Main ..> actor.intermediate.LoadBalancer: "<<create>>"
+actor.intermediate.Main ..> actor.intermediate.Frontend: "<<create>>"
+
+actor.intermediate.Frontend ..> model.Packet: "<<create>>"
+
+
+Main ..> util.Config: "<<create>>"
+actor.intermediate.Main ..> util.Config: "<<create>> (optional)"
+actor.Client ..> util.Config: "<<create>> (optional)"
+actor.Server ..> util.Config: "<<create>> (optional)"
+
+
+actor.Client ..> model.Response: "<<create>>"
+actor.Server ..> model.Response: "<<create>>"
+
+actor.Client ..> model.Request: "<<create>>"
+actor.Client ..> model.BadRequest: "<<create>>"
+
+model.Request.Builder ..> model.Request: "<<create>>"
+model.Request ..> model.Request.Builder: "<<create>>"
+
+model.Request.Builder ..> model.InitialState: "<<create>>"
+model.InitialState ..> model.TypeState: "<<create>>"
+model.TypeState ..> model.FilenameState: "<<create>>"
+model.FilenameState ..> model.ModeState: "<<create>>"
+model.ModeState ..> model.EndState: "<<create>>"
+
+@enduml

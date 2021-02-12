@@ -7,7 +7,7 @@ Example code for Sending receiving and proxying udp messages as well as decoding
 ## Important Notes
 * There is regex for strings in the request.
 * UTF-8 is used for encoding strings.
-* If the strings in the request too long it can overflow the buffer in the receiver.
+* If the strings in the request too long it will raise an exception.
 * See the doc folder for more documentation.
 
 ## Files
@@ -17,8 +17,13 @@ Example code for Sending receiving and proxying udp messages as well as decoding
   - Response.java is a model containing information to send to the client.
 * actor is the actors that exchange udp messages.
     - Client.java sends requests and prints the response.
-    - Intermediate.java a proxy between the server and client.
+    - Intermediate a proxy between the server and client.
+        - Frontend.java is the frontend of proxy it received requests from the client.
+        - LoadBalancer.java is a Round Robin load balancer for allocating requests to a backend.
+        - Backend.java is the backend of the proxy it sends requests to the sever and handles the response.
+        - Main.java is the main class for the proxy alone it also contains the method to run the proxy as one unit.
     - Server.java receives requests and responses to them.
+* Main.java is the main class for the system as a whole it runs all the actors.
    
 
 ## Ports
