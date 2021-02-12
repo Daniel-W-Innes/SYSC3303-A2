@@ -1,0 +1,587 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+     contentScriptType="application/ecmascript" contentStyleType="text/css" height="1351px" preserveAspectRatio="none"
+     style="width:731px;height:1351px;" version="1.1" viewBox="0 0 731 1351" width="731px" zoomAndPan="magnify">
+    <defs>
+        <filter height="300%" id="f191zigv13l17" width="300%" x="-1" y="-1">
+            <feGaussianBlur result="blurOut" stdDeviation="2.0"/>
+            <feColorMatrix in="blurOut" result="blurOut2" type="matrix"
+                           values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/>
+            <feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/>
+            <feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/>
+        </filter>
+    </defs>
+    <g><!--MD5=[5d4cd377749310b66bf14896f5cd8d9b]
+cluster model-->
+        <polygon fill="#FFFFFF" filter="url(#f191zigv13l17)"
+                 points="64.03,6,113.03,6,120.03,29.6094,714.03,29.6094,714.03,1344,64.03,1344,64.03,6"
+                 style="stroke:#000000;stroke-width:1.5;"/>
+        <line style="stroke:#000000;stroke-width:1.5;" x1="64.03" x2="120.03" y1="29.6094" y2="29.6094"/>
+        <text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing"
+              textLength="43" x="68.03" y="22.5332">model
+        </text><!--MD5=[cd54df1af516238376ca8c3206b0f27d]
+class model.State-->
+        <rect codeLine="3" fill="#FEFECE" filter="url(#f191zigv13l17)" height="89.5078" id="model.State"
+              style="stroke:#A80036;stroke-width:1.5;" width="170" x="257.03" y="42"/>
+        <ellipse cx="323.78" cy="58" fill="#A9DCDF" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/>
+        <path d="M325.53,59.5 L322.2331,59.5 L321.7956,60.5 L321.7956,60.5 L322.2644,60.5 L322.78,61.125 L322.78,61.5 L322.78,61.875 L322.2644,62.5 L321.7956,62.5 L319.905,62.5 L319.2956,62.5 L318.78,61.875 L318.78,61.5 L318.78,61.125 L319.2956,60.5 L319.905,60.5 L322.2175,54.5 L321.3425,54.5 L320.2956,54.5 L319.78,53.875 L319.78,53.5 L319.78,53.125 L320.2956,52.5 L321.3425,52.5 L325.0144,52.5 L327.7019,60.5 L328.2644,60.5 L328.2644,60.5 L328.78,61.125 L328.78,61.5 L328.78,61.875 L328.2644,62.5 L327.7019,62.5 L325.8113,62.5 L325.2956,62.5 L324.78,61.875 L324.78,61.5 L324.78,61.125 L325.2956,60.5 L325.8113,60.5 L325.8113,60.5 L325.53,59.5 Z M324.9831,57.5 L323.78,53.9219 L322.7488,57.5 L324.9831,57.5 Z "
+              fill="#000000"/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing"
+              textLength="28" x="344.28" y="62.9102">State
+        </text>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="258.03" x2="426.03" y1="74" y2="74"/>
+        <polygon fill="none" points="268.03,80,272.03,84,268.03,88,264.03,84" style="stroke:#B38D22;stroke-width:1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="111" x="277.03"
+              y="89.4189">Request.Builder builder
+        </text>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="258.03" x2="426.03" y1="95.8359" y2="95.8359"/>
+        <polygon fill="#FFFF44" points="268.03,101.8359,272.03,105.8359,268.03,109.8359,264.03,105.8359"
+                 style="stroke:#B38D22;stroke-width:1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="144" x="277.03"
+              y="111.2549">State(Request.Builder builder)
+        </text>
+        <ellipse cx="268.03" cy="120.6719" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" font-style="italic" lengthAdjust="spacing"
+              textLength="95" x="277.03" y="125.0908">void handle(byte b)
+        </text><!--MD5=[a2fc373fab115fda23f308f44fb8f6a0]
+class model.StringState-->
+        <rect codeLine="8" fill="#FEFECE" filter="url(#f191zigv13l17)" height="103.3438" id="model.StringState"
+              style="stroke:#A80036;stroke-width:1.5;" width="198" x="80.03" y="735"/>
+        <ellipse cx="144.78" cy="751" fill="#A9DCDF" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/>
+        <path d="M146.53,752.5 L143.2331,752.5 L142.7956,753.5 L142.7956,753.5 L143.2644,753.5 L143.78,754.125 L143.78,754.5 L143.78,754.875 L143.2644,755.5 L142.7956,755.5 L140.905,755.5 L140.2956,755.5 L139.78,754.875 L139.78,754.5 L139.78,754.125 L140.2956,753.5 L140.905,753.5 L143.2175,747.5 L142.3425,747.5 L141.2956,747.5 L140.78,746.875 L140.78,746.5 L140.78,746.125 L141.2956,745.5 L142.3425,745.5 L146.0144,745.5 L148.7019,753.5 L149.2644,753.5 L149.2644,753.5 L149.78,754.125 L149.78,754.5 L149.78,754.875 L149.2644,755.5 L148.7019,755.5 L146.8113,755.5 L146.2956,755.5 L145.78,754.875 L145.78,754.5 L145.78,754.125 L146.2956,753.5 L146.8113,753.5 L146.8113,753.5 L146.53,752.5 Z M145.9831,750.5 L144.78,746.9219 L143.7488,750.5 L145.9831,750.5 Z "
+              fill="#000000"/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing"
+              textLength="60" x="165.28" y="755.9102">StringState
+        </text>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="81.03" x2="277.03" y1="767" y2="767"/>
+        <polygon fill="none" points="91.03,773,95.03,777,91.03,781,87.03,777" style="stroke:#B38D22;stroke-width:1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="149" x="100.03"
+              y="782.4189">ByteArrayOutputStream output
+        </text>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="81.03" x2="277.03" y1="788.8359" y2="788.8359"/>
+        <polygon fill="#FFFF44" points="91.03,794.8359,95.03,798.8359,91.03,802.8359,87.03,798.8359"
+                 style="stroke:#B38D22;stroke-width:1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="172" x="100.03"
+              y="804.2549">StringState(Request.Builder builder)
+        </text>
+        <polygon fill="#FFFF44" points="91.03,808.6719,95.03,812.6719,91.03,816.6719,87.03,812.6719"
+                 style="stroke:#B38D22;stroke-width:1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" font-style="italic" lengthAdjust="spacing"
+              textLength="139" x="100.03" y="818.0908">void nextState(String output)
+        </text>
+        <ellipse cx="91.03" cy="827.5078" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="93" x="100.03"
+              y="831.9268">void handle(byte b)
+        </text><!--MD5=[44ad56bf2df7ed790d16feb1e78b1064]
+class model.InitialState-->
+        <rect codeLine="14" fill="#FEFECE" filter="url(#f191zigv13l17)" height="75.6719" id="model.InitialState"
+              style="stroke:#A80036;stroke-width:1.5;" width="193" x="154.53" y="526"/>
+        <ellipse cx="218.28" cy="542" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/>
+        <path d="M220.28,538.5 Q220.4831,538 220.7175,537.75 Q220.9519,537.5 221.2175,537.5 Q221.6863,537.5 221.9831,537.7813 Q222.28,538.0625 222.28,538.7188 L222.28,540.2813 Q222.28,540.9375 221.9988,541.2188 Q221.7175,541.5 221.28,541.5 Q220.8894,541.5 220.6394,541.3281 Q220.3894,541.1563 220.28,540.7031 Q220.2331,540.3906 220.0613,540.2188 Q219.7488,539.8906 219.1863,539.7031 Q218.6238,539.5 218.0613,539.5 Q217.3581,539.5 216.7644,539.7813 Q216.1863,540.0625 215.7331,540.6875 Q215.28,541.3125 215.28,542.1719 L215.28,543.0938 Q215.28,544.125 216.1238,544.8125 Q216.9675,545.5 218.4675,545.5 Q219.3581,545.5 219.9831,545.2969 Q220.3425,545.1875 220.7488,544.8281 Q221.0144,544.625 221.155,544.5625 Q221.2956,544.5 221.4675,544.5 Q221.7956,544.5 222.03,544.7656 Q222.28,545.0156 222.28,545.375 Q222.28,545.7188 221.9363,546.125 Q221.4363,546.7188 220.6394,547.0469 Q219.5925,547.5 218.3113,547.5 Q216.8113,547.5 215.6081,546.9063 Q214.6394,546.4375 213.9519,545.4219 Q213.28,544.4063 213.28,543.2031 L213.28,542.1094 Q213.28,540.8594 213.8738,539.7656 Q214.4831,538.6719 215.53,538.0938 Q216.5925,537.5 217.78,537.5 Q218.4988,537.5 219.1238,537.75 Q219.7488,538 220.28,538.5 Z "
+              fill="#000000"/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="57" x="238.78"
+              y="546.9102">InitialState
+        </text>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="155.53" x2="346.53" y1="558" y2="558"/>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="155.53" x2="346.53" y1="566" y2="566"/>
+        <ellipse cx="165.53" cy="577" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="167" x="174.53"
+              y="581.4189">InitialState(Request.Builder builder)
+        </text>
+        <ellipse cx="165.53" cy="590.8359" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="93" x="174.53"
+              y="595.2549">void handle(byte b)
+        </text><!--MD5=[4cfda732b32775db04ce2e815a76f1c3]
+class model.TypeState-->
+        <rect codeLine="18" fill="#FEFECE" filter="url(#f191zigv13l17)" height="75.6719" id="model.TypeState"
+              style="stroke:#A80036;stroke-width:1.5;" width="194" x="313.03" y="748.5"/>
+        <ellipse cx="378.78" cy="764.5" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/>
+        <path d="M380.78,761 Q380.9831,760.5 381.2175,760.25 Q381.4519,760 381.7175,760 Q382.1863,760 382.4831,760.2813 Q382.78,760.5625 382.78,761.2188 L382.78,762.7813 Q382.78,763.4375 382.4988,763.7188 Q382.2175,764 381.78,764 Q381.3894,764 381.1394,763.8281 Q380.8894,763.6563 380.78,763.2031 Q380.7331,762.8906 380.5613,762.7188 Q380.2488,762.3906 379.6863,762.2031 Q379.1238,762 378.5613,762 Q377.8581,762 377.2644,762.2813 Q376.6863,762.5625 376.2331,763.1875 Q375.78,763.8125 375.78,764.6719 L375.78,765.5938 Q375.78,766.625 376.6238,767.3125 Q377.4675,768 378.9675,768 Q379.8581,768 380.4831,767.7969 Q380.8425,767.6875 381.2488,767.3281 Q381.5144,767.125 381.655,767.0625 Q381.7956,767 381.9675,767 Q382.2956,767 382.53,767.2656 Q382.78,767.5156 382.78,767.875 Q382.78,768.2188 382.4363,768.625 Q381.9363,769.2188 381.1394,769.5469 Q380.0925,770 378.8113,770 Q377.3113,770 376.1081,769.4063 Q375.1394,768.9375 374.4519,767.9219 Q373.78,766.9063 373.78,765.7031 L373.78,764.6094 Q373.78,763.3594 374.3738,762.2656 Q374.9831,761.1719 376.03,760.5938 Q377.0925,760 378.28,760 Q378.9988,760 379.6238,760.25 Q380.2488,760.5 380.78,761 Z "
+              fill="#000000"/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="54" x="399.28"
+              y="769.4102">TypeState
+        </text>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="314.03" x2="506.03" y1="780.5" y2="780.5"/>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="314.03" x2="506.03" y1="788.5" y2="788.5"/>
+        <ellipse cx="324.03" cy="799.5" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="168" x="333.03"
+              y="803.9189">TypeState(Request.Builder builder)
+        </text>
+        <ellipse cx="324.03" cy="813.3359" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="93" x="333.03"
+              y="817.7549">void handle(byte b)
+        </text><!--MD5=[4837a687be9a01415f70700c94b7073b]
+class model.FilenameState-->
+        <rect codeLine="22" fill="#FEFECE" filter="url(#f191zigv13l17)" height="89.5078" id="model.FilenameState"
+              style="stroke:#A80036;stroke-width:1.5;" width="212" x="91.03" y="916"/>
+        <ellipse cx="152.78" cy="932" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/>
+        <path d="M154.78,928.5 Q154.9831,928 155.2175,927.75 Q155.4519,927.5 155.7175,927.5 Q156.1863,927.5 156.4831,927.7813 Q156.78,928.0625 156.78,928.7188 L156.78,930.2813 Q156.78,930.9375 156.4988,931.2188 Q156.2175,931.5 155.78,931.5 Q155.3894,931.5 155.1394,931.3281 Q154.8894,931.1563 154.78,930.7031 Q154.7331,930.3906 154.5613,930.2188 Q154.2488,929.8906 153.6863,929.7031 Q153.1238,929.5 152.5613,929.5 Q151.8581,929.5 151.2644,929.7813 Q150.6863,930.0625 150.2331,930.6875 Q149.78,931.3125 149.78,932.1719 L149.78,933.0938 Q149.78,934.125 150.6238,934.8125 Q151.4675,935.5 152.9675,935.5 Q153.8581,935.5 154.4831,935.2969 Q154.8425,935.1875 155.2488,934.8281 Q155.5144,934.625 155.655,934.5625 Q155.7956,934.5 155.9675,934.5 Q156.2956,934.5 156.53,934.7656 Q156.78,935.0156 156.78,935.375 Q156.78,935.7188 156.4363,936.125 Q155.9363,936.7188 155.1394,937.0469 Q154.0925,937.5 152.8113,937.5 Q151.3113,937.5 150.1081,936.9063 Q149.1394,936.4375 148.4519,935.4219 Q147.78,934.4063 147.78,933.2031 L147.78,932.1094 Q147.78,930.8594 148.3738,929.7656 Q148.9831,928.6719 150.03,928.0938 Q151.0925,927.5 152.28,927.5 Q152.9988,927.5 153.6238,927.75 Q154.2488,928 154.78,928.5 Z "
+              fill="#000000"/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="80" x="173.28"
+              y="936.9102">FilenameState
+        </text>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="92.03" x2="302.03" y1="948" y2="948"/>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="92.03" x2="302.03" y1="956" y2="956"/>
+        <ellipse cx="102.03" cy="967" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="186" x="111.03"
+              y="971.4189">FilenameState(Request.Builder builder)
+        </text>
+        <polygon fill="#FFFF44" points="102.03,975.8359,106.03,979.8359,102.03,983.8359,98.03,979.8359"
+                 style="stroke:#B38D22;stroke-width:1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="138" x="111.03"
+              y="985.2549">void nextState(String output)
+        </text>
+        <ellipse cx="102.03" cy="994.6719" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="93" x="111.03"
+              y="999.0908">void handle(byte b)
+        </text><!--MD5=[f5063ce81b3174903ac08349b20a7dc3]
+class model.ModeState-->
+        <rect codeLine="27" fill="#FEFECE" filter="url(#f191zigv13l17)" height="89.5078" id="model.ModeState"
+              style="stroke:#A80036;stroke-width:1.5;" width="196" x="241.03" y="1084"/>
+        <ellipse cx="305.78" cy="1100" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/>
+        <path d="M307.78,1096.5 Q307.9831,1096 308.2175,1095.75 Q308.4519,1095.5 308.7175,1095.5 Q309.1863,1095.5 309.4831,1095.7813 Q309.78,1096.0625 309.78,1096.7188 L309.78,1098.2813 Q309.78,1098.9375 309.4988,1099.2188 Q309.2175,1099.5 308.78,1099.5 Q308.3894,1099.5 308.1394,1099.3281 Q307.8894,1099.1563 307.78,1098.7031 Q307.7331,1098.3906 307.5613,1098.2188 Q307.2488,1097.8906 306.6863,1097.7031 Q306.1238,1097.5 305.5613,1097.5 Q304.8581,1097.5 304.2644,1097.7813 Q303.6863,1098.0625 303.2331,1098.6875 Q302.78,1099.3125 302.78,1100.1719 L302.78,1101.0938 Q302.78,1102.125 303.6238,1102.8125 Q304.4675,1103.5 305.9675,1103.5 Q306.8581,1103.5 307.4831,1103.2969 Q307.8425,1103.1875 308.2488,1102.8281 Q308.5144,1102.625 308.655,1102.5625 Q308.7956,1102.5 308.9675,1102.5 Q309.2956,1102.5 309.53,1102.7656 Q309.78,1103.0156 309.78,1103.375 Q309.78,1103.7188 309.4363,1104.125 Q308.9363,1104.7188 308.1394,1105.0469 Q307.0925,1105.5 305.8113,1105.5 Q304.3113,1105.5 303.1081,1104.9063 Q302.1394,1104.4375 301.4519,1103.4219 Q300.78,1102.4063 300.78,1101.2031 L300.78,1100.1094 Q300.78,1098.8594 301.3738,1097.7656 Q301.9831,1096.6719 303.03,1096.0938 Q304.0925,1095.5 305.28,1095.5 Q305.9988,1095.5 306.6238,1095.75 Q307.2488,1096 307.78,1096.5 Z "
+              fill="#000000"/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="58" x="326.28"
+              y="1104.9102">ModeState
+        </text>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="242.03" x2="436.03" y1="1116" y2="1116"/>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="242.03" x2="436.03" y1="1124" y2="1124"/>
+        <ellipse cx="252.03" cy="1135" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="170" x="261.03"
+              y="1139.4189">ModeState(Request.Builder builder)
+        </text>
+        <polygon fill="#FFFF44" points="252.03,1143.8359,256.03,1147.8359,252.03,1151.8359,248.03,1147.8359"
+                 style="stroke:#B38D22;stroke-width:1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="138" x="261.03"
+              y="1153.2549">void nextState(String output)
+        </text>
+        <ellipse cx="252.03" cy="1162.6719" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="93" x="261.03"
+              y="1167.0908">void handle(byte b)
+        </text><!--MD5=[c68c99e2aac25a5a086c199907b4702c]
+class model.EndState-->
+        <rect codeLine="32" fill="#FEFECE" filter="url(#f191zigv13l17)" height="75.6719" id="model.EndState"
+              style="stroke:#A80036;stroke-width:1.5;" width="188" x="347.03" y="1252"/>
+        <ellipse cx="411.78" cy="1268" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/>
+        <path d="M413.78,1264.5 Q413.9831,1264 414.2175,1263.75 Q414.4519,1263.5 414.7175,1263.5 Q415.1863,1263.5 415.4831,1263.7813 Q415.78,1264.0625 415.78,1264.7188 L415.78,1266.2813 Q415.78,1266.9375 415.4988,1267.2188 Q415.2175,1267.5 414.78,1267.5 Q414.3894,1267.5 414.1394,1267.3281 Q413.8894,1267.1563 413.78,1266.7031 Q413.7331,1266.3906 413.5613,1266.2188 Q413.2488,1265.8906 412.6863,1265.7031 Q412.1238,1265.5 411.5613,1265.5 Q410.8581,1265.5 410.2644,1265.7813 Q409.6863,1266.0625 409.2331,1266.6875 Q408.78,1267.3125 408.78,1268.1719 L408.78,1269.0938 Q408.78,1270.125 409.6238,1270.8125 Q410.4675,1271.5 411.9675,1271.5 Q412.8581,1271.5 413.4831,1271.2969 Q413.8425,1271.1875 414.2488,1270.8281 Q414.5144,1270.625 414.655,1270.5625 Q414.7956,1270.5 414.9675,1270.5 Q415.2956,1270.5 415.53,1270.7656 Q415.78,1271.0156 415.78,1271.375 Q415.78,1271.7188 415.4363,1272.125 Q414.9363,1272.7188 414.1394,1273.0469 Q413.0925,1273.5 411.8113,1273.5 Q410.3113,1273.5 409.1081,1272.9063 Q408.1394,1272.4375 407.4519,1271.4219 Q406.78,1270.4063 406.78,1269.2031 L406.78,1268.1094 Q406.78,1266.8594 407.3738,1265.7656 Q407.9831,1264.6719 409.03,1264.0938 Q410.0925,1263.5 411.28,1263.5 Q411.9988,1263.5 412.6238,1263.75 Q413.2488,1264 413.78,1264.5 Z "
+              fill="#000000"/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="50" x="432.28"
+              y="1272.9102">EndState
+        </text>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="348.03" x2="534.03" y1="1284" y2="1284"/>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="348.03" x2="534.03" y1="1292" y2="1292"/>
+        <ellipse cx="358.03" cy="1303" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="162" x="367.03"
+              y="1307.4189">EndState(Request.Builder builder)
+        </text>
+        <ellipse cx="358.03" cy="1316.8359" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="93" x="367.03"
+              y="1321.2549">void handle(byte b)
+        </text><!--MD5=[bf4638d74bc39945c3e1383ef8cbae27]
+class model.Request-->
+        <rect codeLine="38" fill="#FEFECE" filter="url(#f191zigv13l17)" height="186.3594" id="model.Request"
+              style="stroke:#A80036;stroke-width:1.5;" width="277" x="420.53" y="471"/>
+        <ellipse cx="531.28" cy="487" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/>
+        <path d="M533.28,483.5 Q533.4831,483 533.7175,482.75 Q533.9519,482.5 534.2175,482.5 Q534.6863,482.5 534.9831,482.7813 Q535.28,483.0625 535.28,483.7188 L535.28,485.2813 Q535.28,485.9375 534.9988,486.2188 Q534.7175,486.5 534.28,486.5 Q533.8894,486.5 533.6394,486.3281 Q533.3894,486.1563 533.28,485.7031 Q533.2331,485.3906 533.0613,485.2188 Q532.7488,484.8906 532.1863,484.7031 Q531.6238,484.5 531.0613,484.5 Q530.3581,484.5 529.7644,484.7813 Q529.1863,485.0625 528.7331,485.6875 Q528.28,486.3125 528.28,487.1719 L528.28,488.0938 Q528.28,489.125 529.1238,489.8125 Q529.9675,490.5 531.4675,490.5 Q532.3581,490.5 532.9831,490.2969 Q533.3425,490.1875 533.7488,489.8281 Q534.0144,489.625 534.155,489.5625 Q534.2956,489.5 534.4675,489.5 Q534.7956,489.5 535.03,489.7656 Q535.28,490.0156 535.28,490.375 Q535.28,490.7188 534.9363,491.125 Q534.4363,491.7188 533.6394,492.0469 Q532.5925,492.5 531.3113,492.5 Q529.8113,492.5 528.6081,491.9063 Q527.6394,491.4375 526.9519,490.4219 Q526.28,489.4063 526.28,488.2031 L526.28,487.1094 Q526.28,485.8594 526.8738,484.7656 Q527.4831,483.6719 528.53,483.0938 Q529.5925,482.5 530.78,482.5 Q531.4988,482.5 532.1238,482.75 Q532.7488,483 533.28,483.5 Z "
+              fill="#000000"/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="47" x="551.78"
+              y="491.9102">Request
+        </text>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="421.53" x2="696.53" y1="503" y2="503"/>
+        <rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="428.53" y="511"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="63" x="440.53"
+              y="518.4189">boolean read
+        </text>
+        <rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="428.53" y="524.8359"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="71" x="440.53"
+              y="532.2549">String filename
+        </text>
+        <rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="428.53" y="538.6719"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="57" x="440.53"
+              y="546.0908">String mode
+        </text>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="421.53" x2="696.53" y1="552.5078" y2="552.5078"/>
+        <ellipse cx="431.53" cy="563.5078" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="251" x="440.53"
+              y="567.9268">Request(boolean read, String filename, String mode)
+        </text>
+        <ellipse cx="431.53" cy="577.3438" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" text-decoration="underline"
+              textLength="172" x="440.53" y="581.7627">Request fromEncoded(byte[] bytes)
+        </text>
+        <ellipse cx="431.53" cy="591.1797" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="194" x="440.53"
+              y="595.5986">byte[] getEncoded(int maxMessageSize)
+        </text>
+        <ellipse cx="431.53" cy="605.0156" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="82" x="440.53"
+              y="609.4346">boolean isRead()
+        </text>
+        <ellipse cx="431.53" cy="618.8516" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="76" x="440.53"
+              y="623.2705">String toString()
+        </text>
+        <ellipse cx="431.53" cy="632.6875" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="121" x="440.53"
+              y="637.1064">boolean equals(Object o)
+        </text>
+        <ellipse cx="431.53" cy="646.5234" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="71" x="440.53"
+              y="650.9424">int hashCode()
+        </text><!--MD5=[11c573b7af12c5b54882f86fe4dea6fa]
+class model.Request.Builder-->
+        <rect codeLine="50" fill="#FEFECE" filter="url(#f191zigv13l17)" height="200.1953" id="model.Request.Builder"
+              style="stroke:#A80036;stroke-width:1.5;" width="185" x="420.53" y="193"/>
+        <ellipse cx="464.33" cy="209" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/>
+        <path d="M466.33,205.5 Q466.5331,205 466.7675,204.75 Q467.0019,204.5 467.2675,204.5 Q467.7363,204.5 468.0331,204.7813 Q468.33,205.0625 468.33,205.7188 L468.33,207.2813 Q468.33,207.9375 468.0488,208.2188 Q467.7675,208.5 467.33,208.5 Q466.9394,208.5 466.6894,208.3281 Q466.4394,208.1563 466.33,207.7031 Q466.2831,207.3906 466.1113,207.2188 Q465.7988,206.8906 465.2363,206.7031 Q464.6738,206.5 464.1113,206.5 Q463.4081,206.5 462.8144,206.7813 Q462.2363,207.0625 461.7831,207.6875 Q461.33,208.3125 461.33,209.1719 L461.33,210.0938 Q461.33,211.125 462.1738,211.8125 Q463.0175,212.5 464.5175,212.5 Q465.4081,212.5 466.0331,212.2969 Q466.3925,212.1875 466.7988,211.8281 Q467.0644,211.625 467.205,211.5625 Q467.3456,211.5 467.5175,211.5 Q467.8456,211.5 468.08,211.7656 Q468.33,212.0156 468.33,212.375 Q468.33,212.7188 467.9863,213.125 Q467.4863,213.7188 466.6894,214.0469 Q465.6425,214.5 464.3613,214.5 Q462.8613,214.5 461.6581,213.9063 Q460.6894,213.4375 460.0019,212.4219 Q459.33,211.4063 459.33,210.2031 L459.33,209.1094 Q459.33,207.8594 459.9238,206.7656 Q460.5331,205.6719 461.58,205.0938 Q462.6425,204.5 463.83,204.5 Q464.5488,204.5 465.1738,204.75 Q465.7988,205 466.33,205.5 Z "
+              fill="#000000"/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="89" x="484.73"
+              y="213.9102">Request.Builder
+        </text>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="421.53" x2="604.53" y1="225" y2="225"/>
+        <rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="428.53" y="233"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="63" x="440.53"
+              y="240.4189">boolean read
+        </text>
+        <rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="428.53" y="246.8359"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="71" x="440.53"
+              y="254.2549">String filename
+        </text>
+        <rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="428.53" y="260.6719"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="57" x="440.53"
+              y="268.0908">String mode
+        </text>
+        <rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="428.53" y="274.5078"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="46" x="440.53"
+              y="281.9268">State stat
+        </text>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="421.53" x2="604.53" y1="288.3438" y2="288.3438"/>
+        <ellipse cx="431.53" cy="299.3438" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="41" x="440.53"
+              y="303.7627">Builder()
+        </text>
+        <ellipse cx="431.53" cy="313.1797" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="134" x="440.53"
+              y="317.5986">void setRead(boolean read)
+        </text>
+        <ellipse cx="431.53" cy="327.0156" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="159" x="440.53"
+              y="331.4346">void setFilename(String filename)
+        </text>
+        <ellipse cx="431.53" cy="340.8516" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="129" x="440.53"
+              y="345.2705">void setMode(String mode)
+        </text>
+        <ellipse cx="431.53" cy="354.6875" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="73" x="440.53"
+              y="359.1064">Request build()
+        </text>
+        <ellipse cx="431.53" cy="368.5234" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="76" x="440.53"
+              y="372.9424">State getState()
+        </text>
+        <ellipse cx="431.53" cy="382.3594" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="123" x="440.53"
+              y="386.7783">void setState(State state)
+        </text><!--MD5=[982c1ea44aef17b788a6a1fe24ff5d26]
+reverse link model.State to model.StringState-->
+        <path d="M238.04,114.25 C196.31,130.14 151.84,154.95 125.03,193 C6,361.93 36.04,458.95 95.03,657 C103.36,684.97 119.93,712.52 136.17,734.9 "
+              fill="none" id="model.State-backto-model.StringState" style="stroke:#A80036;stroke-width:1.0;"/>
+        <polygon fill="none" points="235.75,107.64,256.94,107.57,240.42,120.84,235.75,107.64"
+                 style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[3bdc2157b610a7c47cb1b0318105792e]
+reverse link model.State to model.InitialState-->
+        <path d="M329.77,151.99 C310.49,252.65 273.67,444.83 258.18,525.69 " fill="none"
+              id="model.State-backto-model.InitialState" style="stroke:#A80036;stroke-width:1.0;"/>
+        <polygon fill="none" points="322.91,150.59,333.55,132.26,336.66,153.22,322.91,150.59"
+                 style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[aa4c5e89d20af985ee667eb6a6a9c808]
+reverse link model.State to model.TypeState-->
+        <path d="M287.49,147.64 C195.58,255.66 29.9,488.17 137.03,657 C139.88,661.49 249.11,712.06 328.52,748.39 "
+              fill="none" id="model.State-backto-model.TypeState" style="stroke:#A80036;stroke-width:1.0;"/>
+        <polygon fill="none" points="282.36,142.86,300.74,132.32,292.95,152.02,282.36,142.86"
+                 style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[a4cef68c3d61425d9eb5b150c93596af]
+reverse link model.StringState to model.FilenameState-->
+        <path d="M186.43,858.45 C188.47,877.93 190.61,898.49 192.43,915.97 " fill="none"
+              id="model.StringState-backto-model.FilenameState" style="stroke:#A80036;stroke-width:1.0;"/>
+        <polygon fill="none" points="179.45,858.94,184.33,838.32,193.37,857.49,179.45,858.94"
+                 style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[65ff1417afff23e5d119421445d48b91]
+reverse link model.StringState to model.ModeState-->
+        <path d="M270,851.31 C290.04,869.83 308.89,891.71 321.03,916 C347.53,969.03 347.87,1038.9 344.45,1083.65 "
+              fill="none" id="model.StringState-backto-model.ModeState" style="stroke:#A80036;stroke-width:1.0;"/>
+        <polygon fill="none" points="265.36,856.55,254.91,838.12,274.58,846.01,265.36,856.55"
+                 style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[0ecb1233802ed338c902a1921120b8d2]
+reverse link model.State to model.EndState-->
+        <path d="M345.79,152.24 C354.41,292.05 376.91,614.82 403.03,657 C436.91,711.72 490.6,680.63 525.03,735 C558.83,788.38 543.03,812.82 543.03,876 C543.03,876 543.03,876 543.03,1130 C543.03,1177.39 510.53,1221.94 482.22,1251.76 "
+              fill="none" id="model.State-backto-model.EndState" style="stroke:#A80036;stroke-width:1.0;"/>
+        <polygon fill="none" points="338.8,152.61,344.57,132.22,352.77,151.76,338.8,152.61"
+                 style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[99f4661470cab2af401053165ff58bfb]
+reverse link model.Request to model.Request.Builder-->
+        <path codeLine="64"
+              d="M513.56,456.37 C512.21,451.23 511.01,446.08 510.03,441 C507.07,425.71 505.7,409.36 505.31,393.33 "
+              fill="none" id="model.Request-backto-model.Request.Builder" style="stroke:#A80036;stroke-width:1.0;"/>
+        <ellipse cx="515.56" cy="463.18" fill="#FFFFFF" rx="8" ry="8" style="stroke:#A80036;stroke-width:1.0;"/>
+        <line style="stroke:#A80036;stroke-width:1.0;" x1="513.32" x2="517.8" y1="455.5" y2="470.86"/>
+        <line style="stroke:#A80036;stroke-width:1.0;" x1="523.24" x2="507.88" y1="460.94" y2="465.42"/><!--MD5=[e8e65f3b569f7df78b564d42dbab01d0]
+link model.Request.Builder to model.Request-->
+        <path codeLine="70"
+              d="M587.09,393.27 C591.88,402.97 595.99,412.95 599.03,423 C603.17,436.68 603.53,451.15 601.58,465.39 "
+              fill="none" id="model.Request.Builder-to-model.Request"
+              style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/>
+        <polygon fill="#A80036" points="600.76,470.63,606.1,462.3545,601.531,465.6898,598.1957,461.1208,600.76,470.63"
+                 style="stroke:#A80036;stroke-width:1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="50" x="603.03"
+              y="437.4951">«create»
+        </text><!--MD5=[7cac7e5cfdcd69d4a4d36767619fbc30]
+link model.Request to model.Request.Builder-->
+        <path codeLine="71" d="M543.28,470.88 C539.27,447.45 534.94,422.1 530.83,398.12 " fill="none"
+              id="model.Request-to-model.Request.Builder"
+              style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/>
+        <polygon fill="#A80036"
+                 points="529.96,393.02,527.5343,402.5655,530.8028,397.9485,535.4199,401.2169,529.96,393.02"
+                 style="stroke:#A80036;stroke-width:1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="50" x="538.03"
+              y="437.4951">«create»
+        </text><!--MD5=[701124aa0ff03c3d572da5e0295ed073]
+reverse link model.Request.Builder to model.State-->
+        <path codeLine="67" d="M434.94,182.77 C419.73,164.8 404.21,147.13 390.26,132.01 " fill="none"
+              id="model.Request.Builder-backto-model.State" style="stroke:#A80036;stroke-width:1.0;"/>
+        <polygon fill="#A80036"
+                 points="443.34,192.77,442.5415,185.6032,435.6189,183.5839,436.4174,190.7506,443.34,192.77"
+                 style="stroke:#A80036;stroke-width:1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="430.7364"
+              y="181.9847">1
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="389.5502"
+              y="153.019">1
+        </text><!--MD5=[d3c9febbc45bc462bf31018a6117b259]
+reverse link model.State to model.Request.Builder-->
+        <path codeLine="68" d="M376.36,142.61 C389.31,159.23 404.63,178.03 420.28,196.53 " fill="none"
+              id="model.State-backto-model.Request.Builder" style="stroke:#A80036;stroke-width:1.0;"/>
+        <polygon fill="#A80036"
+                 points="368.22,132.01,368.7102,139.2044,375.5397,141.519,375.0495,134.3246,368.22,132.01"
+                 style="stroke:#A80036;stroke-width:1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="364.4108"
+              y="153.019">1
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="405.6101"
+              y="185.7064">1
+        </text><!--MD5=[9bb8b7e0e4e0f7b699efbef501130457]
+link model.Request.Builder to model.InitialState-->
+        <path codeLine="73" d="M420.29,389.22 C375.98,434.72 325.26,486.79 290.99,521.97 " fill="none"
+              id="model.Request.Builder-to-model.InitialState"
+              style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/>
+        <polygon fill="#A80036"
+                 points="287.31,525.75,296.4515,522.0848,290.7952,522.1648,290.7152,516.5085,287.31,525.75"
+                 style="stroke:#A80036;stroke-width:1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="50" x="383.03"
+              y="437.4951">«create»
+        </text><!--MD5=[ab54adff33485c450c5f9ba9d8c5e509]
+link model.InitialState to model.TypeState-->
+        <path codeLine="74" d="M278,602.4 C306.3,641.65 350.66,703.17 380.04,743.91 " fill="none"
+              id="model.InitialState-to-model.TypeState"
+              style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/>
+        <polygon fill="#A80036"
+                 points="383.19,748.28,381.1658,738.6414,380.2636,744.2259,374.6791,743.3237,383.19,748.28"
+                 style="stroke:#A80036;stroke-width:1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="50" x="350.03"
+              y="701.4951">«create»
+        </text><!--MD5=[a73aacdbd28eaa1d02e411dc3385037a]
+link model.TypeState to model.FilenameState-->
+        <path codeLine="75" d="M364.34,824.51 C332.62,850.19 290.09,884.64 255.84,912.37 " fill="none"
+              id="model.TypeState-to-model.FilenameState"
+              style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/>
+        <polygon fill="#A80036"
+                 points="251.71,915.72,261.2231,913.1702,255.5976,912.5757,256.1921,906.9501,251.71,915.72"
+                 style="stroke:#A80036;stroke-width:1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="50" x="310.03"
+              y="882.4951">«create»
+        </text><!--MD5=[a1271fe150f3a6cd11263aa8c61e15c5]
+link model.FilenameState to model.ModeState-->
+        <path codeLine="76" d="M234.71,1006.05 C254.13,1028.75 277.85,1056.48 297.76,1079.75 " fill="none"
+              id="model.FilenameState-to-model.ModeState"
+              style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/>
+        <polygon fill="#A80036"
+                 points="301.17,1083.75,298.3704,1074.3074,297.9243,1079.9467,292.2851,1079.5006,301.17,1083.75"
+                 style="stroke:#A80036;stroke-width:1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="50" x="273.03"
+              y="1050.4951">«create»
+        </text><!--MD5=[c7d1eaa1be6815ca8a3fdf6f08c6efba]
+link model.ModeState to model.EndState-->
+        <path codeLine="77" d="M367.44,1174.29 C382.14,1197.21 399.98,1225.01 414.41,1247.51 " fill="none"
+              id="model.ModeState-to-model.EndState" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/>
+        <polygon fill="#A80036"
+                 points="417.25,1251.93,415.7479,1242.1964,414.5462,1247.7241,409.0185,1246.5224,417.25,1251.93"
+                 style="stroke:#A80036;stroke-width:1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="50" x="397.03"
+              y="1218.4951">«create»
+        </text><!--MD5=[d6b2dbb367e990d54a6152cb51dfe3ff]
+@startuml
+'https://plantuml.com/class-diagram
+
+abstract class model.State{
+ # Request.Builder builder
+ # State(Request.Builder builder)
+ {abstract} + void handle(byte b)
+}
+abstract class model.StringState extends model.State{
+ # ByteArrayOutputStream output
+ # StringState(Request.Builder builder)
+ {abstract} # void nextState(String output)
+ + void handle(byte b)
+}
+class model.InitialState extends model.State{
+ + InitialState(Request.Builder builder)
+ + void handle(byte b)
+}
+class model.TypeState extends model.State{
+ + TypeState(Request.Builder builder)
+ + void handle(byte b)
+}
+class model.FilenameState extends model.StringState{
+ + FilenameState(Request.Builder builder)
+ # void nextState(String output)
+ + void handle(byte b)
+}
+class model.ModeState extends model.StringState{
+ + ModeState(Request.Builder builder)
+ # void nextState(String output)
+ + void handle(byte b)
+}
+class model.EndState extends model.State{
+ + EndState(Request.Builder builder)
+ + void handle(byte b)
+}
+
+
+class model.Request{
+ - boolean read
+ - String filename
+ - String mode
+ + Request(boolean read, String filename, String mode)
+ {static} + Request fromEncoded(byte[] bytes)
+ + byte[] getEncoded(int maxMessageSize)
+ + boolean isRead()
+ + String toString()
+ + boolean equals(Object o)
+ + int hashCode()
+}
+class model.Request.Builder{
+ - boolean read
+ - String filename
+ - String mode
+ - State stat
+ + Builder()
+ + void setRead(boolean read)
+ + void setFilename(String filename)
+ + void setMode(String mode)
+ + Request build()
+ + State getState()
+ + void setState(State state)
+}
+
+model.Request +- - model.Request.Builder
+
+
+model.Request.Builder "1" *- - "1" model.State
+model.State "1" *- - "1" model.Request.Builder
+
+model.Request.Builder ..> model.Request: "<<create>>"
+model.Request ..> model.Request.Builder: "<<create>>"
+
+model.Request.Builder ..> model.InitialState: "<<create>>"
+model.InitialState ..> model.TypeState: "<<create>>"
+model.TypeState ..> model.FilenameState: "<<create>>"
+model.FilenameState ..> model.ModeState: "<<create>>"
+model.ModeState ..> model.EndState: "<<create>>"
+
+@enduml
+
+@startuml
+
+abstract class model.State{
+ # Request.Builder builder
+ # State(Request.Builder builder)
+ {abstract} + void handle(byte b)
+}
+abstract class model.StringState extends model.State{
+ # ByteArrayOutputStream output
+ # StringState(Request.Builder builder)
+ {abstract} # void nextState(String output)
+ + void handle(byte b)
+}
+class model.InitialState extends model.State{
+ + InitialState(Request.Builder builder)
+ + void handle(byte b)
+}
+class model.TypeState extends model.State{
+ + TypeState(Request.Builder builder)
+ + void handle(byte b)
+}
+class model.FilenameState extends model.StringState{
+ + FilenameState(Request.Builder builder)
+ # void nextState(String output)
+ + void handle(byte b)
+}
+class model.ModeState extends model.StringState{
+ + ModeState(Request.Builder builder)
+ # void nextState(String output)
+ + void handle(byte b)
+}
+class model.EndState extends model.State{
+ + EndState(Request.Builder builder)
+ + void handle(byte b)
+}
+
+
+class model.Request{
+ - boolean read
+ - String filename
+ - String mode
+ + Request(boolean read, String filename, String mode)
+ {static} + Request fromEncoded(byte[] bytes)
+ + byte[] getEncoded(int maxMessageSize)
+ + boolean isRead()
+ + String toString()
+ + boolean equals(Object o)
+ + int hashCode()
+}
+class model.Request.Builder{
+ - boolean read
+ - String filename
+ - String mode
+ - State stat
+ + Builder()
+ + void setRead(boolean read)
+ + void setFilename(String filename)
+ + void setMode(String mode)
+ + Request build()
+ + State getState()
+ + void setState(State state)
+}
+
+model.Request +- - model.Request.Builder
+
+
+model.Request.Builder "1" *- - "1" model.State
+model.State "1" *- - "1" model.Request.Builder
+
+model.Request.Builder ..> model.Request: "<<create>>"
+model.Request ..> model.Request.Builder: "<<create>>"
+
+model.Request.Builder ..> model.InitialState: "<<create>>"
+model.InitialState ..> model.TypeState: "<<create>>"
+model.TypeState ..> model.FilenameState: "<<create>>"
+model.FilenameState ..> model.ModeState: "<<create>>"
+model.ModeState ..> model.EndState: "<<create>>"
+
+@enduml
+
+PlantUML version 1.2021.01(Tue Feb 02 02:55:08 EST 2021)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: Cp1252
+Language: en
+Country: US
+-->
+    </g>
+</svg>

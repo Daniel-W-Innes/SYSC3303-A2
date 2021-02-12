@@ -1,0 +1,1401 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" contentScriptType="application/ecmascript" contentStyleType="text/css"
+     height="2610px" preserveAspectRatio="none" style="width:1782px;height:2610px;" version="1.1"
+     viewBox="0 0 1782 2610" width="1782px" zoomAndPan="magnify">
+    <defs>
+        <filter height="300%" id="fmrrzmkyugj4d" width="300%" x="-1" y="-1">
+            <feGaussianBlur result="blurOut" stdDeviation="2.0"/>
+            <feColorMatrix in="blurOut" result="blurOut2" type="matrix"
+                           values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/>
+            <feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/>
+            <feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/>
+        </filter>
+    </defs>
+    <g><!--MD5=[5d4cd377749310b66bf14896f5cd8d9b]
+cluster model-->
+        <polygon fill="#FFFFFF" filter="url(#fmrrzmkyugj4d)"
+                 points="938,1155,987,1155,994,1178.6094,1765,1178.6094,1765,2603,938,2603,938,1155"
+                 style="stroke:#000000;stroke-width:1.5;"/>
+        <line style="stroke:#000000;stroke-width:1.5;" x1="938" x2="994" y1="1178.6094" y2="1178.6094"/>
+        <text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing"
+              textLength="43" x="942" y="1171.5332">model
+        </text><!--MD5=[3e81cc6ee7da4fa8b6adc12b329096f6]
+cluster util-->
+        <polygon fill="#FFFFFF" filter="url(#fmrrzmkyugj4d)"
+                 points="588,1196.5,616,1196.5,623,1220.1094,790,1220.1094,790,1365.5,588,1365.5,588,1196.5"
+                 style="stroke:#000000;stroke-width:1.5;"/>
+        <line style="stroke:#000000;stroke-width:1.5;" x1="588" x2="623" y1="1220.1094" y2="1220.1094"/>
+        <text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing"
+              textLength="22" x="592" y="1213.0332">util
+        </text><!--MD5=[25978a4fff2e3f143e96a46d7bb4290d]
+cluster actor.intermediate-->
+        <polygon fill="#FFFFFF" filter="url(#fmrrzmkyugj4d)"
+                 points="1235,182.5,1370,182.5,1377,206.1094,1730,206.1094,1730,1097,1235,1097,1235,182.5"
+                 style="stroke:#000000;stroke-width:1.5;"/>
+        <line style="stroke:#000000;stroke-width:1.5;" x1="1235" x2="1377" y1="206.1094" y2="206.1094"/>
+        <text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing"
+              textLength="129" x="1239" y="199.0332">actor.intermediate
+        </text><!--MD5=[e1f23030ead27e1095528dde945cb3cc]
+cluster actor-->
+        <polygon fill="#FFFFFF" filter="url(#fmrrzmkyugj4d)"
+                 points="193,141,235,141,242,164.6094,693,164.6094,693,368,193,368,193,141"
+                 style="stroke:#000000;stroke-width:1.5;"/>
+        <line style="stroke:#000000;stroke-width:1.5;" x1="193" x2="242" y1="164.6094" y2="164.6094"/>
+        <text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing"
+              textLength="36" x="197" y="157.5332">actor
+        </text><!--MD5=[cd54df1af516238376ca8c3206b0f27d]
+class model.State-->
+        <rect codeLine="3" fill="#FEFECE" filter="url(#fmrrzmkyugj4d)" height="89.5078" id="model.State"
+              style="stroke:#A80036;stroke-width:1.5;" width="170" x="1528" y="1246"/>
+        <ellipse cx="1594.75" cy="1262" fill="#A9DCDF" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/>
+        <path d="M1596.5,1263.5 L1593.2031,1263.5 L1592.7656,1264.5 L1592.7656,1264.5 L1593.2344,1264.5 L1593.75,1265.125 L1593.75,1265.5 L1593.75,1265.875 L1593.2344,1266.5 L1592.7656,1266.5 L1590.875,1266.5 L1590.2656,1266.5 L1589.75,1265.875 L1589.75,1265.5 L1589.75,1265.125 L1590.2656,1264.5 L1590.875,1264.5 L1593.1875,1258.5 L1592.3125,1258.5 L1591.2656,1258.5 L1590.75,1257.875 L1590.75,1257.5 L1590.75,1257.125 L1591.2656,1256.5 L1592.3125,1256.5 L1595.9844,1256.5 L1598.6719,1264.5 L1599.2344,1264.5 L1599.2344,1264.5 L1599.75,1265.125 L1599.75,1265.5 L1599.75,1265.875 L1599.2344,1266.5 L1598.6719,1266.5 L1596.7813,1266.5 L1596.2656,1266.5 L1595.75,1265.875 L1595.75,1265.5 L1595.75,1265.125 L1596.2656,1264.5 L1596.7813,1264.5 L1596.7813,1264.5 L1596.5,1263.5 Z M1595.9531,1261.5 L1594.75,1257.9219 L1593.7188,1261.5 L1595.9531,1261.5 Z "
+              fill="#000000"/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing"
+              textLength="28" x="1615.25" y="1266.9102">State
+        </text>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="1529" x2="1697" y1="1278" y2="1278"/>
+        <polygon fill="none" points="1539,1284,1543,1288,1539,1292,1535,1288" style="stroke:#B38D22;stroke-width:1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="111" x="1548"
+              y="1293.4189">Request.Builder builder
+        </text>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="1529" x2="1697" y1="1299.8359" y2="1299.8359"/>
+        <polygon fill="#FFFF44" points="1539,1305.8359,1543,1309.8359,1539,1313.8359,1535,1309.8359"
+                 style="stroke:#B38D22;stroke-width:1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="144" x="1548"
+              y="1315.2549">State(Request.Builder builder)
+        </text>
+        <ellipse cx="1539" cy="1324.6719" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" font-style="italic" lengthAdjust="spacing"
+              textLength="95" x="1548" y="1329.0908">void handle(byte b)
+        </text><!--MD5=[a2fc373fab115fda23f308f44fb8f6a0]
+class model.StringState-->
+        <rect codeLine="8" fill="#FEFECE" filter="url(#fmrrzmkyugj4d)" height="103.3438" id="model.StringState"
+              style="stroke:#A80036;stroke-width:1.5;" width="198" x="1514" y="1994"/>
+        <ellipse cx="1578.75" cy="2010" fill="#A9DCDF" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/>
+        <path d="M1580.5,2011.5 L1577.2031,2011.5 L1576.7656,2012.5 L1576.7656,2012.5 L1577.2344,2012.5 L1577.75,2013.125 L1577.75,2013.5 L1577.75,2013.875 L1577.2344,2014.5 L1576.7656,2014.5 L1574.875,2014.5 L1574.2656,2014.5 L1573.75,2013.875 L1573.75,2013.5 L1573.75,2013.125 L1574.2656,2012.5 L1574.875,2012.5 L1577.1875,2006.5 L1576.3125,2006.5 L1575.2656,2006.5 L1574.75,2005.875 L1574.75,2005.5 L1574.75,2005.125 L1575.2656,2004.5 L1576.3125,2004.5 L1579.9844,2004.5 L1582.6719,2012.5 L1583.2344,2012.5 L1583.2344,2012.5 L1583.75,2013.125 L1583.75,2013.5 L1583.75,2013.875 L1583.2344,2014.5 L1582.6719,2014.5 L1580.7813,2014.5 L1580.2656,2014.5 L1579.75,2013.875 L1579.75,2013.5 L1579.75,2013.125 L1580.2656,2012.5 L1580.7813,2012.5 L1580.7813,2012.5 L1580.5,2011.5 Z M1579.9531,2009.5 L1578.75,2005.9219 L1577.7188,2009.5 L1579.9531,2009.5 Z "
+              fill="#000000"/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing"
+              textLength="60" x="1599.25" y="2014.9102">StringState
+        </text>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="1515" x2="1711" y1="2026" y2="2026"/>
+        <polygon fill="none" points="1525,2032,1529,2036,1525,2040,1521,2036" style="stroke:#B38D22;stroke-width:1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="149" x="1534"
+              y="2041.4189">ByteArrayOutputStream output
+        </text>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="1515" x2="1711" y1="2047.8359" y2="2047.8359"/>
+        <polygon fill="#FFFF44" points="1525,2053.8359,1529,2057.8359,1525,2061.8359,1521,2057.8359"
+                 style="stroke:#B38D22;stroke-width:1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="172" x="1534"
+              y="2063.2549">StringState(Request.Builder builder)
+        </text>
+        <polygon fill="#FFFF44" points="1525,2067.6719,1529,2071.6719,1525,2075.6719,1521,2071.6719"
+                 style="stroke:#B38D22;stroke-width:1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" font-style="italic" lengthAdjust="spacing"
+              textLength="139" x="1534" y="2077.0908">void nextState(String output)
+        </text>
+        <ellipse cx="1525" cy="2086.5078" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="93" x="1534"
+              y="2090.9268">void handle(byte b)
+        </text><!--MD5=[44ad56bf2df7ed790d16feb1e78b1064]
+class model.InitialState-->
+        <rect codeLine="14" fill="#FEFECE" filter="url(#fmrrzmkyugj4d)" height="75.6719" id="model.InitialState"
+              style="stroke:#A80036;stroke-width:1.5;" width="193" x="1285.5" y="1785"/>
+        <ellipse cx="1349.25" cy="1801" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/>
+        <path d="M1351.25,1797.5 Q1351.4531,1797 1351.6875,1796.75 Q1351.9219,1796.5 1352.1875,1796.5 Q1352.6563,1796.5 1352.9531,1796.7813 Q1353.25,1797.0625 1353.25,1797.7188 L1353.25,1799.2813 Q1353.25,1799.9375 1352.9688,1800.2188 Q1352.6875,1800.5 1352.25,1800.5 Q1351.8594,1800.5 1351.6094,1800.3281 Q1351.3594,1800.1563 1351.25,1799.7031 Q1351.2031,1799.3906 1351.0313,1799.2188 Q1350.7188,1798.8906 1350.1563,1798.7031 Q1349.5938,1798.5 1349.0313,1798.5 Q1348.3281,1798.5 1347.7344,1798.7813 Q1347.1563,1799.0625 1346.7031,1799.6875 Q1346.25,1800.3125 1346.25,1801.1719 L1346.25,1802.0938 Q1346.25,1803.125 1347.0938,1803.8125 Q1347.9375,1804.5 1349.4375,1804.5 Q1350.3281,1804.5 1350.9531,1804.2969 Q1351.3125,1804.1875 1351.7188,1803.8281 Q1351.9844,1803.625 1352.125,1803.5625 Q1352.2656,1803.5 1352.4375,1803.5 Q1352.7656,1803.5 1353,1803.7656 Q1353.25,1804.0156 1353.25,1804.375 Q1353.25,1804.7188 1352.9063,1805.125 Q1352.4063,1805.7188 1351.6094,1806.0469 Q1350.5625,1806.5 1349.2813,1806.5 Q1347.7813,1806.5 1346.5781,1805.9063 Q1345.6094,1805.4375 1344.9219,1804.4219 Q1344.25,1803.4063 1344.25,1802.2031 L1344.25,1801.1094 Q1344.25,1799.8594 1344.8438,1798.7656 Q1345.4531,1797.6719 1346.5,1797.0938 Q1347.5625,1796.5 1348.75,1796.5 Q1349.4688,1796.5 1350.0938,1796.75 Q1350.7188,1797 1351.25,1797.5 Z "
+              fill="#000000"/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="57" x="1369.75"
+              y="1805.9102">InitialState
+        </text>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="1286.5" x2="1477.5" y1="1817" y2="1817"/>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="1286.5" x2="1477.5" y1="1825" y2="1825"/>
+        <ellipse cx="1296.5" cy="1836" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="167" x="1305.5"
+              y="1840.4189">InitialState(Request.Builder builder)
+        </text>
+        <ellipse cx="1296.5" cy="1849.8359" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="93" x="1305.5"
+              y="1854.2549">void handle(byte b)
+        </text><!--MD5=[4cfda732b32775db04ce2e815a76f1c3]
+class model.TypeState-->
+        <rect codeLine="18" fill="#FEFECE" filter="url(#fmrrzmkyugj4d)" height="75.6719" id="model.TypeState"
+              style="stroke:#A80036;stroke-width:1.5;" width="194" x="1285" y="2007.5"/>
+        <ellipse cx="1350.75" cy="2023.5" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/>
+        <path d="M1352.75,2020 Q1352.9531,2019.5 1353.1875,2019.25 Q1353.4219,2019 1353.6875,2019 Q1354.1563,2019 1354.4531,2019.2813 Q1354.75,2019.5625 1354.75,2020.2188 L1354.75,2021.7813 Q1354.75,2022.4375 1354.4688,2022.7188 Q1354.1875,2023 1353.75,2023 Q1353.3594,2023 1353.1094,2022.8281 Q1352.8594,2022.6563 1352.75,2022.2031 Q1352.7031,2021.8906 1352.5313,2021.7188 Q1352.2188,2021.3906 1351.6563,2021.2031 Q1351.0938,2021 1350.5313,2021 Q1349.8281,2021 1349.2344,2021.2813 Q1348.6563,2021.5625 1348.2031,2022.1875 Q1347.75,2022.8125 1347.75,2023.6719 L1347.75,2024.5938 Q1347.75,2025.625 1348.5938,2026.3125 Q1349.4375,2027 1350.9375,2027 Q1351.8281,2027 1352.4531,2026.7969 Q1352.8125,2026.6875 1353.2188,2026.3281 Q1353.4844,2026.125 1353.625,2026.0625 Q1353.7656,2026 1353.9375,2026 Q1354.2656,2026 1354.5,2026.2656 Q1354.75,2026.5156 1354.75,2026.875 Q1354.75,2027.2188 1354.4063,2027.625 Q1353.9063,2028.2188 1353.1094,2028.5469 Q1352.0625,2029 1350.7813,2029 Q1349.2813,2029 1348.0781,2028.4063 Q1347.1094,2027.9375 1346.4219,2026.9219 Q1345.75,2025.9063 1345.75,2024.7031 L1345.75,2023.6094 Q1345.75,2022.3594 1346.3438,2021.2656 Q1346.9531,2020.1719 1348,2019.5938 Q1349.0625,2019 1350.25,2019 Q1350.9688,2019 1351.5938,2019.25 Q1352.2188,2019.5 1352.75,2020 Z "
+              fill="#000000"/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="54" x="1371.25"
+              y="2028.4102">TypeState
+        </text>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="1286" x2="1478" y1="2039.5" y2="2039.5"/>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="1286" x2="1478" y1="2047.5" y2="2047.5"/>
+        <ellipse cx="1296" cy="2058.5" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="168" x="1305"
+              y="2062.9189">TypeState(Request.Builder builder)
+        </text>
+        <ellipse cx="1296" cy="2072.3359" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="93" x="1305"
+              y="2076.7549">void handle(byte b)
+        </text><!--MD5=[4837a687be9a01415f70700c94b7073b]
+class model.FilenameState-->
+        <rect codeLine="22" fill="#FEFECE" filter="url(#fmrrzmkyugj4d)" height="89.5078" id="model.FilenameState"
+              style="stroke:#A80036;stroke-width:1.5;" width="212" x="1365" y="2175"/>
+        <ellipse cx="1426.75" cy="2191" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/>
+        <path d="M1428.75,2187.5 Q1428.9531,2187 1429.1875,2186.75 Q1429.4219,2186.5 1429.6875,2186.5 Q1430.1563,2186.5 1430.4531,2186.7813 Q1430.75,2187.0625 1430.75,2187.7188 L1430.75,2189.2813 Q1430.75,2189.9375 1430.4688,2190.2188 Q1430.1875,2190.5 1429.75,2190.5 Q1429.3594,2190.5 1429.1094,2190.3281 Q1428.8594,2190.1563 1428.75,2189.7031 Q1428.7031,2189.3906 1428.5313,2189.2188 Q1428.2188,2188.8906 1427.6563,2188.7031 Q1427.0938,2188.5 1426.5313,2188.5 Q1425.8281,2188.5 1425.2344,2188.7813 Q1424.6563,2189.0625 1424.2031,2189.6875 Q1423.75,2190.3125 1423.75,2191.1719 L1423.75,2192.0938 Q1423.75,2193.125 1424.5938,2193.8125 Q1425.4375,2194.5 1426.9375,2194.5 Q1427.8281,2194.5 1428.4531,2194.2969 Q1428.8125,2194.1875 1429.2188,2193.8281 Q1429.4844,2193.625 1429.625,2193.5625 Q1429.7656,2193.5 1429.9375,2193.5 Q1430.2656,2193.5 1430.5,2193.7656 Q1430.75,2194.0156 1430.75,2194.375 Q1430.75,2194.7188 1430.4063,2195.125 Q1429.9063,2195.7188 1429.1094,2196.0469 Q1428.0625,2196.5 1426.7813,2196.5 Q1425.2813,2196.5 1424.0781,2195.9063 Q1423.1094,2195.4375 1422.4219,2194.4219 Q1421.75,2193.4063 1421.75,2192.2031 L1421.75,2191.1094 Q1421.75,2189.8594 1422.3438,2188.7656 Q1422.9531,2187.6719 1424,2187.0938 Q1425.0625,2186.5 1426.25,2186.5 Q1426.9688,2186.5 1427.5938,2186.75 Q1428.2188,2187 1428.75,2187.5 Z "
+              fill="#000000"/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="80" x="1447.25"
+              y="2195.9102">FilenameState
+        </text>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="1366" x2="1576" y1="2207" y2="2207"/>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="1366" x2="1576" y1="2215" y2="2215"/>
+        <ellipse cx="1376" cy="2226" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="186" x="1385"
+              y="2230.4189">FilenameState(Request.Builder builder)
+        </text>
+        <polygon fill="#FFFF44" points="1376,2234.8359,1380,2238.8359,1376,2242.8359,1372,2238.8359"
+                 style="stroke:#B38D22;stroke-width:1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="138" x="1385"
+              y="2244.2549">void nextState(String output)
+        </text>
+        <ellipse cx="1376" cy="2253.6719" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="93" x="1385"
+              y="2258.0908">void handle(byte b)
+        </text><!--MD5=[f5063ce81b3174903ac08349b20a7dc3]
+class model.ModeState-->
+        <rect codeLine="27" fill="#FEFECE" filter="url(#fmrrzmkyugj4d)" height="89.5078" id="model.ModeState"
+              style="stroke:#A80036;stroke-width:1.5;" width="196" x="1515" y="2343"/>
+        <ellipse cx="1579.75" cy="2359" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/>
+        <path d="M1581.75,2355.5 Q1581.9531,2355 1582.1875,2354.75 Q1582.4219,2354.5 1582.6875,2354.5 Q1583.1563,2354.5 1583.4531,2354.7813 Q1583.75,2355.0625 1583.75,2355.7188 L1583.75,2357.2813 Q1583.75,2357.9375 1583.4688,2358.2188 Q1583.1875,2358.5 1582.75,2358.5 Q1582.3594,2358.5 1582.1094,2358.3281 Q1581.8594,2358.1563 1581.75,2357.7031 Q1581.7031,2357.3906 1581.5313,2357.2188 Q1581.2188,2356.8906 1580.6563,2356.7031 Q1580.0938,2356.5 1579.5313,2356.5 Q1578.8281,2356.5 1578.2344,2356.7813 Q1577.6563,2357.0625 1577.2031,2357.6875 Q1576.75,2358.3125 1576.75,2359.1719 L1576.75,2360.0938 Q1576.75,2361.125 1577.5938,2361.8125 Q1578.4375,2362.5 1579.9375,2362.5 Q1580.8281,2362.5 1581.4531,2362.2969 Q1581.8125,2362.1875 1582.2188,2361.8281 Q1582.4844,2361.625 1582.625,2361.5625 Q1582.7656,2361.5 1582.9375,2361.5 Q1583.2656,2361.5 1583.5,2361.7656 Q1583.75,2362.0156 1583.75,2362.375 Q1583.75,2362.7188 1583.4063,2363.125 Q1582.9063,2363.7188 1582.1094,2364.0469 Q1581.0625,2364.5 1579.7813,2364.5 Q1578.2813,2364.5 1577.0781,2363.9063 Q1576.1094,2363.4375 1575.4219,2362.4219 Q1574.75,2361.4063 1574.75,2360.2031 L1574.75,2359.1094 Q1574.75,2357.8594 1575.3438,2356.7656 Q1575.9531,2355.6719 1577,2355.0938 Q1578.0625,2354.5 1579.25,2354.5 Q1579.9688,2354.5 1580.5938,2354.75 Q1581.2188,2355 1581.75,2355.5 Z "
+              fill="#000000"/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="58" x="1600.25"
+              y="2363.9102">ModeState
+        </text>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="1516" x2="1710" y1="2375" y2="2375"/>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="1516" x2="1710" y1="2383" y2="2383"/>
+        <ellipse cx="1526" cy="2394" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="170" x="1535"
+              y="2398.4189">ModeState(Request.Builder builder)
+        </text>
+        <polygon fill="#FFFF44" points="1526,2402.8359,1530,2406.8359,1526,2410.8359,1522,2406.8359"
+                 style="stroke:#B38D22;stroke-width:1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="138" x="1535"
+              y="2412.2549">void nextState(String output)
+        </text>
+        <ellipse cx="1526" cy="2421.6719" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="93" x="1535"
+              y="2426.0908">void handle(byte b)
+        </text><!--MD5=[c68c99e2aac25a5a086c199907b4702c]
+class model.EndState-->
+        <rect codeLine="32" fill="#FEFECE" filter="url(#fmrrzmkyugj4d)" height="75.6719" id="model.EndState"
+              style="stroke:#A80036;stroke-width:1.5;" width="188" x="1540" y="2511"/>
+        <ellipse cx="1604.75" cy="2527" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/>
+        <path d="M1606.75,2523.5 Q1606.9531,2523 1607.1875,2522.75 Q1607.4219,2522.5 1607.6875,2522.5 Q1608.1563,2522.5 1608.4531,2522.7813 Q1608.75,2523.0625 1608.75,2523.7188 L1608.75,2525.2813 Q1608.75,2525.9375 1608.4688,2526.2188 Q1608.1875,2526.5 1607.75,2526.5 Q1607.3594,2526.5 1607.1094,2526.3281 Q1606.8594,2526.1563 1606.75,2525.7031 Q1606.7031,2525.3906 1606.5313,2525.2188 Q1606.2188,2524.8906 1605.6563,2524.7031 Q1605.0938,2524.5 1604.5313,2524.5 Q1603.8281,2524.5 1603.2344,2524.7813 Q1602.6563,2525.0625 1602.2031,2525.6875 Q1601.75,2526.3125 1601.75,2527.1719 L1601.75,2528.0938 Q1601.75,2529.125 1602.5938,2529.8125 Q1603.4375,2530.5 1604.9375,2530.5 Q1605.8281,2530.5 1606.4531,2530.2969 Q1606.8125,2530.1875 1607.2188,2529.8281 Q1607.4844,2529.625 1607.625,2529.5625 Q1607.7656,2529.5 1607.9375,2529.5 Q1608.2656,2529.5 1608.5,2529.7656 Q1608.75,2530.0156 1608.75,2530.375 Q1608.75,2530.7188 1608.4063,2531.125 Q1607.9063,2531.7188 1607.1094,2532.0469 Q1606.0625,2532.5 1604.7813,2532.5 Q1603.2813,2532.5 1602.0781,2531.9063 Q1601.1094,2531.4375 1600.4219,2530.4219 Q1599.75,2529.4063 1599.75,2528.2031 L1599.75,2527.1094 Q1599.75,2525.8594 1600.3438,2524.7656 Q1600.9531,2523.6719 1602,2523.0938 Q1603.0625,2522.5 1604.25,2522.5 Q1604.9688,2522.5 1605.5938,2522.75 Q1606.2188,2523 1606.75,2523.5 Z "
+              fill="#000000"/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="50" x="1625.25"
+              y="2531.9102">EndState
+        </text>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="1541" x2="1727" y1="2543" y2="2543"/>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="1541" x2="1727" y1="2551" y2="2551"/>
+        <ellipse cx="1551" cy="2562" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="162" x="1560"
+              y="2566.4189">EndState(Request.Builder builder)
+        </text>
+        <ellipse cx="1551" cy="2575.8359" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="93" x="1560"
+              y="2580.2549">void handle(byte b)
+        </text><!--MD5=[bf4638d74bc39945c3e1383ef8cbae27]
+class model.Request-->
+        <rect codeLine="38" fill="#FEFECE" filter="url(#fmrrzmkyugj4d)" height="186.3594" id="model.Request"
+              style="stroke:#A80036;stroke-width:1.5;" width="277" x="970.5" y="1730"/>
+        <ellipse cx="1081.25" cy="1746" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/>
+        <path d="M1083.25,1742.5 Q1083.4531,1742 1083.6875,1741.75 Q1083.9219,1741.5 1084.1875,1741.5 Q1084.6563,1741.5 1084.9531,1741.7813 Q1085.25,1742.0625 1085.25,1742.7188 L1085.25,1744.2813 Q1085.25,1744.9375 1084.9688,1745.2188 Q1084.6875,1745.5 1084.25,1745.5 Q1083.8594,1745.5 1083.6094,1745.3281 Q1083.3594,1745.1563 1083.25,1744.7031 Q1083.2031,1744.3906 1083.0313,1744.2188 Q1082.7188,1743.8906 1082.1563,1743.7031 Q1081.5938,1743.5 1081.0313,1743.5 Q1080.3281,1743.5 1079.7344,1743.7813 Q1079.1563,1744.0625 1078.7031,1744.6875 Q1078.25,1745.3125 1078.25,1746.1719 L1078.25,1747.0938 Q1078.25,1748.125 1079.0938,1748.8125 Q1079.9375,1749.5 1081.4375,1749.5 Q1082.3281,1749.5 1082.9531,1749.2969 Q1083.3125,1749.1875 1083.7188,1748.8281 Q1083.9844,1748.625 1084.125,1748.5625 Q1084.2656,1748.5 1084.4375,1748.5 Q1084.7656,1748.5 1085,1748.7656 Q1085.25,1749.0156 1085.25,1749.375 Q1085.25,1749.7188 1084.9063,1750.125 Q1084.4063,1750.7188 1083.6094,1751.0469 Q1082.5625,1751.5 1081.2813,1751.5 Q1079.7813,1751.5 1078.5781,1750.9063 Q1077.6094,1750.4375 1076.9219,1749.4219 Q1076.25,1748.4063 1076.25,1747.2031 L1076.25,1746.1094 Q1076.25,1744.8594 1076.8438,1743.7656 Q1077.4531,1742.6719 1078.5,1742.0938 Q1079.5625,1741.5 1080.75,1741.5 Q1081.4688,1741.5 1082.0938,1741.75 Q1082.7188,1742 1083.25,1742.5 Z "
+              fill="#000000"/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="47" x="1101.75"
+              y="1750.9102">Request
+        </text>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="971.5" x2="1246.5" y1="1762" y2="1762"/>
+        <rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="978.5" y="1770"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="63" x="990.5"
+              y="1777.4189">boolean read
+        </text>
+        <rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="978.5" y="1783.8359"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="71" x="990.5"
+              y="1791.2549">String filename
+        </text>
+        <rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="978.5" y="1797.6719"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="57" x="990.5"
+              y="1805.0908">String mode
+        </text>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="971.5" x2="1246.5" y1="1811.5078" y2="1811.5078"/>
+        <ellipse cx="981.5" cy="1822.5078" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="251" x="990.5"
+              y="1826.9268">Request(boolean read, String filename, String mode)
+        </text>
+        <ellipse cx="981.5" cy="1836.3438" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" text-decoration="underline"
+              textLength="172" x="990.5" y="1840.7627">Request fromEncoded(byte[] bytes)
+        </text>
+        <ellipse cx="981.5" cy="1850.1797" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="194" x="990.5"
+              y="1854.5986">byte[] getEncoded(int maxMessageSize)
+        </text>
+        <ellipse cx="981.5" cy="1864.0156" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="82" x="990.5"
+              y="1868.4346">boolean isRead()
+        </text>
+        <ellipse cx="981.5" cy="1877.8516" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="76" x="990.5"
+              y="1882.2705">String toString()
+        </text>
+        <ellipse cx="981.5" cy="1891.6875" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="121" x="990.5"
+              y="1896.1064">boolean equals(Object o)
+        </text>
+        <ellipse cx="981.5" cy="1905.5234" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="71" x="990.5"
+              y="1909.9424">int hashCode()
+        </text><!--MD5=[11c573b7af12c5b54882f86fe4dea6fa]
+class model.Request.Builder-->
+        <rect codeLine="50" fill="#FEFECE" filter="url(#fmrrzmkyugj4d)" height="200.1953" id="model.Request.Builder"
+              style="stroke:#A80036;stroke-width:1.5;" width="185" x="1202.5" y="1452"/>
+        <ellipse cx="1246.3" cy="1468" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/>
+        <path d="M1248.3,1464.5 Q1248.5031,1464 1248.7375,1463.75 Q1248.9719,1463.5 1249.2375,1463.5 Q1249.7063,1463.5 1250.0031,1463.7813 Q1250.3,1464.0625 1250.3,1464.7188 L1250.3,1466.2813 Q1250.3,1466.9375 1250.0188,1467.2188 Q1249.7375,1467.5 1249.3,1467.5 Q1248.9094,1467.5 1248.6594,1467.3281 Q1248.4094,1467.1563 1248.3,1466.7031 Q1248.2531,1466.3906 1248.0813,1466.2188 Q1247.7688,1465.8906 1247.2063,1465.7031 Q1246.6438,1465.5 1246.0813,1465.5 Q1245.3781,1465.5 1244.7844,1465.7813 Q1244.2063,1466.0625 1243.7531,1466.6875 Q1243.3,1467.3125 1243.3,1468.1719 L1243.3,1469.0938 Q1243.3,1470.125 1244.1438,1470.8125 Q1244.9875,1471.5 1246.4875,1471.5 Q1247.3781,1471.5 1248.0031,1471.2969 Q1248.3625,1471.1875 1248.7688,1470.8281 Q1249.0344,1470.625 1249.175,1470.5625 Q1249.3156,1470.5 1249.4875,1470.5 Q1249.8156,1470.5 1250.05,1470.7656 Q1250.3,1471.0156 1250.3,1471.375 Q1250.3,1471.7188 1249.9563,1472.125 Q1249.4563,1472.7188 1248.6594,1473.0469 Q1247.6125,1473.5 1246.3313,1473.5 Q1244.8313,1473.5 1243.6281,1472.9063 Q1242.6594,1472.4375 1241.9719,1471.4219 Q1241.3,1470.4063 1241.3,1469.2031 L1241.3,1468.1094 Q1241.3,1466.8594 1241.8938,1465.7656 Q1242.5031,1464.6719 1243.55,1464.0938 Q1244.6125,1463.5 1245.8,1463.5 Q1246.5188,1463.5 1247.1438,1463.75 Q1247.7688,1464 1248.3,1464.5 Z "
+              fill="#000000"/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="89" x="1266.7"
+              y="1472.9102">Request.Builder
+        </text>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="1203.5" x2="1386.5" y1="1484" y2="1484"/>
+        <rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="1210.5" y="1492"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="63" x="1222.5"
+              y="1499.4189">boolean read
+        </text>
+        <rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="1210.5" y="1505.8359"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="71" x="1222.5"
+              y="1513.2549">String filename
+        </text>
+        <rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="1210.5" y="1519.6719"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="57" x="1222.5"
+              y="1527.0908">String mode
+        </text>
+        <rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="1210.5" y="1533.5078"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="46" x="1222.5"
+              y="1540.9268">State stat
+        </text>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="1203.5" x2="1386.5" y1="1547.3438" y2="1547.3438"/>
+        <ellipse cx="1213.5" cy="1558.3438" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="41" x="1222.5"
+              y="1562.7627">Builder()
+        </text>
+        <ellipse cx="1213.5" cy="1572.1797" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="134" x="1222.5"
+              y="1576.5986">void setRead(boolean read)
+        </text>
+        <ellipse cx="1213.5" cy="1586.0156" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="159" x="1222.5"
+              y="1590.4346">void setFilename(String filename)
+        </text>
+        <ellipse cx="1213.5" cy="1599.8516" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="129" x="1222.5"
+              y="1604.2705">void setMode(String mode)
+        </text>
+        <ellipse cx="1213.5" cy="1613.6875" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="73" x="1222.5"
+              y="1618.1064">Request build()
+        </text>
+        <ellipse cx="1213.5" cy="1627.5234" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="76" x="1222.5"
+              y="1631.9424">State getState()
+        </text>
+        <ellipse cx="1213.5" cy="1641.3594" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="123" x="1222.5"
+              y="1645.7783">void setState(State state)
+        </text><!--MD5=[ac83bc419c6b56a25f2a64a1d675da41]
+class model.Packet-->
+        <rect codeLine="40" fill="#FEFECE" filter="url(#fmrrzmkyugj4d)" height="200.1953" id="model.Packet"
+              style="stroke:#A80036;stroke-width:1.5;" width="264" x="1229" y="1191"/>
+        <ellipse cx="1338.25" cy="1207" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/>
+        <path d="M1340.25,1203.5 Q1340.4531,1203 1340.6875,1202.75 Q1340.9219,1202.5 1341.1875,1202.5 Q1341.6563,1202.5 1341.9531,1202.7813 Q1342.25,1203.0625 1342.25,1203.7188 L1342.25,1205.2813 Q1342.25,1205.9375 1341.9688,1206.2188 Q1341.6875,1206.5 1341.25,1206.5 Q1340.8594,1206.5 1340.6094,1206.3281 Q1340.3594,1206.1563 1340.25,1205.7031 Q1340.2031,1205.3906 1340.0313,1205.2188 Q1339.7188,1204.8906 1339.1563,1204.7031 Q1338.5938,1204.5 1338.0313,1204.5 Q1337.3281,1204.5 1336.7344,1204.7813 Q1336.1563,1205.0625 1335.7031,1205.6875 Q1335.25,1206.3125 1335.25,1207.1719 L1335.25,1208.0938 Q1335.25,1209.125 1336.0938,1209.8125 Q1336.9375,1210.5 1338.4375,1210.5 Q1339.3281,1210.5 1339.9531,1210.2969 Q1340.3125,1210.1875 1340.7188,1209.8281 Q1340.9844,1209.625 1341.125,1209.5625 Q1341.2656,1209.5 1341.4375,1209.5 Q1341.7656,1209.5 1342,1209.7656 Q1342.25,1210.0156 1342.25,1210.375 Q1342.25,1210.7188 1341.9063,1211.125 Q1341.4063,1211.7188 1340.6094,1212.0469 Q1339.5625,1212.5 1338.2813,1212.5 Q1336.7813,1212.5 1335.5781,1211.9063 Q1334.6094,1211.4375 1333.9219,1210.4219 Q1333.25,1209.4063 1333.25,1208.2031 L1333.25,1207.1094 Q1333.25,1205.8594 1333.8438,1204.7656 Q1334.4531,1203.6719 1335.5,1203.0938 Q1336.5625,1202.5 1337.75,1202.5 Q1338.4688,1202.5 1339.0938,1202.75 Q1339.7188,1203 1340.25,1203.5 Z "
+              fill="#000000"/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="37" x="1358.75"
+              y="1211.9102">Packet
+        </text>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="1230" x2="1492" y1="1223" y2="1223"/>
+        <rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="1237" y="1231"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="51" x="1249"
+              y="1238.4189">byte[] data
+        </text>
+        <rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="1237" y="1244.8359"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="102" x="1249"
+              y="1252.2549">InetAddress address
+        </text>
+        <rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="1237" y="1258.6719"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="33" x="1249"
+              y="1266.0908">int port
+        </text>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="1230" x2="1492" y1="1272.5078" y2="1272.5078"/>
+        <ellipse cx="1240" cy="1283.5078" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="238" x="1249"
+              y="1287.9268">Packet(byte[] data, InetAddress address, int port)
+        </text>
+        <ellipse cx="1240" cy="1297.3438" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="198" x="1249"
+              y="1301.7627">Packet(DatagramPacket datagramPacket)
+        </text>
+        <ellipse cx="1240" cy="1311.1797" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="56" x="1249"
+              y="1315.5986">int getPort()
+        </text>
+        <ellipse cx="1240" cy="1325.0156" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="127" x="1249"
+              y="1329.4346">InetAddress getAddress()
+        </text>
+        <ellipse cx="1240" cy="1338.8516" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="75" x="1249"
+              y="1343.2705">byte[] getData()
+        </text>
+        <ellipse cx="1240" cy="1352.6875" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="76" x="1249"
+              y="1357.1064">String toString()
+        </text>
+        <ellipse cx="1240" cy="1366.5234" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="121" x="1249"
+              y="1370.9424">boolean equals(Object o)
+        </text>
+        <ellipse cx="1240" cy="1380.3594" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="71" x="1249"
+              y="1384.7783">int hashCode()
+        </text><!--MD5=[377e5d5fe91810aa30a37bbe1ce49825]
+class model.Response-->
+        <rect codeLine="6" fill="#FEFECE" filter="url(#fmrrzmkyugj4d)" height="144.8516" id="model.Response"
+              style="stroke:#A80036;stroke-width:1.5;" width="147" x="971.5" y="1218.5"/>
+        <ellipse cx="1012.15" cy="1234.5" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/>
+        <path d="M1014.15,1231 Q1014.3531,1230.5 1014.5875,1230.25 Q1014.8219,1230 1015.0875,1230 Q1015.5563,1230 1015.8531,1230.2813 Q1016.15,1230.5625 1016.15,1231.2188 L1016.15,1232.7813 Q1016.15,1233.4375 1015.8688,1233.7188 Q1015.5875,1234 1015.15,1234 Q1014.7594,1234 1014.5094,1233.8281 Q1014.2594,1233.6563 1014.15,1233.2031 Q1014.1031,1232.8906 1013.9313,1232.7188 Q1013.6188,1232.3906 1013.0563,1232.2031 Q1012.4938,1232 1011.9313,1232 Q1011.2281,1232 1010.6344,1232.2813 Q1010.0563,1232.5625 1009.6031,1233.1875 Q1009.15,1233.8125 1009.15,1234.6719 L1009.15,1235.5938 Q1009.15,1236.625 1009.9938,1237.3125 Q1010.8375,1238 1012.3375,1238 Q1013.2281,1238 1013.8531,1237.7969 Q1014.2125,1237.6875 1014.6188,1237.3281 Q1014.8844,1237.125 1015.025,1237.0625 Q1015.1656,1237 1015.3375,1237 Q1015.6656,1237 1015.9,1237.2656 Q1016.15,1237.5156 1016.15,1237.875 Q1016.15,1238.2188 1015.8063,1238.625 Q1015.3063,1239.2188 1014.5094,1239.5469 Q1013.4625,1240 1012.1813,1240 Q1010.6813,1240 1009.4781,1239.4063 Q1008.5094,1238.9375 1007.8219,1237.9219 Q1007.15,1236.9063 1007.15,1235.7031 L1007.15,1234.6094 Q1007.15,1233.3594 1007.7438,1232.2656 Q1008.3531,1231.1719 1009.4,1230.5938 Q1010.4625,1230 1011.65,1230 Q1012.3688,1230 1012.9938,1230.25 Q1013.6188,1230.5 1014.15,1231 Z "
+              fill="#000000"/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="58" x="1031.85"
+              y="1239.4102">Response
+        </text>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="972.5" x2="1117.5" y1="1250.5" y2="1250.5"/>
+        <rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="979.5" y="1258.5"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="63" x="991.5"
+              y="1265.9189">boolean read
+        </text>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="972.5" x2="1117.5" y1="1272.3359" y2="1272.3359"/>
+        <ellipse cx="982.5" cy="1283.3359" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="120" x="991.5"
+              y="1287.7549">Response(boolean read)
+        </text>
+        <ellipse cx="982.5" cy="1297.1719" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="114" x="991.5"
+              y="1301.5908">Response(byte[] bytes)
+        </text>
+        <ellipse cx="982.5" cy="1311.0078" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="95" x="991.5"
+              y="1315.4268">byte[] getEncoded()
+        </text>
+        <ellipse cx="982.5" cy="1324.8438" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="76" x="991.5"
+              y="1329.2627">String toString()
+        </text>
+        <ellipse cx="982.5" cy="1338.6797" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="121" x="991.5"
+              y="1343.0986">boolean equals(Object o)
+        </text>
+        <ellipse cx="982.5" cy="1352.5156" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="71" x="991.5"
+              y="1356.9346">int hashCode()
+        </text><!--MD5=[47d34067e58fbf84983dbb17222562fa]
+class model.BadRequest-->
+        <rect codeLine="15" fill="#FEFECE" filter="url(#fmrrzmkyugj4d)" height="75.6719" id="model.BadRequest"
+              style="stroke:#A80036;stroke-width:1.5;" width="296" x="954" y="2007.5"/>
+        <ellipse cx="1063.25" cy="2023.5" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/>
+        <path d="M1065.25,2020 Q1065.4531,2019.5 1065.6875,2019.25 Q1065.9219,2019 1066.1875,2019 Q1066.6563,2019 1066.9531,2019.2813 Q1067.25,2019.5625 1067.25,2020.2188 L1067.25,2021.7813 Q1067.25,2022.4375 1066.9688,2022.7188 Q1066.6875,2023 1066.25,2023 Q1065.8594,2023 1065.6094,2022.8281 Q1065.3594,2022.6563 1065.25,2022.2031 Q1065.2031,2021.8906 1065.0313,2021.7188 Q1064.7188,2021.3906 1064.1563,2021.2031 Q1063.5938,2021 1063.0313,2021 Q1062.3281,2021 1061.7344,2021.2813 Q1061.1563,2021.5625 1060.7031,2022.1875 Q1060.25,2022.8125 1060.25,2023.6719 L1060.25,2024.5938 Q1060.25,2025.625 1061.0938,2026.3125 Q1061.9375,2027 1063.4375,2027 Q1064.3281,2027 1064.9531,2026.7969 Q1065.3125,2026.6875 1065.7188,2026.3281 Q1065.9844,2026.125 1066.125,2026.0625 Q1066.2656,2026 1066.4375,2026 Q1066.7656,2026 1067,2026.2656 Q1067.25,2026.5156 1067.25,2026.875 Q1067.25,2027.2188 1066.9063,2027.625 Q1066.4063,2028.2188 1065.6094,2028.5469 Q1064.5625,2029 1063.2813,2029 Q1061.7813,2029 1060.5781,2028.4063 Q1059.6094,2027.9375 1058.9219,2026.9219 Q1058.25,2025.9063 1058.25,2024.7031 L1058.25,2023.6094 Q1058.25,2022.3594 1058.8438,2021.2656 Q1059.4531,2020.1719 1060.5,2019.5938 Q1061.5625,2019 1062.75,2019 Q1063.4688,2019 1064.0938,2019.25 Q1064.7188,2019.5 1065.25,2020 Z "
+              fill="#000000"/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="69" x="1083.75"
+              y="2028.4102">BadRequest
+        </text>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="955" x2="1249" y1="2039.5" y2="2039.5"/>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="955" x2="1249" y1="2047.5" y2="2047.5"/>
+        <ellipse cx="965" cy="2058.5" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="270" x="974"
+              y="2062.9189">BadRequest(boolean read, String filename, String mode)
+        </text>
+        <rect fill="#F24D5C" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="962" y="2069.3359"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="194" x="974"
+              y="2076.7549">byte[] getEncoded(int maxMessageSize)
+        </text><!--MD5=[a813df4c85b388216b83cdbb1b1c209c]
+class util.Config-->
+        <rect codeLine="1" fill="#FEFECE" filter="url(#fmrrzmkyugj4d)" height="117.1797" id="util.Config"
+              style="stroke:#A80036;stroke-width:1.5;" width="169" x="604.5" y="1232.5"/>
+        <ellipse cx="666.75" cy="1248.5" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/>
+        <path d="M668.75,1245 Q668.9531,1244.5 669.1875,1244.25 Q669.4219,1244 669.6875,1244 Q670.1563,1244 670.4531,1244.2813 Q670.75,1244.5625 670.75,1245.2188 L670.75,1246.7813 Q670.75,1247.4375 670.4688,1247.7188 Q670.1875,1248 669.75,1248 Q669.3594,1248 669.1094,1247.8281 Q668.8594,1247.6563 668.75,1247.2031 Q668.7031,1246.8906 668.5313,1246.7188 Q668.2188,1246.3906 667.6563,1246.2031 Q667.0938,1246 666.5313,1246 Q665.8281,1246 665.2344,1246.2813 Q664.6563,1246.5625 664.2031,1247.1875 Q663.75,1247.8125 663.75,1248.6719 L663.75,1249.5938 Q663.75,1250.625 664.5938,1251.3125 Q665.4375,1252 666.9375,1252 Q667.8281,1252 668.4531,1251.7969 Q668.8125,1251.6875 669.2188,1251.3281 Q669.4844,1251.125 669.625,1251.0625 Q669.7656,1251 669.9375,1251 Q670.2656,1251 670.5,1251.2656 Q670.75,1251.5156 670.75,1251.875 Q670.75,1252.2188 670.4063,1252.625 Q669.9063,1253.2188 669.1094,1253.5469 Q668.0625,1254 666.7813,1254 Q665.2813,1254 664.0781,1253.4063 Q663.1094,1252.9375 662.4219,1251.9219 Q661.75,1250.9063 661.75,1249.7031 L661.75,1248.6094 Q661.75,1247.3594 662.3438,1246.2656 Q662.9531,1245.1719 664,1244.5938 Q665.0625,1244 666.25,1244 Q666.9688,1244 667.5938,1244.25 Q668.2188,1244.5 668.75,1245 Z "
+              fill="#000000"/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="36" x="687.25"
+              y="1253.4102">Config
+        </text>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="605.5" x2="772.5" y1="1264.5" y2="1264.5"/>
+        <rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="612.5" y="1272.5"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" text-decoration="underline"
+              textLength="130" x="624.5" y="1279.9189">String CONFIG_FILE_NAME
+        </text>
+        <rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="612.5" y="1286.3359"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="101" x="624.5"
+              y="1293.7549">Properties properties
+        </text>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="605.5" x2="772.5" y1="1300.1719" y2="1300.1719"/>
+        <ellipse cx="615.5" cy="1311.1719" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="39" x="624.5"
+              y="1315.5908">Config()
+        </text>
+        <ellipse cx="615.5" cy="1325.0078" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="143" x="624.5"
+              y="1329.4268">String getProperty(String key)
+        </text>
+        <ellipse cx="615.5" cy="1338.8438" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="133" x="624.5"
+              y="1343.2627">int getIntProperty(String key
+        </text><!--MD5=[c709b2901bae0d00d20d8e5d1204bd9a]
+class actor.intermediate.Backend-->
+        <rect codeLine="5" fill="#FEFECE" filter="url(#fmrrzmkyugj4d)" height="158.6875" id="actor.intermediate.Backend"
+              style="stroke:#A80036;stroke-width:1.5;" width="208" x="1267" y="914"/>
+        <ellipse cx="1342.75" cy="930" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/>
+        <path d="M1344.75,926.5 Q1344.9531,926 1345.1875,925.75 Q1345.4219,925.5 1345.6875,925.5 Q1346.1563,925.5 1346.4531,925.7813 Q1346.75,926.0625 1346.75,926.7188 L1346.75,928.2813 Q1346.75,928.9375 1346.4688,929.2188 Q1346.1875,929.5 1345.75,929.5 Q1345.3594,929.5 1345.1094,929.3281 Q1344.8594,929.1563 1344.75,928.7031 Q1344.7031,928.3906 1344.5313,928.2188 Q1344.2188,927.8906 1343.6563,927.7031 Q1343.0938,927.5 1342.5313,927.5 Q1341.8281,927.5 1341.2344,927.7813 Q1340.6563,928.0625 1340.2031,928.6875 Q1339.75,929.3125 1339.75,930.1719 L1339.75,931.0938 Q1339.75,932.125 1340.5938,932.8125 Q1341.4375,933.5 1342.9375,933.5 Q1343.8281,933.5 1344.4531,933.2969 Q1344.8125,933.1875 1345.2188,932.8281 Q1345.4844,932.625 1345.625,932.5625 Q1345.7656,932.5 1345.9375,932.5 Q1346.2656,932.5 1346.5,932.7656 Q1346.75,933.0156 1346.75,933.375 Q1346.75,933.7188 1346.4063,934.125 Q1345.9063,934.7188 1345.1094,935.0469 Q1344.0625,935.5 1342.7813,935.5 Q1341.2813,935.5 1340.0781,934.9063 Q1339.1094,934.4375 1338.4219,933.4219 Q1337.75,932.4063 1337.75,931.2031 L1337.75,930.1094 Q1337.75,928.8594 1338.3438,927.7656 Q1338.9531,926.6719 1340,926.0938 Q1341.0625,925.5 1342.25,925.5 Q1342.9688,925.5 1343.5938,925.75 Q1344.2188,926 1344.75,926.5 Z "
+              fill="#000000"/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="48" x="1363.25"
+              y="934.9102">Backend
+        </text>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="1268" x2="1474" y1="946" y2="946"/>
+        <rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="1275" y="954"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="64" x="1287"
+              y="961.4189">Config config
+        </text>
+        <rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="1275" y="967.8359"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="182" x="1287"
+              y="975.2549">SynchronousQueue&lt;Packet&gt; packets
+        </text>
+        <rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="1275" y="981.6719"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="67" x="1287"
+              y="989.0908">Logger logger
+        </text>
+        <rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="1275" y="995.5078"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="57" x="1287"
+              y="1002.9268">boolean run
+        </text>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="1268" x2="1474" y1="1009.3438" y2="1009.3438"/>
+        <ellipse cx="1278" cy="1020.3438" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="114" x="1287"
+              y="1024.7627">Backend(Config config)
+        </text>
+        <ellipse cx="1278" cy="1034.1797" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="130" x="1287"
+              y="1038.5986">void handle(Packet packet)
+        </text>
+        <ellipse cx="1278" cy="1048.0156" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="80" x="1287"
+              y="1052.4346">void shutdown()
+        </text>
+        <ellipse cx="1278" cy="1061.8516" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="47" x="1287"
+              y="1066.2705">void run()
+        </text><!--MD5=[6ca3a40013fc5d1bb050092725baeed9]
+class actor.intermediate.LoadBalancer-->
+        <rect codeLine="15" fill="#FEFECE" filter="url(#fmrrzmkyugj4d)" height="144.8516"
+              id="actor.intermediate.LoadBalancer" style="stroke:#A80036;stroke-width:1.5;" width="221" x="1381.5"
+              y="691"/>
+        <ellipse cx="1449.25" cy="707" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/>
+        <path d="M1451.25,703.5 Q1451.4531,703 1451.6875,702.75 Q1451.9219,702.5 1452.1875,702.5 Q1452.6563,702.5 1452.9531,702.7813 Q1453.25,703.0625 1453.25,703.7188 L1453.25,705.2813 Q1453.25,705.9375 1452.9688,706.2188 Q1452.6875,706.5 1452.25,706.5 Q1451.8594,706.5 1451.6094,706.3281 Q1451.3594,706.1563 1451.25,705.7031 Q1451.2031,705.3906 1451.0313,705.2188 Q1450.7188,704.8906 1450.1563,704.7031 Q1449.5938,704.5 1449.0313,704.5 Q1448.3281,704.5 1447.7344,704.7813 Q1447.1563,705.0625 1446.7031,705.6875 Q1446.25,706.3125 1446.25,707.1719 L1446.25,708.0938 Q1446.25,709.125 1447.0938,709.8125 Q1447.9375,710.5 1449.4375,710.5 Q1450.3281,710.5 1450.9531,710.2969 Q1451.3125,710.1875 1451.7188,709.8281 Q1451.9844,709.625 1452.125,709.5625 Q1452.2656,709.5 1452.4375,709.5 Q1452.7656,709.5 1453,709.7656 Q1453.25,710.0156 1453.25,710.375 Q1453.25,710.7188 1452.9063,711.125 Q1452.4063,711.7188 1451.6094,712.0469 Q1450.5625,712.5 1449.2813,712.5 Q1447.7813,712.5 1446.5781,711.9063 Q1445.6094,711.4375 1444.9219,710.4219 Q1444.25,709.4063 1444.25,708.2031 L1444.25,707.1094 Q1444.25,705.8594 1444.8438,704.7656 Q1445.4531,703.6719 1446.5,703.0938 Q1447.5625,702.5 1448.75,702.5 Q1449.4688,702.5 1450.0938,702.75 Q1450.7188,703 1451.25,703.5 Z "
+              fill="#000000"/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="77" x="1469.75"
+              y="711.9102">LoadBalancer
+        </text>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="1382.5" x2="1601.5" y1="723" y2="723"/>
+        <rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="1389.5" y="731"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="188" x="1401.5"
+              y="738.4189">LinkedBlockingQueue&lt;Packet&gt; packets
+        </text>
+        <rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="1389.5" y="744.8359"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="136" x="1401.5"
+              y="752.2549">Queue&lt;Backend&gt; backends
+        </text>
+        <rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="1389.5" y="758.6719"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="57" x="1401.5"
+              y="766.0908">boolean run
+        </text>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="1382.5" x2="1601.5" y1="772.5078" y2="772.5078"/>
+        <ellipse cx="1392.5" cy="783.5078" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="195" x="1401.5"
+              y="787.9268">LoadBalancer(Set&lt;Backend&gt; backends)
+        </text>
+        <ellipse cx="1392.5" cy="797.3438" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="116" x="1401.5"
+              y="801.7627">void add(Packet packet)
+        </text>
+        <ellipse cx="1392.5" cy="811.1797" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="80" x="1401.5"
+              y="815.5986">void shutdown()
+        </text>
+        <ellipse cx="1392.5" cy="825.0156" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="47" x="1401.5"
+              y="829.4346">void run()
+        </text><!--MD5=[158b96e62c213eecd68a766e45822f6c]
+class actor.intermediate.Frontend-->
+        <rect codeLine="24" fill="#FEFECE" filter="url(#fmrrzmkyugj4d)" height="172.5234"
+              id="actor.intermediate.Frontend" style="stroke:#A80036;stroke-width:1.5;" width="280" x="1304" y="440"/>
+        <ellipse cx="1415.25" cy="456" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/>
+        <path d="M1417.25,452.5 Q1417.4531,452 1417.6875,451.75 Q1417.9219,451.5 1418.1875,451.5 Q1418.6563,451.5 1418.9531,451.7813 Q1419.25,452.0625 1419.25,452.7188 L1419.25,454.2813 Q1419.25,454.9375 1418.9688,455.2188 Q1418.6875,455.5 1418.25,455.5 Q1417.8594,455.5 1417.6094,455.3281 Q1417.3594,455.1563 1417.25,454.7031 Q1417.2031,454.3906 1417.0313,454.2188 Q1416.7188,453.8906 1416.1563,453.7031 Q1415.5938,453.5 1415.0313,453.5 Q1414.3281,453.5 1413.7344,453.7813 Q1413.1563,454.0625 1412.7031,454.6875 Q1412.25,455.3125 1412.25,456.1719 L1412.25,457.0938 Q1412.25,458.125 1413.0938,458.8125 Q1413.9375,459.5 1415.4375,459.5 Q1416.3281,459.5 1416.9531,459.2969 Q1417.3125,459.1875 1417.7188,458.8281 Q1417.9844,458.625 1418.125,458.5625 Q1418.2656,458.5 1418.4375,458.5 Q1418.7656,458.5 1419,458.7656 Q1419.25,459.0156 1419.25,459.375 Q1419.25,459.7188 1418.9063,460.125 Q1418.4063,460.7188 1417.6094,461.0469 Q1416.5625,461.5 1415.2813,461.5 Q1413.7813,461.5 1412.5781,460.9063 Q1411.6094,460.4375 1410.9219,459.4219 Q1410.25,458.4063 1410.25,457.2031 L1410.25,456.1094 Q1410.25,454.8594 1410.8438,453.7656 Q1411.4531,452.6719 1412.5,452.0938 Q1413.5625,451.5 1414.75,451.5 Q1415.4688,451.5 1416.0938,451.75 Q1416.7188,452 1417.25,452.5 Z "
+              fill="#000000"/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="49" x="1435.75"
+              y="460.9102">Frontend
+        </text>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="1305" x2="1583" y1="472" y2="472"/>
+        <rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="1312" y="480"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="64" x="1324"
+              y="487.4189">Config config
+        </text>
+        <rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="1312" y="493.8359"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="67" x="1324"
+              y="501.2549">Logger logger
+        </text>
+        <rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="1312" y="507.6719"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="133" x="1324"
+              y="515.0908">LoadBalancer loadBalancer
+        </text>
+        <rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="1312" y="521.5078"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="33" x="1324"
+              y="528.9268">int port
+        </text>
+        <rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="1312" y="535.3438"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="57" x="1324"
+              y="542.7627">boolean run
+        </text>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="1305" x2="1583" y1="549.1797" y2="549.1797"/>
+        <ellipse cx="1315" cy="560.1797" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="254" x="1324"
+              y="564.5986">Frontend(Config config, LoadBalancer loadBalancer)
+        </text>
+        <ellipse cx="1315" cy="574.0156" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="80" x="1324"
+              y="578.4346">void shutdown()
+        </text>
+        <ellipse cx="1315" cy="587.8516" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="56" x="1324"
+              y="592.2705">int getPort()
+        </text>
+        <ellipse cx="1315" cy="601.6875" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="47" x="1324"
+              y="606.1064">void run()
+        </text><!--MD5=[52069bcbeea4e4a3c9de668c3c33a83b]
+class actor.intermediate.Main-->
+        <rect codeLine="35" fill="#FEFECE" filter="url(#fmrrzmkyugj4d)" height="75.6719" id="actor.intermediate.Main"
+              style="stroke:#A80036;stroke-width:1.5;" width="160" x="1278" y="226.5"/>
+        <ellipse cx="1340.75" cy="242.5" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/>
+        <path d="M1342.75,239 Q1342.9531,238.5 1343.1875,238.25 Q1343.4219,238 1343.6875,238 Q1344.1563,238 1344.4531,238.2813 Q1344.75,238.5625 1344.75,239.2188 L1344.75,240.7813 Q1344.75,241.4375 1344.4688,241.7188 Q1344.1875,242 1343.75,242 Q1343.3594,242 1343.1094,241.8281 Q1342.8594,241.6563 1342.75,241.2031 Q1342.7031,240.8906 1342.5313,240.7188 Q1342.2188,240.3906 1341.6563,240.2031 Q1341.0938,240 1340.5313,240 Q1339.8281,240 1339.2344,240.2813 Q1338.6563,240.5625 1338.2031,241.1875 Q1337.75,241.8125 1337.75,242.6719 L1337.75,243.5938 Q1337.75,244.625 1338.5938,245.3125 Q1339.4375,246 1340.9375,246 Q1341.8281,246 1342.4531,245.7969 Q1342.8125,245.6875 1343.2188,245.3281 Q1343.4844,245.125 1343.625,245.0625 Q1343.7656,245 1343.9375,245 Q1344.2656,245 1344.5,245.2656 Q1344.75,245.5156 1344.75,245.875 Q1344.75,246.2188 1344.4063,246.625 Q1343.9063,247.2188 1343.1094,247.5469 Q1342.0625,248 1340.7813,248 Q1339.2813,248 1338.0781,247.4063 Q1337.1094,246.9375 1336.4219,245.9219 Q1335.75,244.9063 1335.75,243.7031 L1335.75,242.6094 Q1335.75,241.3594 1336.3438,240.2656 Q1336.9531,239.1719 1338,238.5938 Q1339.0625,238 1340.25,238 Q1340.9688,238 1341.5938,238.25 Q1342.2188,238.5 1342.75,239 Z "
+              fill="#000000"/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="26" x="1361.25"
+              y="247.4102">Main
+        </text>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="1279" x2="1437" y1="258.5" y2="258.5"/>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="1279" x2="1437" y1="266.5" y2="266.5"/>
+        <ellipse cx="1289" cy="277.5" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" text-decoration="underline"
+              textLength="134" x="1298" y="281.9189">Frontend run(Config config)
+        </text>
+        <ellipse cx="1289" cy="291.3359" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" text-decoration="underline"
+              textLength="112" x="1298" y="295.7549">void main(String[] args)
+        </text><!--MD5=[e5ca9bdc03ec2e514bd7e850f175b0ff]
+class actor.Client-->
+        <rect codeLine="20" fill="#FEFECE" filter="url(#fmrrzmkyugj4d)" height="158.6875" id="actor.Client"
+              style="stroke:#A80036;stroke-width:1.5;" width="260" x="236" y="185"/>
+        <ellipse cx="345.75" cy="201" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/>
+        <path d="M347.75,197.5 Q347.9531,197 348.1875,196.75 Q348.4219,196.5 348.6875,196.5 Q349.1563,196.5 349.4531,196.7813 Q349.75,197.0625 349.75,197.7188 L349.75,199.2813 Q349.75,199.9375 349.4688,200.2188 Q349.1875,200.5 348.75,200.5 Q348.3594,200.5 348.1094,200.3281 Q347.8594,200.1563 347.75,199.7031 Q347.7031,199.3906 347.5313,199.2188 Q347.2188,198.8906 346.6563,198.7031 Q346.0938,198.5 345.5313,198.5 Q344.8281,198.5 344.2344,198.7813 Q343.6563,199.0625 343.2031,199.6875 Q342.75,200.3125 342.75,201.1719 L342.75,202.0938 Q342.75,203.125 343.5938,203.8125 Q344.4375,204.5 345.9375,204.5 Q346.8281,204.5 347.4531,204.2969 Q347.8125,204.1875 348.2188,203.8281 Q348.4844,203.625 348.625,203.5625 Q348.7656,203.5 348.9375,203.5 Q349.2656,203.5 349.5,203.7656 Q349.75,204.0156 349.75,204.375 Q349.75,204.7188 349.4063,205.125 Q348.9063,205.7188 348.1094,206.0469 Q347.0625,206.5 345.7813,206.5 Q344.2813,206.5 343.0781,205.9063 Q342.1094,205.4375 341.4219,204.4219 Q340.75,203.4063 340.75,202.2031 L340.75,201.1094 Q340.75,199.8594 341.3438,198.7656 Q341.9531,197.6719 343,197.0938 Q344.0625,196.5 345.25,196.5 Q345.9688,196.5 346.5938,196.75 Q347.2188,197 347.75,197.5 Z "
+              fill="#000000"/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="32" x="366.25"
+              y="205.9102">Client
+        </text>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="237" x2="495" y1="217" y2="217"/>
+        <rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="244" y="225"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="64" x="256"
+              y="232.4189">Config config
+        </text>
+        <rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="244" y="238.8359"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="67" x="256"
+              y="246.2549">Logger logger
+        </text>
+        <rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="244" y="252.6719"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="130" x="256"
+              y="260.0908">Queue&lt;Request&gt; requests
+        </text>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="237" x2="495" y1="266.5078" y2="266.5078"/>
+        <ellipse cx="247" cy="277.5078" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="234" x="256"
+              y="281.9268">Client(Config config, Queue&lt;Request&gt; requests)
+        </text>
+        <ellipse cx="247" cy="291.3438" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="98" x="256"
+              y="295.7627">Client(Config config)
+        </text>
+        <ellipse cx="247" cy="305.1797" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" text-decoration="underline"
+              textLength="190" x="256" y="309.5986">Queue&lt;Request&gt; getDefaultRequests()
+        </text>
+        <ellipse cx="247" cy="319.0156" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" text-decoration="underline"
+              textLength="112" x="256" y="323.4346">void main(String[] args)
+        </text>
+        <ellipse cx="247" cy="332.8516" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="47" x="256"
+              y="337.2705">void run()
+        </text><!--MD5=[86969326bc20c038e889ce38f5cd24ca]
+class actor.Server-->
+        <rect codeLine="30" fill="#FEFECE" filter="url(#fmrrzmkyugj4d)" height="117.1797" id="actor.Server"
+              style="stroke:#A80036;stroke-width:1.5;" width="138" x="531" y="206"/>
+        <ellipse cx="578.25" cy="222" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/>
+        <path d="M580.25,218.5 Q580.4531,218 580.6875,217.75 Q580.9219,217.5 581.1875,217.5 Q581.6563,217.5 581.9531,217.7813 Q582.25,218.0625 582.25,218.7188 L582.25,220.2813 Q582.25,220.9375 581.9688,221.2188 Q581.6875,221.5 581.25,221.5 Q580.8594,221.5 580.6094,221.3281 Q580.3594,221.1563 580.25,220.7031 Q580.2031,220.3906 580.0313,220.2188 Q579.7188,219.8906 579.1563,219.7031 Q578.5938,219.5 578.0313,219.5 Q577.3281,219.5 576.7344,219.7813 Q576.1563,220.0625 575.7031,220.6875 Q575.25,221.3125 575.25,222.1719 L575.25,223.0938 Q575.25,224.125 576.0938,224.8125 Q576.9375,225.5 578.4375,225.5 Q579.3281,225.5 579.9531,225.2969 Q580.3125,225.1875 580.7188,224.8281 Q580.9844,224.625 581.125,224.5625 Q581.2656,224.5 581.4375,224.5 Q581.7656,224.5 582,224.7656 Q582.25,225.0156 582.25,225.375 Q582.25,225.7188 581.9063,226.125 Q581.4063,226.7188 580.6094,227.0469 Q579.5625,227.5 578.2813,227.5 Q576.7813,227.5 575.5781,226.9063 Q574.6094,226.4375 573.9219,225.4219 Q573.25,224.4063 573.25,223.2031 L573.25,222.1094 Q573.25,220.8594 573.8438,219.7656 Q574.4531,218.6719 575.5,218.0938 Q576.5625,217.5 577.75,217.5 Q578.4688,217.5 579.0938,217.75 Q579.7188,218 580.25,218.5 Z "
+              fill="#000000"/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="35" x="598.75"
+              y="226.9102">Server
+        </text>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="532" x2="668" y1="238" y2="238"/>
+        <rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="539" y="246"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="64" x="551"
+              y="253.4189">Config config
+        </text>
+        <rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="539" y="259.8359"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="67" x="551"
+              y="267.2549">Logger logger
+        </text>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="532" x2="668" y1="273.6719" y2="273.6719"/>
+        <ellipse cx="542" cy="284.6719" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="105" x="551"
+              y="289.0908">Server(Config config)
+        </text>
+        <ellipse cx="542" cy="298.5078" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" text-decoration="underline"
+              textLength="112" x="551" y="302.9268">void main(String[] args)
+        </text>
+        <ellipse cx="542" cy="312.3438" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="47" x="551"
+              y="316.7627">void run()
+        </text><!--MD5=[84718776d214be480e4c259efcb737fc]
+class Main-->
+        <rect codeLine="38" fill="#FEFECE" filter="url(#fmrrzmkyugj4d)" height="61.8359" id="Main"
+              style="stroke:#A80036;stroke-width:1.5;" width="138" x="652" y="7"/>
+        <ellipse cx="703.75" cy="23" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/>
+        <path d="M705.75,19.5 Q705.9531,19 706.1875,18.75 Q706.4219,18.5 706.6875,18.5 Q707.1563,18.5 707.4531,18.7813 Q707.75,19.0625 707.75,19.7188 L707.75,21.2813 Q707.75,21.9375 707.4688,22.2188 Q707.1875,22.5 706.75,22.5 Q706.3594,22.5 706.1094,22.3281 Q705.8594,22.1563 705.75,21.7031 Q705.7031,21.3906 705.5313,21.2188 Q705.2188,20.8906 704.6563,20.7031 Q704.0938,20.5 703.5313,20.5 Q702.8281,20.5 702.2344,20.7813 Q701.6563,21.0625 701.2031,21.6875 Q700.75,22.3125 700.75,23.1719 L700.75,24.0938 Q700.75,25.125 701.5938,25.8125 Q702.4375,26.5 703.9375,26.5 Q704.8281,26.5 705.4531,26.2969 Q705.8125,26.1875 706.2188,25.8281 Q706.4844,25.625 706.625,25.5625 Q706.7656,25.5 706.9375,25.5 Q707.2656,25.5 707.5,25.7656 Q707.75,26.0156 707.75,26.375 Q707.75,26.7188 707.4063,27.125 Q706.9063,27.7188 706.1094,28.0469 Q705.0625,28.5 703.7813,28.5 Q702.2813,28.5 701.0781,27.9063 Q700.1094,27.4375 699.4219,26.4219 Q698.75,25.4063 698.75,24.2031 L698.75,23.1094 Q698.75,21.8594 699.3438,20.7656 Q699.9531,19.6719 701,19.0938 Q702.0625,18.5 703.25,18.5 Q703.9688,18.5 704.5938,18.75 Q705.2188,19 705.75,19.5 Z "
+              fill="#000000"/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="26" x="724.25"
+              y="27.9102">Main
+        </text>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="653" x2="789" y1="39" y2="39"/>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="653" x2="789" y1="47" y2="47"/>
+        <ellipse cx="663" cy="58" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" text-decoration="underline"
+              textLength="112" x="672" y="62.4189">void main(String[] args)
+        </text><!--MD5=[982c1ea44aef17b788a6a1fe24ff5d26]
+reverse link model.State to model.StringState-->
+        <path d="M1613,1356.37 C1613,1503.39 1613,1861.34 1613,1993.97 " fill="none"
+              id="model.State-backto-model.StringState" style="stroke:#A80036;stroke-width:1.0;"/>
+        <polygon fill="none" points="1606,1356.26,1613,1336.26,1620,1356.26,1606,1356.26"
+                 style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[3bdc2157b610a7c47cb1b0318105792e]
+reverse link model.State to model.InitialState-->
+        <path d="M1573.5,1353.28 C1560.73,1374.32 1547.03,1398.3 1536,1421 C1473,1550.62 1417.36,1713.05 1393.87,1784.9 "
+              fill="none" id="model.State-backto-model.InitialState" style="stroke:#A80036;stroke-width:1.0;"/>
+        <polygon fill="none" points="1567.69,1349.36,1584.16,1336.03,1579.6,1356.72,1567.69,1349.36"
+                 style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[aa4c5e89d20af985ee667eb6a6a9c808]
+reverse link model.State to model.TypeState-->
+        <path d="M1605.37,1356.24 C1588.21,1494.87 1544.26,1817.48 1496,1916 C1478.88,1950.95 1449.59,1983.66 1424.99,2007.33 "
+              fill="none" id="model.State-backto-model.TypeState" style="stroke:#A80036;stroke-width:1.0;"/>
+        <polygon fill="none" points="1598.47,1355.02,1607.85,1336.02,1612.37,1356.72,1598.47,1355.02"
+                 style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[a4cef68c3d61425d9eb5b150c93596af]
+reverse link model.StringState to model.FilenameState-->
+        <path d="M1558.4,2112.83 C1541.26,2133.65 1522.78,2156.1 1507.25,2174.97 " fill="none"
+              id="model.StringState-backto-model.FilenameState" style="stroke:#A80036;stroke-width:1.0;"/>
+        <polygon fill="none" points="1553.05,2108.32,1571.16,2097.32,1563.86,2117.21,1553.05,2108.32"
+                 style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[65ff1417afff23e5d119421445d48b91]
+reverse link model.StringState to model.ModeState-->
+        <path d="M1613,2117.5 C1613,2185.43 1613,2285.75 1613,2342.89 " fill="none"
+              id="model.StringState-backto-model.ModeState" style="stroke:#A80036;stroke-width:1.0;"/>
+        <polygon fill="none" points="1606,2117.11,1613,2097.11,1620,2117.11,1606,2117.11"
+                 style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[0ecb1233802ed338c902a1921120b8d2]
+reverse link model.State to model.EndState-->
+        <path d="M1665.32,1351.99 C1703.28,1401.78 1748,1476.29 1748,1551 C1748,1551 1748,1551 1748,2389 C1748,2437.57 1712.43,2481.49 1681.03,2510.8 "
+              fill="none" id="model.State-backto-model.EndState" style="stroke:#A80036;stroke-width:1.0;"/>
+        <polygon fill="none" points="1659.66,1356.13,1652.77,1336.09,1670.66,1347.46,1659.66,1356.13"
+                 style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[99f4661470cab2af401053165ff58bfb]
+reverse link model.Request to model.Request.Builder-->
+        <path codeLine="64" d="M1181.35,1717.37 C1196.21,1695.87 1211.81,1673.31 1226.53,1652.02 " fill="none"
+              id="model.Request-backto-model.Request.Builder" style="stroke:#A80036;stroke-width:1.0;"/>
+        <ellipse cx="1177.2413" cy="1723.3008" fill="#FFFFFF" rx="8" ry="8" style="stroke:#A80036;stroke-width:1.0;"/>
+        <line style="stroke:#A80036;stroke-width:1.0;" x1="1181.7926" x2="1172.69" y1="1716.7216" y2="1729.88"/>
+        <line style="stroke:#A80036;stroke-width:1.0;" x1="1183.8205" x2="1170.6621" y1="1727.8521" y2="1718.7495"/><!--MD5=[e8e65f3b569f7df78b564d42dbab01d0]
+link model.Request.Builder to model.Request-->
+        <path codeLine="70"
+              d="M1202.3,1610.43 C1177.25,1630.2 1152.54,1654.41 1136,1682 C1128.23,1694.97 1122.63,1709.73 1118.6,1724.67 "
+              fill="none" id="model.Request.Builder-to-model.Request"
+              style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/>
+        <polygon fill="#A80036"
+                 points="1117.3,1729.75,1123.4117,1722.0268,1118.5429,1724.9069,1115.6628,1720.0382,1117.3,1729.75"
+                 style="stroke:#A80036;stroke-width:1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="50" x="1137"
+              y="1696.4951">«create»
+        </text><!--MD5=[7cac7e5cfdcd69d4a4d36767619fbc30]
+link model.Request to model.Request.Builder-->
+        <path codeLine="71"
+              d="M1186.13,1729.84 C1193.72,1719.92 1201.14,1709.85 1208,1700 C1217.52,1686.32 1227.05,1671.57 1236.13,1656.87 "
+              fill="none" id="model.Request-to-model.Request.Builder"
+              style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/>
+        <polygon fill="#A80036"
+                 points="1238.93,1652.31,1230.8065,1657.8785,1236.3095,1656.5683,1237.6198,1662.0713,1238.93,1652.31"
+                 style="stroke:#A80036;stroke-width:1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="50" x="1219"
+              y="1696.4951">«create»
+        </text><!--MD5=[701124aa0ff03c3d572da5e0295ed073]
+reverse link model.Request.Builder to model.State-->
+        <path codeLine="67"
+              d="M1397.96,1470.28 C1419.06,1452.87 1441.62,1435.39 1464,1421 C1490.76,1403.79 1502.77,1409 1529,1391 C1551.59,1375.5 1573.76,1354.83 1590.17,1336.39 "
+              fill="none" id="model.Request.Builder-backto-model.State" style="stroke:#A80036;stroke-width:1.0;"/>
+        <polygon fill="#A80036"
+                 points="1387.72,1478.81,1394.8904,1478.0448,1396.9419,1471.1317,1389.7715,1471.8969,1387.72,1478.81"
+                 style="stroke:#A80036;stroke-width:1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="1395.3875"
+              y="1469.8415">1
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="1579.6319"
+              y="1357.1161">1
+        </text><!--MD5=[d3c9febbc45bc462bf31018a6117b259]
+reverse link model.State to model.Request.Builder-->
+        <path codeLine="68"
+              d="M1548.55,1345.4 C1531.64,1361.32 1512.97,1377.99 1494,1391 C1467.77,1409 1455.76,1403.79 1429,1421 C1414.6,1430.26 1400.12,1440.8 1386.26,1451.78 "
+              fill="none" id="model.State-backto-model.Request.Builder" style="stroke:#A80036;stroke-width:1.0;"/>
+        <polygon fill="#A80036"
+                 points="1558.28,1336.14,1551.1759,1337.3779,1549.5863,1344.4116,1556.6903,1343.1737,1558.28,1336.14"
+                 style="stroke:#A80036;stroke-width:1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="1543.0928"
+              y="1357.1673">1
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="1385.9791"
+              y="1440.9955">1
+        </text><!--MD5=[9bb8b7e0e4e0f7b699efbef501130457]
+link model.Request.Builder to model.InitialState-->
+        <path codeLine="73" d="M1327.02,1652.02 C1341.29,1696.14 1357.34,1745.75 1368.39,1779.93 " fill="none"
+              id="model.Request.Builder-to-model.InitialState"
+              style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/>
+        <polygon fill="#A80036"
+                 points="1369.99,1784.86,1371.0183,1775.065,1368.4475,1780.1039,1363.4086,1777.533,1369.99,1784.86"
+                 style="stroke:#A80036;stroke-width:1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="50" x="1342"
+              y="1696.4951">«create»
+        </text><!--MD5=[ab54adff33485c450c5f9ba9d8c5e509]
+link model.InitialState to model.TypeState-->
+        <path codeLine="74" d="M1382,1861.4 C1382,1900.33 1382,1961.17 1382,2001.92 " fill="none"
+              id="model.InitialState-to-model.TypeState"
+              style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/>
+        <polygon fill="#A80036" points="1382,2007.28,1386,1998.28,1382,2002.28,1378,1998.28,1382,2007.28"
+                 style="stroke:#A80036;stroke-width:1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="50" x="1383"
+              y="1960.4951">«create»
+        </text><!--MD5=[a73aacdbd28eaa1d02e411dc3385037a]
+link model.TypeState to model.FilenameState-->
+        <path codeLine="75" d="M1401.09,2083.51 C1414.13,2108.77 1431.54,2142.52 1445.73,2170.01 " fill="none"
+              id="model.TypeState-to-model.FilenameState"
+              style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/>
+        <polygon fill="#A80036"
+                 points="1448.15,2174.72,1447.5646,2164.8886,1445.8513,2170.2797,1440.4602,2168.5664,1448.15,2174.72"
+                 style="stroke:#A80036;stroke-width:1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="50" x="1432"
+              y="2141.4951">«create»
+        </text><!--MD5=[a1271fe150f3a6cd11263aa8c61e15c5]
+link model.FilenameState to model.ModeState-->
+        <path codeLine="76" d="M1508.68,2265.05 C1528.1,2287.75 1551.82,2315.48 1571.73,2338.75 " fill="none"
+              id="model.FilenameState-to-model.ModeState"
+              style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/>
+        <polygon fill="#A80036"
+                 points="1575.14,2342.75,1572.3404,2333.3074,1571.8943,2338.9467,1566.2551,2338.5006,1575.14,2342.75"
+                 style="stroke:#A80036;stroke-width:1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="50" x="1547"
+              y="2309.4951">«create»
+        </text><!--MD5=[c7d1eaa1be6815ca8a3fdf6f08c6efba]
+link model.ModeState to model.EndState-->
+        <path codeLine="77" d="M1618.85,2433.29 C1621.85,2456.01 1625.49,2483.55 1628.45,2505.94 " fill="none"
+              id="model.ModeState-to-model.EndState" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/>
+        <polygon fill="#A80036"
+                 points="1629.1,2510.93,1631.9093,2501.4903,1628.457,2505.9715,1623.9758,2502.5192,1629.1,2510.93"
+                 style="stroke:#A80036;stroke-width:1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="50" x="1625"
+              y="2477.4951">«create»
+        </text><!--MD5=[a33c7f85426c28ff4365f0118c2ee2d7]
+link actor.intermediate.Main to actor.intermediate.Backend-->
+        <path codeLine="54"
+              d="M1337.94,302.65 C1320.55,337.12 1296.7,390.41 1287,440 C1254.65,605.36 1304.85,800.63 1340.48,909.13 "
+              fill="none" id="actor.intermediate.Main-to-actor.intermediate.Backend"
+              style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/>
+        <polygon fill="#A80036"
+                 points="1342.06,913.91,1343.0352,904.1095,1340.4917,909.1623,1335.4389,906.6188,1342.06,913.91"
+                 style="stroke:#A80036;stroke-width:1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="50" x="1283"
+              y="657.4951">«create»
+        </text><!--MD5=[7ce481ee4dc66edb42395d35b27c1520]
+link actor.intermediate.Main to actor.intermediate.LoadBalancer-->
+        <path codeLine="55"
+              d="M1438.15,298.47 C1495.29,326.76 1567.82,373.54 1602,440 C1637.16,508.38 1625.98,539.95 1602,613 C1593.39,639.23 1578.22,664.64 1561.86,686.85 "
+              fill="none" id="actor.intermediate.Main-to-actor.intermediate.LoadBalancer"
+              style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/>
+        <polygon fill="#A80036"
+                 points="1558.79,690.96,1567.379,686.1403,1561.7808,686.9531,1560.968,681.355,1558.79,690.96"
+                 style="stroke:#A80036;stroke-width:1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="50" x="1625"
+              y="531.9951">«create»
+        </text><!--MD5=[7d3a21c326136c768e35809a613dc5e9]
+link actor.intermediate.Main to actor.intermediate.Frontend-->
+        <path codeLine="56" d="M1370.32,302.75 C1381.7,337.16 1399.07,389.67 1414.08,435.06 " fill="none"
+              id="actor.intermediate.Main-to-actor.intermediate.Frontend"
+              style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/>
+        <polygon fill="#A80036"
+                 points="1415.72,439.99,1416.6952,430.1895,1414.1517,435.2423,1409.0989,432.6988,1415.72,439.99"
+                 style="stroke:#A80036;stroke-width:1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="50" x="1404"
+              y="406.4951">«create»
+        </text><!--MD5=[bdc720f39dd191d500b00de621c3b7b5]
+link actor.intermediate.Main to util.Config-->
+        <path codeLine="59"
+              d="M1335.67,302.54 C1320.01,327.01 1297.71,359.04 1274,384 C1122.32,543.69 1000,503.17 885,691 C779,864.13 876.23,952.52 796,1139 C782.44,1170.52 761.57,1202.02 741.86,1228.03 "
+              fill="none" id="actor.intermediate.Main-to-util.Config"
+              style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/>
+        <polygon fill="#A80036"
+                 points="738.7,1232.15,747.3382,1227.419,741.7319,1228.1742,740.9768,1222.5679,738.7,1232.15"
+                 style="stroke:#A80036;stroke-width:1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="107" x="886"
+              y="768.9951">«create» (optional)
+        </text><!--MD5=[2fed928c7cac7eabb67d106de165667e]
+link actor.intermediate.Frontend to model.Packet-->
+        <path codeLine="60"
+              d="M1563.89,613.23 C1586.68,635.73 1607.33,661.94 1620,691 C1645.75,750.08 1630.18,772.37 1620,836 C1597.41,977.17 1602.14,1028.04 1512,1139 C1498.96,1155.05 1484.44,1171.27 1469.69,1186.83 "
+              fill="none" id="actor.intermediate.Frontend-to-model.Packet"
+              style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/>
+        <polygon fill="#A80036"
+                 points="1465.94,1190.77,1475.0364,1186.9944,1469.3815,1187.1429,1469.233,1181.488,1465.94,1190.77"
+                 style="stroke:#A80036;stroke-width:1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="50" x="1616"
+              y="880.4951">«create»
+        </text><!--MD5=[e1e617bbfbb923c764b8caaf27adaf93]
+reverse link actor.intermediate.Backend to util.Config-->
+        <path codeLine="62"
+              d="M1289.23,1081.8 C1273.97,1094.01 1257.33,1105.07 1240,1113 C1154.07,1152.3 1122.97,1129.08 1029,1139 C988.62,1143.26 976.73,1134.83 938,1147 C877.36,1166.06 815.36,1201.6 768.4,1232.48 "
+              fill="none" id="actor.intermediate.Backend-backto-util.Config" style="stroke:#A80036;stroke-width:1.0;"/>
+        <polygon fill="#A80036"
+                 points="1299.57,1073.19,1292.3996,1073.9552,1290.3481,1080.8683,1297.5185,1080.1031,1299.57,1073.19"
+                 style="stroke:#A80036;stroke-width:1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="1286.1307"
+              y="1094.2495">1
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="779.0216"
+              y="1221.4633">1
+        </text><!--MD5=[8858c7cc1cfa15908f9adbff1a2dab02]
+reverse link actor.intermediate.Frontend to util.Config-->
+        <path codeLine="63"
+              d="M1303.18,622.57 C1297.01,629.12 1291.23,635.93 1286,643 C1232,716 1269.13,760.29 1219,836 C1108.17,1003.39 1037.92,1010.12 884,1139 C846.08,1170.75 802.69,1204.59 766.47,1232.17 "
+              fill="none" id="actor.intermediate.Frontend-backto-util.Config" style="stroke:#A80036;stroke-width:1.0;"/>
+        <polygon fill="#A80036"
+                 points="1312.49,613.17,1305.4267,614.6227,1304.051,621.7013,1311.1143,620.2487,1312.49,613.17"
+                 style="stroke:#A80036;stroke-width:1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="1295.1533"
+              y="633.945">1
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="768.4851"
+              y="1221.5307">1
+        </text><!--MD5=[2ad3aa4b8f3800ef889f96cfa30d7887]
+reverse link actor.intermediate.Frontend to actor.intermediate.LoadBalancer-->
+        <path codeLine="65" d="M1464.07,625.75 C1468.54,647.63 1473.19,670.41 1477.39,690.97 " fill="none"
+              id="actor.intermediate.Frontend-backto-actor.intermediate.LoadBalancer"
+              style="stroke:#A80036;stroke-width:1.0;"/>
+        <polygon fill="#A80036"
+                 points="1461.46,613.01,1458.7417,619.6891,1463.8616,624.7672,1466.5799,618.0881,1461.46,613.01"
+                 style="stroke:#A80036;stroke-width:1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="1455.5724"
+              y="634.0694">1
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="1468.5224"
+              y="680.1862">1
+        </text><!--MD5=[6b7753239ff497e132d4e5aa5d33fb65]
+reverse link actor.intermediate.LoadBalancer to actor.intermediate.Backend-->
+        <path codeLine="66" d="M1447.8,847.79 C1436.37,869.32 1424.11,892.42 1412.81,913.71 " fill="none"
+              id="actor.intermediate.LoadBalancer-backto-actor.intermediate.Backend"
+              style="stroke:#A80036;stroke-width:1.0;"/>
+        <polygon fill="#A80036"
+                 points="1454.05,836.02,1447.7063,839.449,1448.4317,846.6235,1454.7754,843.1945,1454.05,836.02"
+                 style="stroke:#A80036;stroke-width:1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="1442.9698"
+              y="857.4659">1
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="5" x="1411.4339"
+              y="903.1426">*
+        </text><!--MD5=[13ce733014564d8b878731c3d565f89c]
+reverse link actor.intermediate.LoadBalancer to model.Packet-->
+        <path codeLine="68"
+              d="M1506.96,849.07 C1516.28,921.15 1521.7,1026.5 1493,1113 C1483.95,1140.29 1468.87,1166.78 1452.07,1190.6 "
+              fill="none" id="actor.intermediate.LoadBalancer-backto-model.Packet"
+              style="stroke:#A80036;stroke-width:1.0;"/>
+        <polygon fill="#A80036"
+                 points="1505.18,836.01,1502.0283,842.4959,1506.8031,847.8997,1509.9548,841.4138,1505.18,836.01"
+                 style="stroke:#A80036;stroke-width:1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="1499.1329"
+              y="857.4549">1
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="5" x="1453.5744"
+              y="1180.1402">*
+        </text><!--MD5=[790a692c61e6fb01c7d2046a93f3fe75]
+reverse link actor.intermediate.Backend to model.Packet-->
+        <path codeLine="69" d="M1367.88,1086.7 C1366.76,1119.75 1365.5,1157.15 1364.36,1190.78 " fill="none"
+              id="actor.intermediate.Backend-backto-model.Packet" style="stroke:#A80036;stroke-width:1.0;"/>
+        <polygon fill="#A80036"
+                 points="1368.33,1073.3,1364.1278,1079.1602,1367.921,1085.293,1372.1232,1079.4328,1368.33,1073.3"
+                 style="stroke:#A80036;stroke-width:1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="1360.819"
+              y="1094.0936">1
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="5" x="1359.4258"
+              y="1179.9955">*
+        </text><!--MD5=[6a2413a739cf72e11fd384a063aa4c53]
+reverse link model.Request to model.BadRequest-->
+        <path d="M1105.44,1936.27 C1104.62,1961.93 1103.81,1987.45 1103.18,2007.25 " fill="none"
+              id="model.Request-backto-model.BadRequest" style="stroke:#A80036;stroke-width:1.0;"/>
+        <polygon fill="none" points="1098.44,1936,1106.07,1916.23,1112.43,1936.45,1098.44,1936"
+                 style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[bb10f29fff63924ac6cc55dcd883a2f8]
+reverse link actor to actor.intermediate-->
+        <path d="M203.1171,140.2915 C203.4991,139.2278 203.8958,138.1723 204.3077,137.1258 C210.8969,120.3819 221.36,105.945 237.5,97 C321.08,50.68 572.9,83.51 667.5,97 C796.27,115.36 936.4975,155.725 1046.2925,192.2287 C1101.19,210.4806 1148.4794,227.7672 1182.9244,240.8552 C1200.1469,247.3991 1214.1583,252.8935 1224.3041,256.934 C1226.8405,257.9441 1229.1354,258.8634 1231.1784,259.6855 C1232.1999,260.0965 1233.1584,260.4833 1234.0527,260.845 C1234.2763,260.9354 1234.4959,261.0242 1234.7114,261.1115 "
+              fill="none" id="actor-backto-actor.intermediate" style="stroke:#A80036;stroke-width:1.0;"/>
+        <ellipse cx="205.821" cy="132.7623" fill="#FFFFFF" rx="8" ry="8" style="stroke:#A80036;stroke-width:1.0;"/>
+        <line style="stroke:#A80036;stroke-width:1.0;" x1="208.5248" x2="203.1171" y1="125.2331" y2="140.2915"/>
+        <line style="stroke:#A80036;stroke-width:1.0;" x1="213.3502" x2="198.2917" y1="135.4661" y2="130.0585"/><!--MD5=[d36226a501f2ce9c864ff2dbb1ae5664]
+reverse link actor.Client to model.Request-->
+        <path codeLine="43"
+              d="M273.72,354.32 C235.1,400.97 199,461.65 199,525.5 C199,525.5 199,525.5 199,1553 C199,1711.88 715.55,1784.05 970.3,1809.98 "
+              fill="none" id="actor.Client-backto-model.Request" style="stroke:#A80036;stroke-width:1.0;"/>
+        <polygon fill="#A80036"
+                 points="282.26,344.28,275.3264,346.2613,274.4886,353.4236,281.4222,351.4423,282.26,344.28"
+                 style="stroke:#A80036;stroke-width:1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="268.0354"
+              y="365.0719">1
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="5" x="957.5781"
+              y="1806.3254">*
+        </text><!--MD5=[b94655547d7b6bda1a7b199976a19944]
+link actor.Client to model.Request-->
+        <path codeLine="61"
+              d="M277.69,344.28 C198.27,415.97 94,512.56 94,525.5 C94,525.5 94,525.5 94,1553 C94,1731.03 684.82,1793.99 964.93,1813.83 "
+              fill="none" id="actor.Client-to-model.Request"
+              style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/>
+        <polygon fill="#A80036"
+                 points="970.26,1814.21,961.5688,1809.5772,965.2728,1813.8527,960.9972,1817.5567,970.26,1814.21"
+                 style="stroke:#A80036;stroke-width:1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="50" x="95"
+              y="998.9951">«create»
+        </text><!--MD5=[ee0ac96395e349a588cbef8fcb741fc2]
+reverse link actor.Client to util.Config-->
+        <path codeLine="45"
+              d="M314.86,355.9 C291.95,404.58 270,466.6 270,525.5 C270,525.5 270,525.5 270,994.5 C270,1064.38 282.46,1089.71 332,1139 C407.14,1213.75 524.95,1253.68 604.49,1273.34 "
+              fill="none" id="actor.Client-backto-util.Config" style="stroke:#A80036;stroke-width:1.0;"/>
+        <polygon fill="#A80036"
+                 points="320.53,344.13,314.3224,347.7996,315.3222,354.9411,321.5298,351.2715,320.53,344.13"
+                 style="stroke:#A80036;stroke-width:1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="309.3216"
+              y="365.1844">1
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="589.3766"
+              y="1268.4775">1
+        </text><!--MD5=[3ff278989275cc20ae70e54c87ab277c]
+link actor.Client to util.Config-->
+        <path codeLine="54"
+              d="M362.32,344.27 C360.22,395.82 358,464.65 358,525.5 C358,525.5 358,525.5 358,994.5 C358,1124.36 501.53,1211.33 599.56,1255.58 "
+              fill="none" id="actor.Client-to-util.Config"
+              style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/>
+        <polygon fill="#A80036"
+                 points="604.19,1257.66,597.6136,1250.3285,599.6275,1255.6147,594.3412,1257.6285,604.19,1257.66"
+                 style="stroke:#A80036;stroke-width:1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="107" x="359"
+              y="768.9951">«create» (optional)
+        </text><!--MD5=[3ba36e461fc90ab5fd37a67d94ed8eed]
+reverse link actor.Server to util.Config-->
+        <path codeLine="46"
+              d="M566.26,335 C544.41,386.38 520,458.71 520,525.5 C520,525.5 520,525.5 520,994.5 C520,1086.84 582.96,1176.54 632.02,1232.43 "
+              fill="none" id="actor.Server-backto-util.Config" style="stroke:#A80036;stroke-width:1.0;"/>
+        <polygon fill="#A80036"
+                 points="571.46,323.06,565.3978,326.9651,566.6709,334.063,572.7331,330.1578,571.46,323.06"
+                 style="stroke:#A80036;stroke-width:1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="560.5551"
+              y="344.6776">1
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="617.649"
+              y="1221.8224">1
+        </text><!--MD5=[112f7b27a034b9dd932295ab8c8184c5]
+link actor.Server to util.Config-->
+        <path codeLine="55"
+              d="M602.79,323.06 C605.1,375.73 608,455.84 608,525.5 C608,525.5 608,525.5 608,994.5 C608,1077.28 637.93,1168.62 661.41,1227.52 "
+              fill="none" id="actor.Server-to-util.Config"
+              style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/>
+        <polygon fill="#A80036"
+                 points="663.37,1232.41,663.7414,1222.5681,661.513,1227.7676,656.3136,1225.5393,663.37,1232.41"
+                 style="stroke:#A80036;stroke-width:1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="107" x="609"
+              y="768.9951">«create» (optional)
+        </text><!--MD5=[8f4fa8d00f9a9d4bae19f180637e0f3c]
+link Main to actor.Client-->
+        <path codeLine="48"
+              d="M651.78,60.72 C610.04,75.49 556.84,97.36 514,125 C489.26,140.96 464.89,161.28 443.28,181.41 "
+              fill="none" id="Main-to-actor.Client" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/>
+        <polygon fill="#A80036" points="439.56,184.9,448.862,181.6639,443.2081,181.4808,443.3913,175.8269,439.56,184.9"
+                 style="stroke:#A80036;stroke-width:1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="50" x="557"
+              y="113.4951">«create»
+        </text><!--MD5=[ce9599666807e7c10ab173350aa70658]
+link Main to actor.Server-->
+        <path codeLine="49" d="M704.68,69.28 C686.57,102.88 656.84,158.04 633.69,201 " fill="none"
+              id="Main-to-actor.Server" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/>
+        <polygon fill="#A80036"
+                 points="631.18,205.65,638.9711,199.6252,633.5522,201.2486,631.9288,195.8296,631.18,205.65"
+                 style="stroke:#A80036;stroke-width:1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="50" x="689"
+              y="113.4951">«create»
+        </text><!--MD5=[dececd3a55eef1534ada5b218805ac80]
+link Main to actor.intermediate.Main-->
+        <path codeLine="50"
+              d="M790.07,42.54 C920.27,50.36 1195.94,72.74 1274,125 C1308.05,147.8 1330.55,189.51 1343.62,221.22 "
+              fill="none" id="Main-to-actor.intermediate.Main"
+              style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/>
+        <polygon fill="#A80036"
+                 points="1345.64,226.22,1345.9853,216.3772,1343.7708,221.5826,1338.5654,219.368,1345.64,226.22"
+                 style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[40ff789898ce027ff45bda973e4c96e4]
+link Main to util.Config-->
+        <path codeLine="52"
+              d="M736.64,69.19 C740.91,78.53 745.15,89 748,99 C768.24,169.93 770,189.74 770,263.5 C770,263.5 770,263.5 770,994.5 C770,1077.28 740.07,1168.62 716.59,1227.52 "
+              fill="none" id="Main-to-util.Config" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/>
+        <polygon fill="#A80036"
+                 points="714.63,1232.41,721.6864,1225.5393,716.487,1227.7676,714.2586,1222.5681,714.63,1232.41"
+                 style="stroke:#A80036;stroke-width:1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="50" x="771"
+              y="657.4951">«create»
+        </text><!--MD5=[868e32a70e0cddce16a5804efeef70e3]
+link actor.Client to model.Response-->
+        <path codeLine="58"
+              d="M461.15,344.19 C478.48,357.81 496.59,371.57 514,384 C721.29,532.05 866.61,472.76 998,691 C1049.73,776.92 1050.26,1071.68 1047.33,1213.11 "
+              fill="none" id="actor.Client-to-model.Response"
+              style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/>
+        <polygon fill="#A80036"
+                 points="1047.21,1218.48,1051.3892,1209.5618,1047.31,1213.481,1043.3908,1209.4018,1047.21,1218.48"
+                 style="stroke:#A80036;stroke-width:1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="50" x="1035"
+              y="768.9951">«create»
+        </text><!--MD5=[987494060b78462f7d1da2614bb2809a]
+link actor.Server to model.Response-->
+        <path codeLine="59"
+              d="M669.39,274.88 C785.62,292.08 1011.95,332.45 1063,392 C1167.3,513.68 1092.5,1018.91 1058.97,1213.3 "
+              fill="none" id="actor.Server-to-model.Response"
+              style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/>
+        <polygon fill="#A80036"
+                 points="1058.09,1218.4,1063.5499,1210.2031,1058.9328,1213.4715,1055.6643,1208.8545,1058.09,1218.4"
+                 style="stroke:#A80036;stroke-width:1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="50" x="1117"
+              y="768.9951">«create»
+        </text><!--MD5=[a919915fc5d023ef58d3040a639bac60]
+link actor.Client to model.BadRequest-->
+        <path codeLine="62"
+              d="M288.51,344.05 C270.98,358.85 251.69,373.09 232,384 C221.05,390.07 216.82,387.88 205,392 C151.15,410.79 133.04,407.75 86,440 C43.08,469.43 6,473.46 6,525.5 C6,525.5 6,525.5 6,1824 C6,2014 647.04,2042.35 948.61,2045.18 "
+              fill="none" id="actor.Client-to-model.BadRequest"
+              style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/>
+        <polygon fill="#A80036"
+                 points="953.9,2045.22,944.9346,2041.143,948.9002,2045.1771,944.866,2049.1427,953.9,2045.22"
+                 style="stroke:#A80036;stroke-width:1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="50" x="7"
+              y="1135.4951">«create»
+        </text><!--MD5=[1285e2e13d83d3c5470010f0d11cf494]
+@startuml
+'https://plantuml.com/class-diagram
+
+!include class_diagram_parser.puml
+!include class_diagram_proxy.puml
+
+class model.Response{
+ - boolean read
+ + Response(boolean read)
+ + Response(byte[] bytes)
+ + byte[] getEncoded()
+ + String toString()
+ + boolean equals(Object o)
+ + int hashCode()
+}
+class model.BadRequest extends model.Request{
+ + BadRequest(boolean read, String filename, String mode)
+ - byte[] getEncoded(int maxMessageSize)
+}
+
+class actor.Client{
+ - Config config
+ - Logger logger
+ - Queue<Request> requests
+ + Client(Config config, Queue<Request> requests)
+ + Client(Config config)
+ {static} + Queue<Request> getDefaultRequests()
+ {static} + void main(String[] args)
+ + void run()
+}
+class actor.Server{
+ - Config config
+ - Logger logger
+ + Server(Config config)
+ {static} + void main(String[] args)
+ + void run()
+}
+
+class Main{
+ {static} + void main(String[] args)
+}
+
+actor +- -  actor.intermediate
+actor.Client "1" *- - "*" model.Request
+
+actor.Client "1" *- - "1" util.Config
+actor.Server "1" *- - "1" util.Config
+
+Main ..> actor.Client: "<<create>>"
+Main ..> actor.Server: "<<create>>"
+Main ..> actor.intermediate.Main
+
+Main ..> util.Config: "<<create>>"
+
+actor.Client ..> util.Config: "<<create>> (optional)"
+actor.Server ..> util.Config: "<<create>> (optional)"
+
+
+actor.Client ..> model.Response: "<<create>>"
+actor.Server ..> model.Response: "<<create>>"
+
+actor.Client ..> model.Request: "<<create>>"
+actor.Client ..> model.BadRequest: "<<create>>"
+
+
+@enduml
+
+@startuml
+
+
+abstract class model.State{
+ # Request.Builder builder
+ # State(Request.Builder builder)
+ {abstract} + void handle(byte b)
+}
+abstract class model.StringState extends model.State{
+ # ByteArrayOutputStream output
+ # StringState(Request.Builder builder)
+ {abstract} # void nextState(String output)
+ + void handle(byte b)
+}
+class model.InitialState extends model.State{
+ + InitialState(Request.Builder builder)
+ + void handle(byte b)
+}
+class model.TypeState extends model.State{
+ + TypeState(Request.Builder builder)
+ + void handle(byte b)
+}
+class model.FilenameState extends model.StringState{
+ + FilenameState(Request.Builder builder)
+ # void nextState(String output)
+ + void handle(byte b)
+}
+class model.ModeState extends model.StringState{
+ + ModeState(Request.Builder builder)
+ # void nextState(String output)
+ + void handle(byte b)
+}
+class model.EndState extends model.State{
+ + EndState(Request.Builder builder)
+ + void handle(byte b)
+}
+
+
+class model.Request{
+ - boolean read
+ - String filename
+ - String mode
+ + Request(boolean read, String filename, String mode)
+ {static} + Request fromEncoded(byte[] bytes)
+ + byte[] getEncoded(int maxMessageSize)
+ + boolean isRead()
+ + String toString()
+ + boolean equals(Object o)
+ + int hashCode()
+}
+class model.Request.Builder{
+ - boolean read
+ - String filename
+ - String mode
+ - State stat
+ + Builder()
+ + void setRead(boolean read)
+ + void setFilename(String filename)
+ + void setMode(String mode)
+ + Request build()
+ + State getState()
+ + void setState(State state)
+}
+
+model.Request +- - model.Request.Builder
+
+
+model.Request.Builder "1" *- - "1" model.State
+model.State "1" *- - "1" model.Request.Builder
+
+model.Request.Builder ..> model.Request: "<<create>>"
+model.Request ..> model.Request.Builder: "<<create>>"
+
+model.Request.Builder ..> model.InitialState: "<<create>>"
+model.InitialState ..> model.TypeState: "<<create>>"
+model.TypeState ..> model.FilenameState: "<<create>>"
+model.FilenameState ..> model.ModeState: "<<create>>"
+model.ModeState ..> model.EndState: "<<create>>"
+
+
+class util.Config{
+ {static} - String CONFIG_FILE_NAME
+ - Properties properties
+ + Config()
+ + String getProperty(String key)
+ + int getIntProperty(String key
+}
+
+class actor.intermediate.Backend{
+ - Config config
+ - SynchronousQueue<Packet> packets
+ - Logger logger
+ - boolean run
+ + Backend(Config config)
+ + void handle(Packet packet)
+ + void shutdown()
+ + void run()
+}
+class actor.intermediate.LoadBalancer{
+ - LinkedBlockingQueue<Packet> packets
+ - Queue<Backend> backends
+ - boolean run
+ + LoadBalancer(Set<Backend> backends)
+ + void add(Packet packet)
+ + void shutdown()
+ + void run()
+}
+class actor.intermediate.Frontend{
+ - Config config
+ - Logger logger
+ - LoadBalancer loadBalancer
+ - int port
+ - boolean run
+ + Frontend(Config config, LoadBalancer loadBalancer)
+ + void shutdown()
+ + int getPort()
+ + void run()
+}
+class actor.intermediate.Main{
+ {static} + Frontend run(Config config)
+ {static} + void main(String[] args)
+}
+
+class model.Packet{
+ - byte[] data
+ - InetAddress address
+ - int port
+ + Packet(byte[] data, InetAddress address, int port)
+ + Packet(DatagramPacket datagramPacket)
+ + int getPort()
+ + InetAddress getAddress()
+ + byte[] getData()
+ + String toString()
+ + boolean equals(Object o)
+ + int hashCode()
+}
+
+actor.intermediate.Main ..> actor.intermediate.Backend: "<<create>>"
+actor.intermediate.Main ..> actor.intermediate.LoadBalancer: "<<create>>"
+actor.intermediate.Main ..> actor.intermediate.Frontend: "<<create>>"
+
+
+actor.intermediate.Main ..> util.Config: "<<create>> (optional)"
+actor.intermediate.Frontend ..> model.Packet: "<<create>>"
+
+actor.intermediate.Backend "1" *- - "1" util.Config
+actor.intermediate.Frontend "1" *- - "1" util.Config
+
+actor.intermediate.Frontend "1" *- - "1" actor.intermediate.LoadBalancer
+actor.intermediate.LoadBalancer "1" *- - "*" actor.intermediate.Backend
+
+actor.intermediate.LoadBalancer "1" *- - "*" model.Packet
+actor.intermediate.Backend "1" *- - "*" model.Packet
+
+
+class model.Response{
+ - boolean read
+ + Response(boolean read)
+ + Response(byte[] bytes)
+ + byte[] getEncoded()
+ + String toString()
+ + boolean equals(Object o)
+ + int hashCode()
+}
+class model.BadRequest extends model.Request{
+ + BadRequest(boolean read, String filename, String mode)
+ - byte[] getEncoded(int maxMessageSize)
+}
+
+class actor.Client{
+ - Config config
+ - Logger logger
+ - Queue<Request> requests
+ + Client(Config config, Queue<Request> requests)
+ + Client(Config config)
+ {static} + Queue<Request> getDefaultRequests()
+ {static} + void main(String[] args)
+ + void run()
+}
+class actor.Server{
+ - Config config
+ - Logger logger
+ + Server(Config config)
+ {static} + void main(String[] args)
+ + void run()
+}
+
+class Main{
+ {static} + void main(String[] args)
+}
+
+actor +- -  actor.intermediate
+actor.Client "1" *- - "*" model.Request
+
+actor.Client "1" *- - "1" util.Config
+actor.Server "1" *- - "1" util.Config
+
+Main ..> actor.Client: "<<create>>"
+Main ..> actor.Server: "<<create>>"
+Main ..> actor.intermediate.Main
+
+Main ..> util.Config: "<<create>>"
+
+actor.Client ..> util.Config: "<<create>> (optional)"
+actor.Server ..> util.Config: "<<create>> (optional)"
+
+
+actor.Client ..> model.Response: "<<create>>"
+actor.Server ..> model.Response: "<<create>>"
+
+actor.Client ..> model.Request: "<<create>>"
+actor.Client ..> model.BadRequest: "<<create>>"
+
+
+@enduml
+
+PlantUML version 1.2021.01(Tue Feb 02 02:55:08 EST 2021)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: Cp1252
+Language: en
+Country: US
+-->
+    </g>
+</svg>
