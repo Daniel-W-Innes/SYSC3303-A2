@@ -1,4 +1,4 @@
-package actor.Intermediate;
+package actor.intermediate;
 
 import util.Config;
 
