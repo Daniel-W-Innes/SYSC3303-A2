@@ -5,39 +5,77 @@ import model.Packet;
 import java.util.LinkedList;
 import java.util.Queue;
 import java.util.Set;
+import java.util.concurrent.BlockingQueue;
 import java.util.concurrent.LinkedBlockingQueue;
 
+
+/**
+ * Round Robin load balancer for the intermediate proxy.
+ */
 public class LoadBalancer implements Runnable {
-    private final LinkedBlockingQueue<Packet> packetQueue;
-    private final Queue<Backend> consumers;
+    /**
+     * Blocking queue of packets to prevent the frontend from waiting on the load balancer.
+     * LinkedBlockingQueue is thread-safe, "BlockingQueue implementations are thread-safe. All queuing methods achieve their effects atomically using internal locks or other forms of concurrency control."
+     *
+     * @see BlockingQueue
+     */
+    private final LinkedBlockingQueue<Packet> packets;
+    /**
+     * The queue of backends for the round robin. This is not a thread-safe queue.
+     */
+    private final Queue<Backend> backends;
+    /**
+     * Is the load balancer is running.
+     */
     private boolean run;
 
-    public LoadBalancer(Set<Backend> consumers) {
-        this.consumers = new LinkedList<>(consumers);
-        packetQueue = new LinkedBlockingQueue<>();
+    /**
+     * Constructor for the load balancer. There is no way to update the list of backends after the construction for performance and simplicity reasons.
+     *
+     * @param backends The backends in charge of handling the requests.
+     */
+    public LoadBalancer(Set<Backend> backends) {
+        this.backends = new LinkedList<>(backends);
+        packets = new LinkedBlockingQueue<>();
         run = true;
     }
 
+    /**
+     * Add to the queue.
+     *
+     * @param packet The simple udp packet.
+     */
     public void add(Packet packet) {
-        packetQueue.add(packet);
+        packets.add(packet);
     }
 
+    /**
+     * shutdown the load balancer and all backends.
+     */
     public void shutdown() {
         run = false;
-        consumers.forEach(Backend::shutdown);
+        backends.forEach(Backend::shutdown);
     }
 
+    /**
+     * Run the round robin to associate packets from the queue with the backend.
+     * Theoretically it is possible modify this to run multiple times in separate threads for the same load balancer but it is questionable if that would increase performance because of the shared queue.
+     */
     @Override
     public void run() {
-        Backend consumer;
+        Backend backend;
         while (run) {
-            consumer = consumers.remove();
+            //get a backend to handle the packet
+            backend = backends.remove();
             try {
-                consumer.handle(packetQueue.take());
+                //handle the packet
+                //take is blocking if the queue is empty
+                backend.handle(packets.take());
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
-            consumers.add(consumer);
+            //add the backend back in to the queue
+            backends.add(backend);
         }
     }
 }

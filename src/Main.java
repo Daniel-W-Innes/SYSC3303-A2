@@ -11,8 +11,8 @@ public class Main {
     /**
      * A main function to run all the actors in their own thread.
      *
-     * @param args Unused arguments
-     * @throws IOException if fails to parse the config file
+     * @param args Unused arguments.
+     * @throws IOException If fails to parse the config file.
      */
     public static void main(String[] args) throws IOException {
         Config config = new Config();

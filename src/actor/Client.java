@@ -71,6 +71,7 @@ public class Client implements Runnable {
 
     /**
      * Run the client in the main thread
+     *
      * @param args Unused arguments
      * @throws IOException if fails to parse the config file
      */

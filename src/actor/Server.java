@@ -32,8 +32,10 @@ public class Server implements Runnable {
         this.config = config;
         logger = Logger.getLogger(this.getClass().getName());
     }
+
     /**
      * Run the server in the main thread
+     *
      * @param args Unused arguments
      * @throws IOException if fails to parse the config file
      */

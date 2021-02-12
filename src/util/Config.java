@@ -37,7 +37,7 @@ public class Config {
      *
      * @param key The key of the property in the file
      * @return The property as a int
-     * @throws NumberFormatException  if the property does not contain a parsable integer.
+     * @throws NumberFormatException if the property does not contain a parsable integer.
      */
     public int getIntProperty(String key) {
         return Integer.parseInt(getProperty(key));

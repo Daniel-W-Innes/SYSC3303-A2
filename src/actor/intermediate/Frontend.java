@@ -8,24 +8,36 @@ import java.net.DatagramPacket;
 import java.net.DatagramSocket;
 import java.util.logging.Logger;
 
+/**
+ * The front half of the intermediate proxy. Takes requests from the client and adds them to the intermediate load balance to be processed by a back end.
+ */
 public class Frontend implements Runnable {
     /**
-     * The application configuration file loader
+     * The application configuration file loader.
      */
     private final Config config;
     /**
-     * The client's logger
+     * The frontend's logger.
      */
     private final Logger logger;
+    /**
+     * The load balancer for assigning packets to a back end.
+     */
     private final LoadBalancer loadBalancer;
-    private boolean run;
+    /**
+     * The port the frontend is listening to.
+     */
     private final int port;
+    /**
+     * Is the frontend is running.
+     */
+    private boolean run;
 
     /**
-     * Default constructor for the intermediate frontend.
+     * Default constructor for the frontend.
      *
      * @param config       The application configuration file loader.
-     * @param loadBalancer
+     * @param loadBalancer The intermediate load balancer.
      */
     public Frontend(Config config, LoadBalancer loadBalancer) {
         this.config = config;
@@ -35,15 +47,27 @@ public class Frontend implements Runnable {
         port = config.getIntProperty("intermediatePort");
     }
 
+
+    /**
+     * shutdown the intermediate proxy.
+     */
     public void shutdown() {
         run = false;
         loadBalancer.shutdown();
     }
 
+    /**
+     * Get the port the intermediate proxy is using.
+     *
+     * @return The listening port.
+     */
     public int getPort() {
         return port;
     }
 
+    /**
+     * Start listening for requests.
+     */
     @Override
     public void run() {
         byte[] buff;
@@ -52,12 +76,18 @@ public class Frontend implements Runnable {
         //using try-with-resources to close the datagram socket.
         try (DatagramSocket datagramSocket = new DatagramSocket(port)) {
             while (run) {
-                //Reset buff between requests
+                //reset buff between requests
                 buff = new byte[config.getIntProperty("maxMessageSize")];
                 datagramPacket = new DatagramPacket(buff, buff.length);
+
+                //receive a new request
                 datagramSocket.receive(datagramPacket);
+
+                //create a simple packet from the diagram packet
                 packet = new Packet(datagramPacket);
                 logger.info("Request: " + packet.toString());
+
+                //Send the packet to the load balancer
                 loadBalancer.add(packet);
             }
         } catch (IOException e) {
