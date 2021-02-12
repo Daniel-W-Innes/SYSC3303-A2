@@ -1,5 +1,4 @@
 import actor.Client;
-import actor.Intermediate;
 import actor.Server;
 import util.Config;
 
@@ -11,13 +10,14 @@ import java.io.IOException;
 public class Main {
     /**
      * A main function to run all the actors in their own thread.
+     *
      * @param args Unused arguments
      * @throws IOException if fails to parse the config file
      */
     public static void main(String[] args) throws IOException {
         Config config = new Config();
         new Thread(new Server(config)).start();
-        new Thread(new Intermediate(config)).start();
+        actor.intermediate.Main.run(config);
         new Thread(new Client(config)).start();
     }
 }

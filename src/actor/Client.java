@@ -84,7 +84,7 @@ public class Client implements Runnable {
      */
     @Override
     public void run() {
-        byte[] output = new byte[4];
+        byte[] output = new byte[config.getIntProperty("responseMessageSize")];
         DatagramPacket datagramPacket = new DatagramPacket(output, output.length);
         byte[] input;
         //using try-with-resources to close the datagram socket.
