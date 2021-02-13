@@ -20,23 +20,23 @@ import java.util.logging.Logger;
  */
 public class Client implements Runnable {
     /**
-     * The application configuration file loader
+     * The application configuration file loader.
      */
     private final Config config;
     /**
-     * The client's logger
+     * The client's logger.
      */
     private final Logger logger;
     /**
-     * The queue of requests to be sent on run
+     * The queue of requests to be sent on run.
      */
     private final Queue<Request> requests;
 
     /**
      * Create a client to send requests from requests queue.
      *
-     * @param config   the application configuration file loader.
-     * @param requests the requests to send
+     * @param config   The application configuration file loader.
+     * @param requests The requests to send.
      */
     public Client(Config config, Queue<Request> requests) {
         this.config = config;
@@ -45,9 +45,9 @@ public class Client implements Runnable {
     }
 
     /**
-     * Create a client to send default requests
+     * Create a client to send default requests.
      *
-     * @param config the application configuration
+     * @param config The application configuration.
      */
     public Client(Config config) {
         this(config, getDefaultRequests());
@@ -55,9 +55,9 @@ public class Client implements Runnable {
 
 
     /**
-     * Generate a queue containing the default requests specified in the assignment.
+     * Generate a queue containing the default requests specified in the outline.
      *
-     * @return the request queue
+     * @return The request queue.
      */
     public static Queue<Request> getDefaultRequests() {
         Queue<Request> requests = new LinkedList<>();
@@ -71,10 +71,10 @@ public class Client implements Runnable {
     }
 
     /**
-     * Run the client in the main thread
+     * Run the client in the main thread.
      *
-     * @param args Unused arguments
-     * @throws IOException if fails to parse the config file
+     * @param args Unused arguments.
+     * @throws IOException If it fails to parse the configuration file.
      */
     public static void main(String[] args) throws IOException {
         Client client = new Client(new Config());
@@ -88,12 +88,12 @@ public class Client implements Runnable {
     public void run() {
         byte[] buff;
         DatagramPacket datagramPacket;
-        //using try-with-resources to close the datagram socket.
+        //using try-with-resources to close the datagram socket
         try (DatagramSocket datagramSocket = new DatagramSocket()) {
-            //set socket to time out If the proxy isn't responding
+            //set socket to time out if the proxy isn't responding
             datagramSocket.setSoTimeout(10000);
             for (Request request : requests) {
-                //Send request
+                //send request
                 logger.info("Request: " + request);
                 buff = request.getEncoded(config.getIntProperty("maxMessageSize"));
                 logger.info("Request bytes: " + Arrays.toString(buff));
@@ -102,8 +102,8 @@ public class Client implements Runnable {
                 //reset buff between requests
                 buff = new byte[config.getIntProperty("responseMessageSize")];
                 datagramPacket = new DatagramPacket(buff, buff.length);
-                
-                //Receive response
+
+                //receive response
                 try {
                     datagramSocket.receive(datagramPacket);
                     logger.info("Response bytes: " + Arrays.toString(datagramPacket.getData()));

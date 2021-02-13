@@ -1,4 +1,4 @@
 /**
- * The date model for sending between actors.
+ * The data models for sending between actors.
  */
 package model;

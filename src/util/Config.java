@@ -4,7 +4,7 @@ import java.io.IOException;
 import java.util.Properties;
 
 /**
- * Configuration file loader. Loads the properties from given CONFIG_FILE_NAME.
+ * The configuration file loader. Loads the properties from a given CONFIG_FILE_NAME.
  */
 public class Config {
     /**
@@ -12,17 +12,17 @@ public class Config {
      */
     private static final String CONFIG_FILE_NAME = "config.cfg";
     /**
-     * The Configuration properties.
+     * The configuration properties from the configuration file.
      */
     private final Properties properties;
 
     /**
-     * Load configuration file.
+     * The default constructor to load the configuration file.
      *
      * @throws IOException If there is a problem loading the file.
      */
     public Config() throws IOException {
-        properties = new java.util.Properties();
+        properties = new Properties();
         properties.load(this.getClass().getClassLoader().
                 getResourceAsStream(CONFIG_FILE_NAME));
     }
@@ -30,7 +30,7 @@ public class Config {
     /**
      * Get a property from the configuration file.
      *
-     * @param key The key of the property in the file.
+     * @param key The key/label of the property in the file.
      * @return The property as a string.
      */
     public String getProperty(String key) {
@@ -38,10 +38,10 @@ public class Config {
     }
 
     /**
-     * Get a property as a int from the configuration file.
+     * Get a property as a integer from the configuration file.
      *
-     * @param key The key of the property in the file.
-     * @return The property as a int.
+     * @param key The key/label of the property in the file.
+     * @return The property as a integer.
      * @throws NumberFormatException If the property does not contain a parsable integer.
      */
     public int getIntProperty(String key) {

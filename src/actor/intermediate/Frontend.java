@@ -9,7 +9,7 @@ import java.net.DatagramSocket;
 import java.util.logging.Logger;
 
 /**
- * The front half of the intermediate proxy. Takes requests from the client and adds them to the intermediate load balance to be processed by a back end.
+ * The front half of the intermediate proxy. Takes requests from the client and adds them to the intermediate load balance to be processed by a backend.
  */
 public class Frontend implements Runnable {
     /**
@@ -21,7 +21,7 @@ public class Frontend implements Runnable {
      */
     private final Logger logger;
     /**
-     * The load balancer for assigning packets to a back end.
+     * The load balancer for assigning packets to a backend.
      */
     private final LoadBalancer loadBalancer;
     /**
@@ -29,7 +29,7 @@ public class Frontend implements Runnable {
      */
     private final int port;
     /**
-     * Is the frontend is running.
+     * If the frontend is running.
      */
     private boolean run;
 
@@ -48,7 +48,7 @@ public class Frontend implements Runnable {
     }
 
     /**
-     * shutdown the intermediate proxy.
+     * Shutdown the intermediate proxy.
      */
     public void shutdown() {
         run = false;
@@ -72,7 +72,7 @@ public class Frontend implements Runnable {
         byte[] buff;
         DatagramPacket datagramPacket;
         Packet packet;
-        //using try-with-resources to close the datagram socket.
+        //using try-with-resources to close the datagram socket
         try (DatagramSocket datagramSocket = new DatagramSocket(port)) {
             while (run) {
                 //reset buff between requests
@@ -86,7 +86,7 @@ public class Frontend implements Runnable {
                 packet = new Packet(datagramPacket);
                 logger.info("Request: " + packet.toString());
 
-                //Send the packet to the load balancer
+                //send the packet to the load balancer
                 loadBalancer.add(packet);
             }
         } catch (IOException e) {

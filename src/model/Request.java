@@ -5,19 +5,28 @@ import java.nio.charset.StandardCharsets;
 import java.util.Objects;
 
 /**
- * Request object sent by client Containing information specified in the outline.
+ * The request object sent by client containing information specified in the outline.
  */
 public class Request {
+    /**
+     * Whether to read or write from the file.
+     */
     private final boolean read;
+    /**
+     * The file name to read/write.
+     */
     private final String filename;
+    /**
+     * The mode/encoding of the file.
+     */
     private final String mode;
 
     /**
-     * Default response constructor.
+     * The default response constructor.
      *
-     * @param read     Whether to read or write from to the file
-     * @param filename The file name to it from
-     * @param mode     The mode/encoding of the file
+     * @param read     Whether to read or write from the file.
+     * @param filename The file name to read/write.
+     * @param mode     The mode/encoding of the file.
      */
     public Request(boolean read, String filename, String mode) {
         this.read = read;
@@ -26,35 +35,35 @@ public class Request {
     }
 
     /**
-     * Construct a request object from request bytes.
-     * see getEncoded for the encoding schema.
+     * A secondary constructor to create a request object from request bytes.
+     * See getEncoded for the encoding schema.
      *
      * @param bytes The byte encoded request object.
      * @return The request object constructed.
-     * @throws Exception Throws Exception if bytes are not from a request object
+     * @throws Exception If bytes are not from a request object.
      */
     public static Request fromEncoded(byte[] bytes) throws Exception {
         //create a builder for parsing byte encoded requests
         Builder builder = new Builder();
         for (byte b : bytes) {
-            //feed the parser the byte one by one
+            //feed the parser the bytes one by one
             builder.getState().handle(b);
         }
         return builder.build();
     }
 
     /**
-     * Encode request object to bytes for transmission. The encode is as follows
+     * Encode request object to bytes for transmission. The encoding is as follows:
      * |0 |1   |2 |3 - x-1 |x |x+2 - y-1|y |
      * +--+----+--+--------+--+---------+--+
      * |0 |type|0 |filename|0 |mode     |0 |
      * +--+----+--+--------+--+---------+--+
      * <p>
      * type is if the request is read(2) or write(1).
-     * filename is a UTF-8 encoded string
-     * mode is a UTF-8 encoded string
+     * filename is a UTF-8 encoded string.
+     * mode is a UTF-8 encoded string.
      * <p>
-     * x is the separator between the filename and the mode and is not at a fixed position within the encoding
+     * x is the separator between the filename and the mode and is not at a fixed position within the encoding.
      * y is the termination byte and can be at any point before the maxMessageSize.
      *
      * @param maxMessageSize The max message size of the encoded request object.
@@ -62,20 +71,25 @@ public class Request {
      * @throws Exception If the size of the output is bigger then the maxMessageSize.
      */
     public byte[] getEncoded(int maxMessageSize) throws Exception {
-        //The byteArray stream for concatenating the output.
+        //the byteArray stream for concatenating the output
         ByteArrayOutputStream output = new ByteArrayOutputStream();
-        output.write(0); //Separating byte
-        output.write(read ? 0x2 : 0x1); //type byte. 2 for read, 1 for write.
-        output.writeBytes(filename.getBytes(StandardCharsets.UTF_8));//UTF-8 encoded filename
-        output.write(0);//Separating byte
-        output.writeBytes(mode.getBytes(StandardCharsets.UTF_8));//UTF-8 encoded mode
-        output.write(0);//Termination byte
+        output.write(0); //separating byte
+        output.write(read ? 0x2 : 0x1); //type byte, 2 for read, 1 for write
+        output.writeBytes(filename.getBytes(StandardCharsets.UTF_8)); //UTF-8 encoded filename
+        output.write(0); //separating byte
+        output.writeBytes(mode.getBytes(StandardCharsets.UTF_8)); //UTF-8 encoded mode
+        output.write(0); //termination byte
         if (output.size() > maxMessageSize) {
             throw new Exception();
         }
         return output.toByteArray();
     }
 
+    /**
+     * Get if the request is of type read.
+     *
+     * @return If the request is of type read.
+     */
     public boolean isRead() {
         return read;
     }
@@ -103,26 +117,56 @@ public class Request {
     }
 
     /**
-     * Builder for request objects.
+     * The builder for request objects.
      */
     public static class Builder {
+        /**
+         * Whether to read or write from the file.
+         */
         private boolean read;
+        /**
+         * The file name to read/write.
+         */
         private String filename;
+        /**
+         * The mode/encoding of the file.
+         */
         private String mode;
+        /**
+         * The state of the request parser.
+         */
         private State state;
 
+        /**
+         * The default constructor for the request object builder.
+         */
         public Builder() {
             state = new InitialState(this);
         }
 
+        /**
+         * Set the type of the request.
+         *
+         * @param read Whether to read or write from the file.
+         */
         public void setRead(boolean read) {
             this.read = read;
         }
 
+        /**
+         * Set the filename of the request.
+         *
+         * @param filename The file name to read/write.
+         */
         public void setFilename(String filename) {
             this.filename = filename;
         }
 
+        /**
+         * Set the mode of the request.
+         *
+         * @param mode The mode/encoding of the file.
+         */
         public void setMode(String mode) {
             this.mode = mode;
         }
@@ -130,8 +174,8 @@ public class Request {
         /**
          * Build request object from the parameters of the builder.
          *
-         * @return The request object
-         * @throws Exception throws Exception if not all parameters are set.
+         * @return The request object built.
+         * @throws Exception If not all parameters are set.
          */
         public Request build() throws Exception {
             if (filename == null || mode == null) {
@@ -143,7 +187,7 @@ public class Request {
         /**
          * Get the current state of the parser.
          *
-         * @return the current state
+         * @return The current state.
          */
         public State getState() {
             return state;
@@ -152,7 +196,7 @@ public class Request {
         /**
          * Set the state of the parser.
          *
-         * @param state The new state
+         * @param state The new state for the parser.
          */
         public void setState(State state) {
             this.state = state;
@@ -161,7 +205,7 @@ public class Request {
 }
 
 /**
- * Abstract state class for parser
+ * Abstract state class for a object orientated parser.
  */
 abstract class State {
     /**
@@ -170,7 +214,7 @@ abstract class State {
     protected final Request.Builder builder;
 
     /**
-     * Default state constructor. This needs the builder so that it can store parameters across multiple states.
+     * The default state constructor. This needs the builder so that it can store parameters across multiple states.
      *
      * @param builder The request builder.
      */
@@ -179,16 +223,16 @@ abstract class State {
     }
 
     /**
-     * Handle an individual byte from the byte encoded request object
+     * Handle an individual byte from the byte encoded request object.
      *
-     * @param b The byte to decode
-     * @throws Exception throws Exception if byte Does not align with the format of a byte encoded request object
+     * @param b The byte to decode.
+     * @throws Exception If byte does not align with the format of a byte encoded request object.
      */
     public abstract void handle(byte b) throws Exception;
 }
 
 /**
- * The initial of the person.
+ * The initial state of the parser.
  */
 class InitialState extends State {
     public InitialState(Request.Builder builder) {
@@ -208,7 +252,7 @@ class InitialState extends State {
 }
 
 /**
- * Decode if the request is a read or write.
+ * Decode if the request is read or write.
  */
 class TypeState extends State {
     protected TypeState(Request.Builder builder) {
@@ -243,9 +287,9 @@ abstract class StringState extends State {
     }
 
     /**
-     * Move to next state and set parameter in builder
+     * Move to next state and set the parameter in the builder.
      *
-     * @param output The string parsed by the StringState
+     * @param output The string parsed by the StringState.
      */
     abstract protected void nextState(String output);
 
@@ -262,7 +306,7 @@ abstract class StringState extends State {
 }
 
 /**
- * Decode filename.
+ * The state for decoding the filename.
  */
 class FilenameState extends StringState {
     protected FilenameState(Request.Builder builder) {
@@ -279,7 +323,7 @@ class FilenameState extends StringState {
 }
 
 /**
- * Decode mode.
+ * The state for decoding the mode.
  */
 class ModeState extends StringState {
     protected ModeState(Request.Builder builder) {
@@ -296,7 +340,7 @@ class ModeState extends StringState {
 }
 
 /**
- * Parsing done ignoring all remaining pipe.
+ * The state for when parsing is done, ignoring all remaining bytes.
  */
 class EndState extends State {
     protected EndState(Request.Builder builder) {
@@ -305,7 +349,7 @@ class EndState extends State {
 
     @Override
     public void handle(byte b) {
-        //Do nothing with byte
+        //do nothing with byte
     }
 }
 

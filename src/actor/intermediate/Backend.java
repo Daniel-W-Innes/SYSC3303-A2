@@ -10,7 +10,7 @@ import java.util.concurrent.SynchronousQueue;
 import java.util.logging.Logger;
 
 /**
- * Backend for the intermediate proxy. Sends requests to the sever and sends the sends the response back to the client .
+ * Backend for the intermediate proxy. Sends requests to the sever and sends the sends the response back to the client.
  */
 public class Backend implements Runnable {
     /**
@@ -24,7 +24,8 @@ public class Backend implements Runnable {
     private final Config config;
     /**
      * The packet the backend is about to handle.
-     * This a simple way to preserve one socket across the lifetime of the back end while still ensuring that socket is closed if something goes wrong.
+     * This is a simple way to preserve one socket across the lifetime of the backend while still ensuring that the socket is closed if something goes wrong.
+     * SynchronousQueue is thread-safe, "BlockingQueue implementations are thread-safe. All queuing methods achieve their effects atomically using internal locks or other forms of concurrency control."
      */
     private final SynchronousQueue<Packet> packets;
     /**
@@ -32,12 +33,12 @@ public class Backend implements Runnable {
      */
     private final Logger logger;
     /**
-     * Is the backend is running.
+     * If the backend is running.
      */
     private boolean run;
 
     /**
-     * Default constructor for the Backend.
+     * Default constructor for the backend.
      *
      * @param backendId The id for the backend used in the thread id.
      * @param config    The application configuration file loader.
@@ -69,7 +70,7 @@ public class Backend implements Runnable {
     }
 
     /**
-     * shutdown the backend. The backend does not guarantee that the packet in it's queue are processed before it shuts down. If Something is calling handle during or after the shutdown it will be blocked forever.
+     * Shutdown the backend. The backend does not guarantee that the packet in it's queue is processed before it shuts down. If something is calling handle during or after the shutdown it will be blocked forever.
      */
     public void shutdown() {
         run = false;
@@ -77,7 +78,7 @@ public class Backend implements Runnable {
 
 
     /**
-     * Start assigning packet to sever.
+     * Start assigning packets to a sever.
      */
     @Override
     public void run() {
@@ -105,7 +106,7 @@ public class Backend implements Runnable {
                         datagramSocket.receive(datagramPacket);
                         logger.info("Response bytes: " + Arrays.toString(datagramPacket.getData()));
 
-                        //send the response to the client.
+                        //send the response to the client
                         datagramSocket.send(new DatagramPacket(datagramPacket.getData(), datagramPacket.getLength(), packet.getAddress(), packet.getPort()));
                     } catch (SocketTimeoutException e) {
                         logger.warning("socket timeout while waiting for response");

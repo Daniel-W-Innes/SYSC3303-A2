@@ -5,7 +5,7 @@ import java.util.Arrays;
 import java.util.Objects;
 
 /**
- * Response object sent by server.
+ * The response object sent by the server.
  */
 public class Response {
     /**
@@ -14,7 +14,7 @@ public class Response {
     private final boolean read;
 
     /**
-     * Default response constructor.
+     * The default response constructor.
      *
      * @param read If the request was a read request.
      */
@@ -24,10 +24,10 @@ public class Response {
 
 
     /**
-     * Construct a response object from response bytes.
+     * A secondary response constructor to create a response object from response bytes.
      *
-     * @param bytes The byte encoded response object
-     * @throws Exception throws Exception if bytes are not from a response object
+     * @param bytes The byte encoded response object.
+     * @throws Exception If bytes are not from a response object.
      */
     public Response(byte[] bytes) throws Exception {
         if (Arrays.equals(bytes, new byte[]{0, 3, 0, 1}) || Arrays.equals(bytes, new byte[]{0, 4, 0, 0})) {
@@ -38,16 +38,16 @@ public class Response {
     }
 
     /**
-     * Encoded response object to bytes for transmission.
+     * Encode response object to bytes for transmission.
      *
-     * @return The byte encoded response object
+     * @return The byte encoded response object.
      */
     public byte[] getEncoded() {
         ByteArrayOutputStream output = new ByteArrayOutputStream();
-        output.write(0);
-        output.write(read ? 0x3 : 0x4);
-        output.write(0);
-        output.write(read ? 0x1 : 0x0);
+        output.write(0); //separating byte
+        output.write(read ? 0x3 : 0x4); //type byte, 3 for read, 4 for write
+        output.write(0); //separating byte
+        output.write(read ? 0x1 : 0x0); //type byte, 1 for read, 0 for write
         return output.toByteArray();
     }
 

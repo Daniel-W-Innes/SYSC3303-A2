@@ -6,20 +6,20 @@ package model;
 public class BadRequest extends Request {
 
     /**
-     * Default response constructor.
+     * The default response constructor.
      *
-     * @param read     Whether to read or write from to the file
-     * @param filename The file name to it from
-     * @param mode     The mode/encoding of the file
+     * @param read     Whether to read or write from the file.
+     * @param filename The file name to read/write.
+     * @param mode     The mode/encoding of the file.
      */
     public BadRequest(boolean read, String filename, String mode) {
         super(read, filename, mode);
     }
 
     /**
-     * broken implementation of the default method.
+     * A broken implementation of the default method.
      *
-     * @return Garbage bites
+     * @return An array of garbage bytes.
      */
     public byte[] getEncoded(int maxMessageSize) {
         return new byte[]{1};

@@ -11,7 +11,7 @@ import java.util.Set;
  */
 public class Main {
     /**
-     * Run all components of the proxy. The proxy's frontend is return to allow for shutdown and to get it's listening port.
+     * Run all components of the proxy. The proxy's frontend is returned to allow for shutdown and to get it's listening port.
      *
      * @param config The application configuration file loader.
      * @return The proxy's frontend.
@@ -24,7 +24,7 @@ public class Main {
         }
         //create the load balancer
         LoadBalancer loadBalancer = new LoadBalancer(backends);
-        //create the frontend.
+        //create the frontend
         Frontend frontend = new Frontend(config, loadBalancer);
 
         //run the backends in their own thread
@@ -40,7 +40,7 @@ public class Main {
      * Run the intermediate proxy.
      *
      * @param args Unused arguments.
-     * @throws IOException If fails to parse the config file.
+     * @throws IOException If it fails to parse the config file.
      */
     public static void main(String[] args) throws IOException {
         run(new Config());

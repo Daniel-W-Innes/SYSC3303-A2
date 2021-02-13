@@ -10,7 +10,7 @@ import java.util.concurrent.LinkedBlockingQueue;
 
 
 /**
- * Round Robin load balancer for the intermediate proxy.
+ * Round robin load balancer for the intermediate proxy.
  */
 public class LoadBalancer implements Runnable {
     /**
@@ -25,12 +25,12 @@ public class LoadBalancer implements Runnable {
      */
     private final Queue<Backend> backends;
     /**
-     * Is the load balancer is running.
+     * If the load balancer is running.
      */
     private boolean run;
 
     /**
-     * Constructor for the load balancer. There is no way to update the list of backends after the construction for performance and simplicity reasons.
+     * Constructor for the load balancer. There is no way to update the list of backends, after the construction, for performance and simplicity reasons.  THis is because the backends are stored in a non-thread safe queue.
      *
      * @param backends The backends in charge of handling the requests.
      */
@@ -41,7 +41,7 @@ public class LoadBalancer implements Runnable {
     }
 
     /**
-     * Add to the queue.
+     * Add a request to the queue.
      *
      * @param packet The simple udp packet.
      */
@@ -50,7 +50,7 @@ public class LoadBalancer implements Runnable {
     }
 
     /**
-     * shutdown the load balancer and all backends.
+     * Shutdown the load balancer and all backends.
      */
     public void shutdown() {
         run = false;
@@ -59,7 +59,7 @@ public class LoadBalancer implements Runnable {
 
     /**
      * Run the round robin to associate packets from the queue with the backend.
-     * Theoretically it is possible modify this to run multiple times in separate threads for the same load balancer but it is questionable if that would increase performance because of the shared queue.
+     * Theoretically it is possible to modify this code to run multiple times, in separate threads, for the same load balancer, but it is questionable if that would increase performance because of the shared queue.
      */
     @Override
     public void run() {
@@ -74,7 +74,7 @@ public class LoadBalancer implements Runnable {
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
-            //add the backend back in to the queue
+            //add the backend back into the queue
             backends.add(backend);
         }
     }
