@@ -4,10 +4,7 @@ import model.Packet;
 import util.Config;
 
 import java.io.IOException;
-import java.net.DatagramPacket;
-import java.net.DatagramSocket;
-import java.net.InetAddress;
-import java.net.SocketException;
+import java.net.*;
 import java.util.Arrays;
 import java.util.concurrent.SynchronousQueue;
 import java.util.logging.Logger;
@@ -73,6 +70,8 @@ public class Backend implements Runnable {
         DatagramPacket datagramPacket;
         //using try-with-resources to close the datagram socket.
         try (DatagramSocket datagramSocket = new DatagramSocket()) {
+            //set socket to time out If the server isn't responding
+            datagramSocket.setSoTimeout(10000);
             while (run) {
                 //reset buff between requests
                 buff = new byte[config.getIntProperty("responseMessageSize")];
@@ -86,11 +85,15 @@ public class Backend implements Runnable {
                     datagramSocket.send(new DatagramPacket(packet.getData(), packet.getData().length, InetAddress.getLocalHost(), config.getIntProperty("serverPort")));
 
                     //received the response from the server
-                    datagramSocket.receive(datagramPacket);
-                    logger.info("Response bytes: " + Arrays.toString(datagramPacket.getData()));
+                    try {
+                        datagramSocket.receive(datagramPacket);
+                        logger.info("Response bytes: " + Arrays.toString(datagramPacket.getData()));
 
-                    //send the response to the client.
-                    datagramSocket.send(new DatagramPacket(datagramPacket.getData(), datagramPacket.getLength(), packet.getAddress(), packet.getPort()));
+                        //send the response to the client.
+                        datagramSocket.send(new DatagramPacket(datagramPacket.getData(), datagramPacket.getLength(), packet.getAddress(), packet.getPort()));
+                    } catch (SocketTimeoutException e) {
+                        logger.warning("socket timeout while waiting for response");
+                    }
                 } catch (InterruptedException | IOException e) {
                     e.printStackTrace();
                 }

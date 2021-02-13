@@ -1,0 +1,96 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+actor User
+participant Main
+participant Config
+participant Client
+box Intermediate #LightBlue
+participant "Intermediate Main" as iMain
+participant Frontend
+collections Packet
+participant LoadBalancer
+collections Backend
+end box
+participant Server
+collections Request
+collections BadRequest
+collections Response
+
+autonumber
+
+== Initialization ==
+User -> Main ++: main()
+Main -> Config ++: Constructor
+return
+
+Main -> Server ++: Constructor
+return
+Main ->> Server: run()
+activate Server
+
+Main -> iMain ++: run(config)
+iMain -> Backend ++: Constructor
+return
+iMain -> LoadBalancer ++: Constructor
+return
+iMain -> Frontend ++: Constructor
+return
+iMain ->> Backend: run()
+activate Backend
+iMain ->> LoadBalancer: run()
+activate LoadBalancer
+iMain ->> Frontend: run()
+activate Frontend
+iMain --> Main
+deactivate iMain
+
+Main -> Client ++: Constructor
+Client -> Request ++: Constructor
+return
+return
+Main ->> Client: run()
+activate Client
+Main --> User
+deactivate Main
+== Steady State ==
+
+loop for request in requests
+    Client -> Request ++: getEncoded()
+    return
+    Client -[#0000FF]>> Frontend: <<UDP>> Request
+    Frontend -> Packet ++: Constructor
+    return
+    Frontend -> LoadBalancer ++: add packet
+    return
+    LoadBalancer -> Backend ++: handle packet
+    return
+    Backend -[#0000FF]>> Server: <<UDP>> Request
+    alt valid request
+        Server -> Request ++: fromEncoded
+        return
+        Server -> Response ++: Constructor
+        return
+        Server -> Response ++: getEncoded
+        return
+        Server -[#0000FF]>> Backend: <<UDP>> Response
+        Backend -[#0000FF]>> Client: <<UDP>> Response
+    else backend socket timeout
+        note over Server: Omitting encoding described in valid request
+        Server -[#0000FF]x Backend: <<UDP>> Response
+    else client socket timeout
+        note over Server: Omitting encoding described in valid request
+        Server -[#0000FF]>> Backend: <<UDP>> Response
+        Backend -[#0000FF]x Client: <<UDP>> Response
+    else invalid request
+        Server -> Request ++: fromEncoded
+        return Exception
+        destroy Server
+    end
+end
+deactivate Client
+
+== Termination ==
+
+note over Client, Server: Proper termination is not implemented because intermediate and the server are defined as running "forever" in the outline.
+
+@enduml

@@ -9,6 +9,7 @@ import java.io.IOException;
 import java.net.DatagramPacket;
 import java.net.DatagramSocket;
 import java.net.InetAddress;
+import java.net.SocketTimeoutException;
 import java.util.Arrays;
 import java.util.LinkedList;
 import java.util.Queue;
@@ -90,6 +91,8 @@ public class Client implements Runnable {
         byte[] input;
         //using try-with-resources to close the datagram socket.
         try (DatagramSocket datagramSocket = new DatagramSocket()) {
+            //set socket to time out If the proxy isn't responding
+            datagramSocket.setSoTimeout(10000);
             for (Request request : requests) {
                 //Send request
                 logger.info("Request: " + request);
@@ -98,9 +101,13 @@ public class Client implements Runnable {
                 datagramSocket.send(new DatagramPacket(input, input.length, InetAddress.getLocalHost(), config.getIntProperty("intermediatePort")));
 
                 //Receive response
-                datagramSocket.receive(datagramPacket);
-                logger.info("Response bytes: " + Arrays.toString(datagramPacket.getData()));
-                logger.info("Response decoded: " + new Response(datagramPacket.getData()));
+                try {
+                    datagramSocket.receive(datagramPacket);
+                    logger.info("Response bytes: " + Arrays.toString(datagramPacket.getData()));
+                    logger.info("Response decoded: " + new Response(datagramPacket.getData()));
+                } catch (SocketTimeoutException e) {
+                    logger.warning("socket timeout while waiting for response");
+                }
             }
         } catch (Exception e) {
             e.printStackTrace();
