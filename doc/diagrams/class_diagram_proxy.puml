@@ -4,11 +4,12 @@
 !include class_diagram_config.puml
 
 class actor.intermediate.Backend{
+ - int backendId
  - Config config
  - SynchronousQueue<Packet> packets
  - Logger logger
  - boolean run
- + Backend(Config config)
+ + Backend(int backendId, Config config)
  + void handle(Packet packet)
  + void shutdown()
  + void run()

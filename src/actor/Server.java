@@ -37,7 +37,7 @@ public class Server implements Runnable {
      * Run the server in the main thread
      *
      * @param args Unused arguments
-     * @throws IOException if fails to parse the config file
+     * @throws IOException If fails to parse the config file
      */
     public static void main(String[] args) throws IOException {
         Server server = new Server(new Config());

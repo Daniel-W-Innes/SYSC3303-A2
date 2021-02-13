@@ -20,7 +20,7 @@ public class Main {
         Set<Backend> backends = new HashSet<>();
         //create numBackends backends
         for (int i = 0; i < config.getIntProperty("numBackends"); i++) {
-            backends.add(new Backend(config));
+            backends.add(new Backend(i, config));
         }
         //create the load balancer
         LoadBalancer loadBalancer = new LoadBalancer(backends);
@@ -28,11 +28,11 @@ public class Main {
         Frontend frontend = new Frontend(config, loadBalancer);
 
         //run the backends in their own thread
-        backends.forEach(backend -> new Thread(backend).start());
+        backends.forEach(backend -> new Thread(backend, "proxyBackend" + backend.getBackendId()).start());
         //run the load balancer in a thread
-        new Thread(loadBalancer).start();
+        new Thread(loadBalancer, "proxyLoadBalancer").start();
         //run the frontend in a thread
-        new Thread(frontend).start();
+        new Thread(frontend, "proxyFrontend").start();
         return frontend;
     }
 

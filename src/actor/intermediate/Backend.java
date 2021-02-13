@@ -14,6 +14,11 @@ import java.util.logging.Logger;
  */
 public class Backend implements Runnable {
     /**
+     * The id for the backend used in the thread id.
+     */
+    private final int backendId;
+
+    /**
      * The application configuration file loader.
      */
     private final Config config;
@@ -34,13 +39,24 @@ public class Backend implements Runnable {
     /**
      * Default constructor for the Backend.
      *
-     * @param config The application configuration file loader.
+     * @param backendId The id for the backend used in the thread id.
+     * @param config    The application configuration file loader.
      */
-    public Backend(Config config) {
+    public Backend(int backendId, Config config) {
+        this.backendId = backendId;
         this.config = config;
         logger = Logger.getLogger(this.getClass().getName());
         packets = new SynchronousQueue<>();
         run = true;
+    }
+
+    /**
+     * Get the id for the backend.
+     *
+     * @return The backend id.
+     */
+    public int getBackendId() {
+        return backendId;
     }
 
     /**
@@ -84,8 +100,8 @@ public class Backend implements Runnable {
                     //send the packet to the sever
                     datagramSocket.send(new DatagramPacket(packet.getData(), packet.getData().length, InetAddress.getLocalHost(), config.getIntProperty("serverPort")));
 
-                    //received the response from the server
                     try {
+                        //received the response from the server
                         datagramSocket.receive(datagramPacket);
                         logger.info("Response bytes: " + Arrays.toString(datagramPacket.getData()));
 

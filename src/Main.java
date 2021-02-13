@@ -16,9 +16,9 @@ public class Main {
      */
     public static void main(String[] args) throws IOException {
         Config config = new Config();
-        new Thread(new Server(config)).start();
+        new Thread(new Server(config), "server").start();
         actor.intermediate.Main.run(config);
-        new Thread(new Client(config)).start();
+        new Thread(new Client(config), "client").start();
     }
 }
 

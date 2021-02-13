@@ -30,8 +30,8 @@ public class Config {
     /**
      * Get a property from the configuration file.
      *
-     * @param key The key of the property in the file
-     * @return The property as a string
+     * @param key The key of the property in the file.
+     * @return The property as a string.
      */
     public String getProperty(String key) {
         return this.properties.getProperty(key);

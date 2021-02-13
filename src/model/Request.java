@@ -31,7 +31,7 @@ public class Request {
      *
      * @param bytes The byte encoded request object.
      * @return The request object constructed.
-     * @throws Exception throws Exception if bytes are not from a request object
+     * @throws Exception Throws Exception if bytes are not from a request object
      */
     public static Request fromEncoded(byte[] bytes) throws Exception {
         //create a builder for parsing byte encoded requests
@@ -253,7 +253,7 @@ abstract class StringState extends State {
     public void handle(byte b) {
         if (b == 0) {
             //pass bytes to concrete implementation
-            nextState(output.toString());
+            nextState(output.toString(StandardCharsets.UTF_8));
         } else {
             //save byte
             output.write(b);
