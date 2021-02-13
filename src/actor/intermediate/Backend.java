@@ -45,7 +45,7 @@ public class Backend implements Runnable {
     public Backend(int backendId, Config config) {
         this.backendId = backendId;
         this.config = config;
-        logger = Logger.getLogger(this.getClass().getName());
+        logger = Logger.getLogger(this.getClass().getName() + backendId);
         packets = new SynchronousQueue<>();
         run = true;
     }
