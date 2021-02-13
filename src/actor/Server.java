@@ -53,7 +53,6 @@ public class Server implements Runnable {
         DatagramPacket datagramPacket;
         Request request;
         Response response;
-        byte[] output;
         //using try-with-resources to close the datagram socket.
         try (DatagramSocket datagramSocket = new DatagramSocket(config.getIntProperty("serverPort"))) {
             while (true) {
@@ -74,11 +73,11 @@ public class Server implements Runnable {
                 //Encoded response
                 response = new Response(request.isRead());
                 logger.info("Response: " + response);
-                output = response.getEncoded();
-                logger.info("Response bytes: " + Arrays.toString(output));
+                buff = response.getEncoded();
+                logger.info("Response bytes: " + Arrays.toString(buff));
 
                 //Send response
-                datagramSocket.send(new DatagramPacket(output, output.length, datagramPacket.getAddress(), datagramPacket.getPort()));
+                datagramSocket.send(new DatagramPacket(buff, buff.length, datagramPacket.getAddress(), datagramPacket.getPort()));
             }
         } catch (Exception e) {
             logger.severe("handling fatal exception");

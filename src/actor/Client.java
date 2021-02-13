@@ -86,9 +86,8 @@ public class Client implements Runnable {
      */
     @Override
     public void run() {
-        byte[] output = new byte[config.getIntProperty("responseMessageSize")];
-        DatagramPacket datagramPacket = new DatagramPacket(output, output.length);
-        byte[] input;
+        byte[] buff = new byte[config.getIntProperty("responseMessageSize")];
+        DatagramPacket datagramPacket = new DatagramPacket(buff, buff.length);
         //using try-with-resources to close the datagram socket.
         try (DatagramSocket datagramSocket = new DatagramSocket()) {
             //set socket to time out If the proxy isn't responding
@@ -96,9 +95,9 @@ public class Client implements Runnable {
             for (Request request : requests) {
                 //Send request
                 logger.info("Request: " + request);
-                input = request.getEncoded(config.getIntProperty("maxMessageSize"));
-                logger.info("Request bytes: " + Arrays.toString(input));
-                datagramSocket.send(new DatagramPacket(input, input.length, InetAddress.getLocalHost(), config.getIntProperty("intermediatePort")));
+                buff = request.getEncoded(config.getIntProperty("maxMessageSize"));
+                logger.info("Request bytes: " + Arrays.toString(buff));
+                datagramSocket.send(new DatagramPacket(buff, buff.length, InetAddress.getLocalHost(), config.getIntProperty("intermediatePort")));
 
                 //Receive response
                 try {
