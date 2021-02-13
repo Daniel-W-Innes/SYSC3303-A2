@@ -25,7 +25,6 @@ public class Config {
         properties = new java.util.Properties();
         properties.load(this.getClass().getClassLoader().
                 getResourceAsStream(CONFIG_FILE_NAME));
-
     }
 
     /**

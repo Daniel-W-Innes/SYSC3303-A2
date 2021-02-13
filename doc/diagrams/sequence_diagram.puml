@@ -74,6 +74,8 @@ loop for request in requests
         return
         Server -[#0000FF]>> Backend: <<UDP>> Response
         Backend -[#0000FF]>> Client: <<UDP>> Response
+        Client -> Response ++: Constructor
+        return
     else backend socket timeout
         note over Server: Omitting encoding described in valid request
         Server -[#0000FF]x Backend: <<UDP>> Response

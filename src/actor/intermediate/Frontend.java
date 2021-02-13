@@ -47,7 +47,6 @@ public class Frontend implements Runnable {
         port = config.getIntProperty("intermediatePort");
     }
 
-
     /**
      * shutdown the intermediate proxy.
      */
