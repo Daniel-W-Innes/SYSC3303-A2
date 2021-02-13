@@ -63,10 +63,12 @@ public class Server implements Runnable {
 
                 //Receive request
                 datagramSocket.receive(datagramPacket);
-                logger.info("Request bytes: " + Arrays.toString(datagramPacket.getData()));
+                //trim unnecessary bites from the data
+                buff = Arrays.copyOfRange(buff, 0, datagramPacket.getLength());
+                logger.info("Request bytes: " + Arrays.toString(buff));
 
                 //Decode request
-                request = Request.fromEncoded(datagramPacket.getData());
+                request = Request.fromEncoded(buff);
                 logger.info("Request decode: " + request);
 
                 //Encoded response

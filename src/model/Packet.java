@@ -40,12 +40,12 @@ public class Packet {
     }
 
     /**
-     * Secondary constructor to create directly from datagramPacket
-     *
-     * @param datagramPacket The datagramPacket to encode into a packet
+     * Secondary constructor to create directly from datagramPacket.
+     * This constructor automatically trims unnecessary bites from the data.
+     * @param datagramPacket The datagramPacket to encode into a packet.
      */
     public Packet(DatagramPacket datagramPacket) {
-        this(datagramPacket.getData(), datagramPacket.getAddress(), datagramPacket.getPort());
+        this(Arrays.copyOfRange(datagramPacket.getData(), 0, datagramPacket.getLength()), datagramPacket.getAddress(), datagramPacket.getPort());
     }
 
 
